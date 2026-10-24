@@ -1,0 +1,102 @@
+{
+  "provenance": {
+    "csv": "pre_migration_tx",
+    "csv_sha256": "jsonl-dir n=45609 mtime_ns=1789723631754891400",
+    "tape_kind": "melt_jsonl_dir",
+    "melt_pre_dir": "pre_migration_tx",
+    "melt_post_dir": "post_migration_tx_1hour",
+    "labels_csv": "melt_label.csv",
+    "labels_sha256": "dcfcce188fb352466b76ab8345f79633766c93e96d29729282ab114133fcc09a",
+    "alloc": 0.1,
+    "pump_mult": 1.5,
+    "window": 300.0,
+    "build_version": 5
+  },
+  "df": {
+    "type": "DataFrame",
+    "shape": [
+      42106,
+      49
+    ],
+    "columns": [
+      "count_tx",
+      "purchase_percentage",
+      "sale_percentage",
+      "unique_buyers",
+      "unique_sellers",
+      "total_sol_value",
+      "sell_sol_value",
+      "buy_sol_value",
+      "buy_sell_cnt_ratio",
+      "buy_sell_value_ratio",
+      "price_change_first_to_3_blocks",
+      "price_change_first_to_last",
+      "buy_price_std",
+      "sell_price_std",
+      "first_buy_time",
+      "first_sell_time",
+      "min_pool_info_time",
+      "max_pool_info_time",
+      "last_trade_time",
+      "max_price",
+      "min_price",
+      "min_price_after_max",
+      "first_price",
+      "volume_hhi",
+      "top_3_buyers_volume_pct",
+      "dev_proxy_indicator",
+      "unique_buyer_to_tx_ratio",
+      "informed_trader_ratio",
+      "t0",
+      "n_window",
+      "p5",
+      "dead",
+      "window",
+      "label_end",
+      "rug_label",
+      "pump_label",
+      "_tail_ts",
+      "_tail_px",
+      "_tape_end",
+      "t_migrate",
+      "_last_ts",
+      "addr",
+      "pnl",
+      "exit_reason",
+      "mint_id",
+      "melt_min_ratio",
+      "melt_return_ratio",
+      "melt_label",
+      "melt_manipulated"
+    ]
+  },
+  "meta": {
+    "n_tokens_total": 45608,
+    "window_s": 300.0,
+    "n_featured": 42106,
+    "dropped": {
+      "window<5 trades": 2729,
+      "post-migration price discontinuity": 215,
+      "feed unit break inside window": 527,
+      "feed discontinuity (unit shift >10x at decision)": 31
+    },
+    "n_hold_capped": 24203,
+    "n_no_post_mark": 505,
+    "n_spliced_tokens": 34556,
+    "rug": {
+      "n_1": 23934,
+      "n_0": 16097,
+      "n_unobservable": 2075
+    },
+    "pump": {
+      "n_1": 7980,
+      "n_0": 32051,
+      "n_unobservable": 2075
+    },
+    "n_dead": 523,
+    "buy_all_pnl_sol": 9074.357647435398,
+    "buy_all_mean_pnl": 0.21812835382407628,
+    "buy_all_win_rate": 0.4887142136006346,
+    "buy_all_open": 505
+  }
+}

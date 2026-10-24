@@ -1,0 +1,45 @@
+# Python environment and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Credentials and local configuration -- never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Local databases, run output and scratch
+*.sqlite3
+*.sqlite3-*
+*.log
+*.tmp
+tmp/
+scratch/
+
+# Editor and OS state
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Bulk raw data that is not redistributed
+raw_data/
+
+# Outputs written by scripts/winners_study.py / scripts/winners_collector.py
+# when run from the repository root (see README section 8)
+/winners_study_report.md
+/winners_study.json
+/winners_1000x.csv
+/winners_launchpad_all.csv
+/winners_candles_12h.jsonl
+/data/winners/winners_candles_12h.jsonl

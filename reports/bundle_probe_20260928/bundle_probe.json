@@ -1,0 +1,225 @@
+{
+  "sample_files": 300,
+  "total_files": 45609,
+  "lines": 187108,
+  "parsed": 187108,
+  "swap": 142996,
+  "single_wallet_swap": 140384,
+  "same_side_multiwallet": 2612,
+  "both_sides": 0,
+  "size_hist": {
+    "2": 2396,
+    "3": 16,
+    "4": 83,
+    "5": 94,
+    "6": 18,
+    "7": 5
+  },
+  "type_counts": {
+    "swap": 142734,
+    "zero": 41671,
+    "transfer": 2437,
+    "mint&swap": 262,
+    "mint": 4
+  },
+  "key_counts": {
+    "mint": 187108,
+    "type": 187108,
+    "timestamp": 187108,
+    "signature": 187108,
+    "trader_map": 187108,
+    "token_amount": 187108,
+    "sol_amount": 187108,
+    "fee_amount": 187108,
+    "price": 187108,
+    "block_slot": 187108,
+    "block_index": 187108
+  },
+  "multi_examples": [
+    {
+      "file": "FUKem85XHk2WsuHEmMz7dw1LWUQubTSeQF1zB6PRpump.jsonl",
+      "timestamp": 1734730261,
+      "n_pos": 5,
+      "n_neg": 0,
+      "type": "swap",
+      "price": -3.709940374360891e-08,
+      "keys": [
+        "block_index",
+        "block_slot",
+        "fee_amount",
+        "mint",
+        "price",
+        "signature",
+        "sol_amount",
+        "timestamp",
+        "token_amount",
+        "trader_map",
+        "type"
+      ]
+    },
+    {
+      "file": "FUKem85XHk2WsuHEmMz7dw1LWUQubTSeQF1zB6PRpump.jsonl",
+      "timestamp": 1734730261,
+      "n_pos": 5,
+      "n_neg": 0,
+      "type": "swap",
+      "price": -7.313864924440653e-08,
+      "keys": [
+        "block_index",
+        "block_slot",
+        "fee_amount",
+        "mint",
+        "price",
+        "signature",
+        "sol_amount",
+        "timestamp",
+        "token_amount",
+        "trader_map",
+        "type"
+      ]
+    },
+    {
+      "file": "FUKem85XHk2WsuHEmMz7dw1LWUQubTSeQF1zB6PRpump.jsonl",
+      "timestamp": 1734730261,
+      "n_pos": 5,
+      "n_neg": 0,
+      "type": "swap",
+      "price": -2.1128812470164033e-07,
+      "keys": [
+        "block_index",
+        "block_slot",
+        "fee_amount",
+        "mint",
+        "price",
+        "signature",
+        "sol_amount",
+        "timestamp",
+        "token_amount",
+        "trader_map",
+        "type"
+      ]
+    },
+    {
+      "file": "XnGnNSg8nJq6YXZJy7R3PRCBriV3mPAh5ophyUopump.jsonl",
+      "timestamp": 1737255899,
+      "n_pos": 5,
+      "n_neg": 0,
+      "type": "swap",
+      "price": -3.709940374739161e-08,
+      "keys": [
+        "block_index",
+        "block_slot",
+        "fee_amount",
+        "mint",
+        "price",
+        "signature",
+        "sol_amount",
+        "timestamp",
+        "token_amount",
+        "trader_map",
+        "type"
+      ]
+    },
+    {
+      "file": "XnGnNSg8nJq6YXZJy7R3PRCBriV3mPAh5ophyUopump.jsonl",
+      "timestamp": 1737255899,
+      "n_pos": 5,
+      "n_neg": 0,
+      "type": "swap",
+      "price": -7.313864925197192e-08,
+      "keys": [
+        "block_index",
+        "block_slot",
+        "fee_amount",
+        "mint",
+        "price",
+        "signature",
+        "sol_amount",
+        "timestamp",
+        "token_amount",
+        "trader_map",
+        "type"
+      ]
+    },
+    {
+      "file": "XnGnNSg8nJq6YXZJy7R3PRCBriV3mPAh5ophyUopump.jsonl",
+      "timestamp": 1737255899,
+      "n_pos": 5,
+      "n_neg": 0,
+      "type": "swap",
+      "price": -2.1128812471298843e-07,
+      "keys": [
+        "block_index",
+        "block_slot",
+        "fee_amount",
+        "mint",
+        "price",
+        "signature",
+        "sol_amount",
+        "timestamp",
+        "token_amount",
+        "trader_map",
+        "type"
+      ]
+    },
+    {
+      "file": "7kNZUxvdpYd8pK6hwamCveWP6XT7Wv8DPNBCWqk8pump.jsonl",
+      "timestamp": 1734522736,
+      "n_pos": 2,
+      "n_neg": 0,
+      "type": "swap",
+      "price": -4.307939163411096e-08,
+      "keys": [
+        "block_index",
+        "block_slot",
+        "fee_amount",
+        "mint",
+        "price",
+        "signature",
+        "sol_amount",
+        "timestamp",
+        "token_amount",
+        "trader_map",
+        "type"
+      ]
+    },
+    {
+      "file": "7kNZUxvdpYd8pK6hwamCveWP6XT7Wv8DPNBCWqk8pump.jsonl",
+      "timestamp": 1734523034,
+      "n_pos": 2,
+      "n_neg": 0,
+      "type": "swap",
+      "price": -1.0560562771624754e-07,
+      "keys": [
+        "block_index",
+        "block_slot",
+        "fee_amount",
+        "mint",
+        "price",
+        "signature",
+        "sol_amount",
+        "timestamp",
+        "token_amount",
+        "trader_map",
+        "type"
+      ]
+    }
+  ],
+  "both_examples": [],
+  "first_line": {
+    "mint": "X6LLuy4peiEMdNudwtmJpfETk48brZpmnkzR438pump",
+    "type": "mint&swap",
+    "timestamp": 1739406678,
+    "signature": "62fsLTjgxvRs2s9akeCmbjg7cQN2tFVRonEZVHDFasQVoqi1pNzEPJUQzBceCVcbXSN5isqE8T22p5zqp4kG3Brk",
+    "trader_map": {
+      "BfAgS1vsK2Wja56zxcBrMMdn6sFgTnMmZu3wi4XwiAt3": 153285714.285713
+    },
+    "token_amount": 153285714.28571296,
+    "sol_amount": -5.00123192,
+    "fee_amount": 0.01401,
+    "price": 3.262686247903104e-08,
+    "block_slot": 320271249,
+    "block_index": 426
+  },
+  "seed": 20260928
+}

@@ -1,0 +1,309 @@
+{
+  "version": 1,
+  "generated_utc": "2026-09-27T22:14:17+00:00",
+  "scan_path": "strategy_reports/markouts_20260928/markout_scan.json",
+  "scan_version": 4,
+  "n_scanned": 44862,
+  "n_skipped": 930,
+  "scan_note": "marks are the LAST print at or before each nominal horizon; a horizon with no print in its window is null, never carried forward. marks over a partial window are LOWER BOUNDS. Prints above UNIT_BREAK_FACTOR x the token's own median post price are excluded from the path statistics and counted in `n_unit_break_prints`.",
+  "D1a_coverage": {
+    "60": {
+      "n_mark": 0,
+      "frac": 0.0
+    },
+    "300": {
+      "n_mark": 44341,
+      "frac": 0.9884
+    },
+    "900": {
+      "n_mark": 44642,
+      "frac": 0.9951
+    },
+    "1800": {
+      "n_mark": 44708,
+      "frac": 0.9966
+    },
+    "3600": {
+      "n_mark": 44742,
+      "frac": 0.9973
+    },
+    "full_horizon": {
+      "n": 30094,
+      "frac": 0.6708
+    },
+    "gap_ref_s": {
+      "n": 44862,
+      "median": 100.0,
+      "p25": 98.0,
+      "p75": 104.0,
+      "p90": 140.0,
+      "max": 52746.0,
+      "mean": 138.9792
+    }
+  },
+  "D2_path_marks": {
+    "60": {
+      "mark": {
+        "n": 0
+      },
+      "peak": {
+        "n": 0
+      }
+    },
+    "300": {
+      "mark": {
+        "n": 44341,
+        "median": 0.7277,
+        "p25": 0.1931,
+        "p75": 1.2728,
+        "p90": 2.2071,
+        "max": 372.3626,
+        "mean": 1.2671
+      },
+      "peak": {
+        "n": 44341,
+        "median": 1.6303,
+        "p25": 1.2354,
+        "p75": 2.6416,
+        "p90": 5.3938,
+        "max": 4027.3935,
+        "mean": 4.0112
+      }
+    },
+    "900": {
+      "mark": {
+        "n": 44642,
+        "median": 0.2736,
+        "p25": 0.0659,
+        "p75": 1.0002,
+        "p90": 2.1855,
+        "max": 598.24,
+        "mean": 1.2282
+      },
+      "peak": {
+        "n": 44642,
+        "median": 1.8739,
+        "p25": 1.3008,
+        "p75": 3.4512,
+        "p90": 7.8575,
+        "max": 5997.2595,
+        "mean": 7.5029
+      }
+    },
+    "1800": {
+      "mark": {
+        "n": 44708,
+        "median": 0.1351,
+        "p25": 0.0555,
+        "p75": 0.7405,
+        "p90": 2.035,
+        "max": 548.0989,
+        "mean": 1.1999
+      },
+      "peak": {
+        "n": 44708,
+        "median": 1.9781,
+        "p25": 1.3256,
+        "p75": 3.8766,
+        "p90": 9.4639,
+        "max": 6312.8501,
+        "mean": 11.1524
+      }
+    },
+    "3600": {
+      "mark": {
+        "n": 44742,
+        "median": 0.0941,
+        "p25": 0.0517,
+        "p75": 0.483,
+        "p90": 1.7718,
+        "max": 1176.6157,
+        "mean": 1.2531
+      },
+      "peak": {
+        "n": 44742,
+        "median": 2.0516,
+        "p25": 1.3432,
+        "p75": 4.1707,
+        "p90": 10.8157,
+        "max": 13192.332,
+        "mean": 14.3853
+      }
+    }
+  },
+  "D2_path_marks_vs_curve": {
+    "60": {
+      "mark": {
+        "n": 0
+      },
+      "peak": {
+        "n": 0
+      }
+    },
+    "300": {
+      "mark": {
+        "n": 44341,
+        "median": 0.7863,
+        "p25": 0.1829,
+        "p75": 1.4573,
+        "p90": 3.2064,
+        "max": 15772.8849,
+        "mean": 16.4938
+      },
+      "peak": {
+        "n": 44341,
+        "median": 1.7695,
+        "p25": 1.2494,
+        "p75": 3.2507,
+        "p90": 8.8837,
+        "max": 15772.8849,
+        "mean": 22.9599
+      }
+    },
+    "900": {
+      "mark": {
+        "n": 44642,
+        "median": 0.2844,
+        "p25": 0.0628,
+        "p75": 1.1193,
+        "p90": 2.7365,
+        "max": 16740.4183,
+        "mean": 16.0959
+      },
+      "peak": {
+        "n": 44642,
+        "median": 2.0466,
+        "p25": 1.3249,
+        "p75": 4.3031,
+        "p90": 13.1306,
+        "max": 17121.0908,
+        "mean": 32.0557
+      }
+    },
+    "1800": {
+      "mark": {
+        "n": 44708,
+        "median": 0.132,
+        "p25": 0.0559,
+        "p75": 0.792,
+        "p90": 2.4215,
+        "max": 22670.4029,
+        "mean": 16.119
+      },
+      "peak": {
+        "n": 44708,
+        "median": 2.1717,
+        "p25": 1.35,
+        "p75": 4.8768,
+        "p90": 15.8958,
+        "max": 22790.5643,
+        "mean": 42.0161
+      }
+    },
+    "3600": {
+      "mark": {
+        "n": 44742,
+        "median": 0.0888,
+        "p25": 0.0534,
+        "p75": 0.5122,
+        "p90": 2.0496,
+        "max": 68692.8375,
+        "mean": 18.6221
+      },
+      "peak": {
+        "n": 44742,
+        "median": 2.252,
+        "p25": 1.3697,
+        "p75": 5.3199,
+        "p90": 18.1973,
+        "max": 68692.8375,
+        "mean": 54.9998
+      }
+    }
+  },
+  "D2_degenerate_normalisation": {
+    "n_peak_is_ref": 1177,
+    "frac": 0.0262
+  },
+  "D3_rung_hits_full_horizon": {
+    "hit_2x": {
+      "n_hit": 17793,
+      "n_denom": 30094,
+      "rate": 0.5912,
+      "median_t_hit_s": 177.0
+    },
+    "hit_3x": {
+      "n_hit": 12532,
+      "n_denom": 30094,
+      "rate": 0.4164,
+      "median_t_hit_s": 246.0
+    },
+    "hit_4x": {
+      "n_hit": 9716,
+      "n_denom": 30094,
+      "rate": 0.3229,
+      "median_t_hit_s": 292.0
+    },
+    "hit_5x": {
+      "n_hit": 7933,
+      "n_denom": 30094,
+      "rate": 0.2636,
+      "median_t_hit_s": 330.0
+    },
+    "hit_10x": {
+      "n_hit": 4156,
+      "n_denom": 30094,
+      "rate": 0.1381,
+      "median_t_hit_s": 470.0
+    }
+  },
+  "D3_rung_hits_all_tokens": {
+    "hit_2x": {
+      "n_hit": 22954,
+      "rate": 0.5117
+    },
+    "hit_3x": {
+      "n_hit": 15411,
+      "rate": 0.3435
+    },
+    "hit_4x": {
+      "n_hit": 11661,
+      "rate": 0.2599
+    },
+    "hit_5x": {
+      "n_hit": 9399,
+      "rate": 0.2095
+    },
+    "hit_10x": {
+      "n_hit": 4819,
+      "rate": 0.1074
+    }
+  },
+  "D4_peak_vs_end": {
+    "n": 44742,
+    "median_peak": 2.252,
+    "median_end": 0.0888,
+    "n_peaked_4x": 14033,
+    "frac_peaked_4x": 0.3136,
+    "median_end_among_4x_peakers": 0.2699,
+    "frac_4x_peakers_ending_above_1": 0.3673
+  },
+  "D5_post_sol_volume": {
+    "n": 44862,
+    "median": 1038.1229,
+    "p25": 389.8178,
+    "p75": 2924.481,
+    "p90": 7958.2765,
+    "max": 923424.2832,
+    "mean": 4026.2492
+  },
+  "D5_sol_volume_4x_movers": {
+    "n": 14033,
+    "median": 4697.2387,
+    "p25": 2104.083,
+    "p75": 9780.2003,
+    "p90": 21498.3476,
+    "max": 923424.2832,
+    "mean": 10614.5753
+  }
+}

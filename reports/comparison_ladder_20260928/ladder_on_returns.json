@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "generated_utc": "2026-09-27T23:31:15+00:00",
+  "seed": 20260928,
+  "n_tokens": 29974,
+  "policy": {
+    "tp_mult": 4.0,
+    "trailing_stop": 0.99,
+    "hold_s": 3600.0,
+    "round_trip_cost_frac": 0.01
+  },
+  "replay_path": "strategy_reports/policy_replay_20260928/replay.json",
+  "why": "comparison_ladder.py scored rungs on the peak, which is an UPSIDE metric; the filters remove VARIANCE (flagged median peak 4.01 but 47.8% finish below 0.1). Scoring a risk filter on an upside metric is a category error, so the rungs are re-scored on realised net return from the deployed exit policy.",
+  "not_modelled": "the 600 s idle exit, entry latency/slippage, partial fills, priority tips; cost is one explicit round-trip parameter, not a venue fee schedule",
+  "active_baseline": {
+    "n": 29974,
+    "median_net": 0.015814,
+    "mean_net": 6.934873,
+    "win_rate": 0.547041
+  },
+  "rungs_on_returns": {
+    "F3_only_split_share": {
+      "n_kept": 25082,
+      "n_dropped": 4892,
+      "retention": 0.8368,
+      "median_net_kept": 0.002723,
+      "median_net_dropped": 0.174958,
+      "median_net_baseline": 0.015814,
+      "delta_median_net": -0.01309,
+      "mean_net_kept_winsorised": 0.181322,
+      "mean_net_baseline_winsorised": 0.50326,
+      "win_rate_kept": 0.5088,
+      "win_rate_dropped": 0.7433,
+      "boot_p_median": 0.0005
+    },
+    "F3_only_fanout": {
+      "n_kept": 28500,
+      "n_dropped": 1474,
+      "retention": 0.9508,
+      "median_net_kept": 0.010209,
+      "median_net_dropped": 0.638164,
+      "median_net_baseline": 0.015814,
+      "delta_median_net": -0.005604,
+      "mean_net_kept_winsorised": 0.217322,
+      "mean_net_baseline_winsorised": 0.50326,
+      "win_rate_kept": 0.5326,
+      "win_rate_dropped": 0.827,
+      "boot_p_median": 0.0005
+    },
+    "F3_only_repeat": {
+      "n_kept": 28988,
+      "n_dropped": 986,
+      "retention": 0.9671,
+      "median_net_kept": 0.017151,
+      "median_net_dropped": -0.007282,
+      "median_net_baseline": 0.015814,
+      "delta_median_net": 0.001338,
+      "mean_net_kept_winsorised": 0.514642,
+      "mean_net_baseline_winsorised": 0.50326,
+      "win_rate_kept": 0.55,
+      "win_rate_dropped": 0.4594,
+      "boot_p_median": 0.3543
+    },
+    "F4_only_entity_shrink": {
+      "n_kept": 23728,
+      "n_dropped": 6246,
+      "retention": 0.7916,
+      "median_net_kept": 0.003726,
+      "median_net_dropped": 0.092254,
+      "median_net_baseline": 0.015814,
+      "delta_median_net": -0.012088,
+      "mean_net_kept_winsorised": 0.188787,
+      "mean_net_baseline_winsorised": 0.50326,
+      "win_rate_kept": 0.5127,
+      "win_rate_dropped": 0.6776,
+      "boot_p_median": 0.0005
+    },
+    "F4_only_split_wallets": {
+      "n_kept": 25297,
+      "n_dropped": 4677,
+      "retention": 0.844,
+      "median_net_kept": 0.003415,
+      "median_net_dropped": 0.172191,
+      "median_net_baseline": 0.015814,
+      "delta_median_net": -0.012398,
+      "mean_net_kept_winsorised": 0.181924,
+      "mean_net_baseline_winsorised": 0.50326,
+      "win_rate_kept": 0.5116,
+      "win_rate_dropped": 0.7389,
+      "boot_p_median": 0.0005
+    }
+  },
+  "holm_on_returns": {
+    "F3_only_split_share": {
+      "p": 0.0005,
+      "threshold": 0.01,
+      "passes": true,
+      "rank": 1,
+      "family_size": 5
+    },
+    "F3_only_fanout": {
+      "p": 0.0005,
+      "threshold": 0.0125,
+      "passes": true,
+      "rank": 2,
+      "family_size": 5
+    },
+    "F4_only_entity_shrink": {
+      "p": 0.0005,
+      "threshold": 0.016666666666666666,
+      "passes": true,
+      "rank": 3,
+      "family_size": 5
+    },
+    "F4_only_split_wallets": {
+      "p": 0.0005,
+      "threshold": 0.025,
+      "passes": true,
+      "rank": 4,
+      "family_size": 5
+    },
+    "F3_only_repeat": {
+      "p": 0.3543,
+      "threshold": 0.05,
+      "passes": false,
+      "rank": 5,
+      "family_size": 5
+    }
+  },
+  "direction": {
+    "improve": [
+      "F3_only_repeat"
+    ],
+    "worsen": [
+      "F3_only_split_share",
+      "F3_only_fanout",
+      "F4_only_entity_shrink",
+      "F4_only_split_wallets"
+    ],
+    "significant_improve": [],
+    "significant_worsen": [
+      "F3_only_split_share",
+      "F3_only_fanout",
+      "F4_only_entity_shrink",
+      "F4_only_split_wallets"
+    ],
+    "verdict": "no family improves realised net return"
+  }
+}

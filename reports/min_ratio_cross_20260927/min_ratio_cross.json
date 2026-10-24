@@ -1,0 +1,1407 @@
+{
+  "best_candidate": "post_lo/post_first",
+  "best_median_abs_error": 0.01154728172152697,
+  "n_compared": 250,
+  "sample": [
+    {
+      "melt": 0.6084877990413394,
+      "mint": "121bjjRtRGP8",
+      "post_lo/post_first": 0.02821364742122555,
+      "post_lo/pre_hi": 0.05516195309018108,
+      "post_lo/pre_last": 0.05516195309018108
+    },
+    {
+      "melt": 0.0457329074012146,
+      "mint": "123twmzQouro",
+      "post_lo/post_first": 0.04299237690928215,
+      "post_lo/pre_hi": 0.04735297892122754,
+      "post_lo/pre_last": 0.04858045140675599
+    },
+    {
+      "melt": 0.6032754621270704,
+      "mint": "124qCYyJs7RZ",
+      "post_lo/post_first": 0.03906762986568494,
+      "post_lo/pre_hi": 0.04289083890032351,
+      "post_lo/pre_last": 0.04289083890032351
+    },
+    {
+      "melt": 0.1938591129265546,
+      "mint": "1253mearRnnQ",
+      "post_lo/post_first": 0.17551937693979702,
+      "post_lo/pre_hi": 0.04283078263433601,
+      "post_lo/pre_last": 0.04283078263433601
+    },
+    {
+      "melt": 0.5979647654170366,
+      "mint": "126ZtUqgYgJj",
+      "post_lo/post_first": 0.2212207025623272,
+      "post_lo/pre_hi": 0.21115173157881179,
+      "post_lo/pre_last": 0.21115173157881179
+    },
+    {
+      "melt": 0.7579247675705459,
+      "mint": "127LNZfN3Pbn",
+      "post_lo/post_first": 0.24002041906101576,
+      "post_lo/pre_hi": 0.22829740709842195,
+      "post_lo/pre_last": 0.22829740709842195
+    },
+    {
+      "melt": 0.0477938280255489,
+      "mint": "128UBAhNYKSr",
+      "post_lo/post_first": 0.045398422802764106,
+      "post_lo/pre_hi": 0.04868170657594555,
+      "post_lo/pre_last": 0.04868170657594555
+    },
+    {
+      "melt": 0.0209121940736873,
+      "mint": "12AfEaGpuqq8",
+      "post_lo/post_first": 0.021333157674329736,
+      "post_lo/pre_hi": 0.04497106951896158,
+      "post_lo/pre_last": 0.04497106951896158
+    },
+    {
+      "melt": 0.968563569693352,
+      "mint": "12c98AzyzaQ1",
+      "post_lo/post_first": 0.924204201793008,
+      "post_lo/pre_hi": 1.1999367313742104,
+      "post_lo/pre_last": 1.1999367313742104
+    },
+    {
+      "melt": 0.5073771286848355,
+      "mint": "12CA8yij8RBm",
+      "post_lo/post_first": 0.10214737028911415,
+      "post_lo/pre_hi": 0.15796628806711613,
+      "post_lo/pre_last": 0.15796628806711613
+    },
+    {
+      "melt": 1.0,
+      "mint": "12cihjfgS3P8",
+      "post_lo/post_first": 1.0,
+      "post_lo/pre_hi": 3.050505973429956,
+      "post_lo/pre_last": 3.050505973429956
+    },
+    {
+      "melt": 1.0,
+      "mint": "12cjErmnH7Nb",
+      "post_lo/post_first": 0.8632832517188831,
+      "post_lo/pre_hi": 1.0182023811104273,
+      "post_lo/pre_last": 1.0182023811104273
+    },
+    {
+      "melt": 0.0850306140500003,
+      "mint": "12DaaMYzapxF",
+      "post_lo/post_first": 0.06242322643962848,
+      "post_lo/pre_hi": 0.06392797869437492,
+      "post_lo/pre_last": 0.06392797869437492
+    },
+    {
+      "melt": 0.0347228179256054,
+      "mint": "12Dr6QHGL5Wj",
+      "post_lo/post_first": 0.035249831588635684,
+      "post_lo/pre_hi": 0.08080740848362648,
+      "post_lo/pre_last": 0.08080740848362648
+    },
+    {
+      "melt": 0.0114193169200601,
+      "mint": "12DsEDqA9sEb",
+      "post_lo/post_first": 0.011793926508334194,
+      "post_lo/pre_hi": 0.05260929825766189,
+      "post_lo/pre_last": 0.05260929825766189
+    },
+    {
+      "melt": 0.1325852463069378,
+      "mint": "12fibP7odn9C",
+      "post_lo/post_first": 0.05213968527251807,
+      "post_lo/pre_hi": 0.051964840594608375,
+      "post_lo/pre_last": 0.051964840594608375
+    },
+    {
+      "melt": 0.5005506073045893,
+      "mint": "12FVeHe4Mm8U",
+      "post_lo/post_first": 0.49763322483460865,
+      "post_lo/pre_hi": 1.2248189896457402,
+      "post_lo/pre_last": 1.2248189896457402
+    },
+    {
+      "melt": 0.5252695120162569,
+      "mint": "12fvwiJhB8q9",
+      "post_lo/post_first": 0.14773307273619224,
+      "post_lo/pre_hi": 0.1511863610683519,
+      "post_lo/pre_last": 0.1529926825720421
+    },
+    {
+      "melt": 0.0450638815725535,
+      "mint": "12gq3u7N7PVz",
+      "post_lo/post_first": 0.041267603271730714,
+      "post_lo/pre_hi": 0.06250720659079079,
+      "post_lo/pre_last": 0.06250720659079079
+    },
+    {
+      "melt": 0.0635081448238766,
+      "mint": "12HzM4xusvaR",
+      "post_lo/post_first": 0.08103830543313856,
+      "post_lo/pre_hi": 0.100610464006841,
+      "post_lo/pre_last": 0.100610464006841
+    },
+    {
+      "melt": 1.0,
+      "mint": "12ifMz54Sq4A",
+      "post_lo/post_first": 1.0,
+      "post_lo/pre_hi": 1.0040430712894621,
+      "post_lo/pre_last": 1.0040430712894621
+    },
+    {
+      "melt": 0.0869803177209876,
+      "mint": "12ivzRaW5oXC",
+      "post_lo/post_first": 0.07672738881656838,
+      "post_lo/pre_hi": 0.0736341596429901,
+      "post_lo/pre_last": 0.0736341596429901
+    },
+    {
+      "melt": 0.1061815958841288,
+      "mint": "12iY44KgaEyq",
+      "post_lo/post_first": 0.09380175045297182,
+      "post_lo/pre_hi": 0.06567544172798898,
+      "post_lo/pre_last": 0.06567544172798898
+    },
+    {
+      "melt": 0.8781285221896,
+      "mint": "12jEjukmCUH5",
+      "post_lo/post_first": 0.9311185131284327,
+      "post_lo/pre_hi": 0.9698523046822815,
+      "post_lo/pre_last": 0.9698523046822815
+    },
+    {
+      "melt": 0.8659739535924226,
+      "mint": "12jRvdc7rSjU",
+      "post_lo/post_first": 0.04175577794222077,
+      "post_lo/pre_hi": 0.04924899497199378,
+      "post_lo/pre_last": 0.04924899497199378
+    },
+    {
+      "melt": 0.8012862609096615,
+      "mint": "12Kf3wZY8ngj",
+      "post_lo/post_first": 0.41009866788200927,
+      "post_lo/pre_hi": 0.37571144062479694,
+      "post_lo/pre_last": 0.37571144062479694
+    },
+    {
+      "melt": 0.0656693492681226,
+      "mint": "12KtppUtYFhQ",
+      "post_lo/post_first": 0.050388230929293815,
+      "post_lo/pre_hi": 0.04872255112533541,
+      "post_lo/pre_last": 0.04872255112533541
+    },
+    {
+      "melt": 0.1211388451845996,
+      "mint": "12LHL2R7rNUu",
+      "post_lo/post_first": 0.03697888931400403,
+      "post_lo/pre_hi": 0.04313413623336236,
+      "post_lo/pre_last": 0.04313413623336236
+    },
+    {
+      "melt": 0.8286355510256325,
+      "mint": "12m8KjjEuZSQ",
+      "post_lo/post_first": 0.8167110803201835,
+      "post_lo/pre_hi": 1.0600821759570043,
+      "post_lo/pre_last": 1.0600821759570043
+    },
+    {
+      "melt": 0.0525920466171455,
+      "mint": "12N3N1atFiZY",
+      "post_lo/post_first": 0.051654607852936324,
+      "post_lo/pre_hi": 0.04634237453307665,
+      "post_lo/pre_last": 0.04634237453307665
+    },
+    {
+      "melt": 0.0419140537484204,
+      "mint": "12N4NWy3PjhD",
+      "post_lo/post_first": 0.043090190098581685,
+      "post_lo/pre_hi": 0.0465631940418704,
+      "post_lo/pre_last": 0.0465631940418704
+    },
+    {
+      "melt": 0.960764157959218,
+      "mint": "12pNQs9grusF",
+      "post_lo/post_first": 0.8650746038175398,
+      "post_lo/pre_hi": 0.8268647005333335,
+      "post_lo/pre_last": 0.8268647005333335
+    },
+    {
+      "melt": 0.0448539554592617,
+      "mint": "12QFYkbXD8UE",
+      "post_lo/post_first": 0.0429718070604106,
+      "post_lo/pre_hi": 0.051955363291778106,
+      "post_lo/pre_last": 0.051955363291778106
+    },
+    {
+      "melt": 0.0796267582502862,
+      "mint": "12rwpAXQPYd3",
+      "post_lo/post_first": 0.055573786274362644,
+      "post_lo/pre_hi": 0.05338063177403653,
+      "post_lo/pre_last": 0.05338063177403653
+    },
+    {
+      "melt": 0.5296704803334845,
+      "mint": "12tRBR9FTfhn",
+      "post_lo/post_first": 0.42294797035178977,
+      "post_lo/pre_hi": 0.38788073912519977,
+      "post_lo/pre_last": 0.38788073912519977
+    },
+    {
+      "melt": 0.4143018541919173,
+      "mint": "12uy4Q3hLA3D",
+      "post_lo/post_first": 0.042186962643016995,
+      "post_lo/pre_hi": 0.05749247201756545,
+      "post_lo/pre_last": 0.05749247201756545
+    },
+    {
+      "melt": 0.3212778351772682,
+      "mint": "12wWZQfWMpdw",
+      "post_lo/post_first": 0.033597846414222046,
+      "post_lo/pre_hi": 0.04609061732440878,
+      "post_lo/pre_last": 0.04609061732440878
+    },
+    {
+      "melt": 0.4801187000748476,
+      "mint": "12XTEFhtDXEL",
+      "post_lo/post_first": 0.3661648540788865,
+      "post_lo/pre_hi": 0.32714849920155264,
+      "post_lo/pre_last": 0.32714849920155264
+    },
+    {
+      "melt": 0.0548589378628572,
+      "mint": "12y4gBa5BCtF",
+      "post_lo/post_first": 0.045673077634755206,
+      "post_lo/pre_hi": 0.05339269006970334,
+      "post_lo/pre_last": 0.053393674605241206
+    },
+    {
+      "melt": 0.1233381094050406,
+      "mint": "12YeGhwNmzaq",
+      "post_lo/post_first": 0.12375090564524878,
+      "post_lo/pre_hi": 0.12997991251083113,
+      "post_lo/pre_last": 0.13045655201308104
+    },
+    {
+      "melt": 0.4639678556304221,
+      "mint": "12ysAvApXX3N",
+      "post_lo/post_first": 0.42008464499629644,
+      "post_lo/pre_hi": 0.42141778833900534,
+      "post_lo/pre_last": 0.42141778833900534
+    },
+    {
+      "melt": 0.3147442725824144,
+      "mint": "12ziu9W2RrqA",
+      "post_lo/post_first": 0.2794310140998257,
+      "post_lo/pre_hi": 0.3210371773291827,
+      "post_lo/pre_last": 0.3210371773291827
+    },
+    {
+      "melt": 1.0,
+      "mint": "134bAzX2yysX",
+      "post_lo/post_first": 1.0,
+      "post_lo/pre_hi": 1.7436036333174754,
+      "post_lo/pre_last": 1.7436036333174754
+    },
+    {
+      "melt": 0.0380289698088867,
+      "mint": "134MGXpbv7WS",
+      "post_lo/post_first": 0.037836619717597324,
+      "post_lo/pre_hi": 0.044869125607157063,
+      "post_lo/pre_last": 0.044869125607157063
+    },
+    {
+      "melt": 0.0451914850168834,
+      "mint": "1369dK1ovahD",
+      "post_lo/post_first": 0.04463393737246051,
+      "post_lo/pre_hi": 0.047593114890483235,
+      "post_lo/pre_last": 0.047593114890483235
+    },
+    {
+      "melt": 0.048399675259257,
+      "mint": "136HqEHcBYW1",
+      "post_lo/post_first": 0.04657669569333733,
+      "post_lo/pre_hi": 0.0485087002984758,
+      "post_lo/pre_last": 0.0485087002984758
+    },
+    {
+      "melt": 0.0856961935864532,
+      "mint": "137KwbeshXPQ",
+      "post_lo/post_first": 0.07662678579771577,
+      "post_lo/pre_hi": 0.07811206065441693,
+      "post_lo/pre_last": 0.07811206065441693
+    },
+    {
+      "melt": 0.7947020419134291,
+      "mint": "137sB2kQD6CD",
+      "post_lo/post_first": 0.21177791581856953,
+      "post_lo/pre_hi": 0.202126849386145,
+      "post_lo/pre_last": 0.202126849386145
+    },
+    {
+      "melt": 0.0694021588722218,
+      "mint": "1387rQ2QEKtp",
+      "post_lo/post_first": 0.06858204604843204,
+      "post_lo/pre_hi": 0.07219546342402833,
+      "post_lo/pre_last": 0.07219546342402833
+    },
+    {
+      "melt": 0.8550277607167016,
+      "mint": "138mxhGnStDV",
+      "post_lo/post_first": 0.29803833782926775,
+      "post_lo/pre_hi": 0.3159741719531869,
+      "post_lo/pre_last": 0.3159741719531869
+    },
+    {
+      "melt": 0.402725521366488,
+      "mint": "138WGQyf9mtY",
+      "post_lo/post_first": 0.21409474057451502,
+      "post_lo/pre_hi": 0.2249183761070069,
+      "post_lo/pre_last": 0.2249183761070069
+    },
+    {
+      "melt": 0.0428710324265549,
+      "mint": "138WxVx5rFE3",
+      "post_lo/post_first": 0.04431013055650515,
+      "post_lo/pre_hi": 0.04444966403755406,
+      "post_lo/pre_last": 0.04444966403755406
+    },
+    {
+      "melt": 0.8277255210691088,
+      "mint": "139umgeVfmwa",
+      "post_lo/post_first": 0.04789166387773479,
+      "post_lo/pre_hi": 0.05958728583757442,
+      "post_lo/pre_last": 0.05958728583757442
+    },
+    {
+      "melt": 0.2734284619607973,
+      "mint": "13aoBrHDJ7or",
+      "post_lo/post_first": 0.0729420483396836,
+      "post_lo/pre_hi": 0.07306466623615379,
+      "post_lo/pre_last": 0.07306466623615379
+    },
+    {
+      "melt": 0.026323228956743,
+      "mint": "13BH2K68ZKcB",
+      "post_lo/post_first": 0.0437154938475964,
+      "post_lo/pre_hi": 0.059239760820468244,
+      "post_lo/pre_last": 0.059239760820468244
+    },
+    {
+      "melt": 0.894771782475147,
+      "mint": "13BuVNhBNYbf",
+      "post_lo/post_first": 0.9059418752127519,
+      "post_lo/pre_hi": 0.9033901462975623,
+      "post_lo/pre_last": 0.9033901462975623
+    },
+    {
+      "melt": 0.0504211138645266,
+      "mint": "13CVvVbTtwBq",
+      "post_lo/post_first": 0.05098860392572072,
+      "post_lo/pre_hi": 0.06273129076214264,
+      "post_lo/pre_last": 0.06273129076214264
+    },
+    {
+      "melt": 1.0,
+      "mint": "13Dcce9KRt7g",
+      "post_lo/post_first": 1.0,
+      "post_lo/pre_hi": 1.2418182370147777,
+      "post_lo/pre_last": 1.2418182370147777
+    },
+    {
+      "melt": 1.0,
+      "mint": "13eNFUJQkJCv",
+      "post_lo/post_first": 1.0,
+      "post_lo/pre_hi": 1.0843394347807673,
+      "post_lo/pre_last": 1.0843394347807673
+    },
+    {
+      "melt": 0.0602744003721883,
+      "mint": "13eY6XE9MVcM",
+      "post_lo/post_first": 0.04690777685171351,
+      "post_lo/pre_hi": 0.05229608650559485,
+      "post_lo/pre_last": 0.05240623803089863
+    },
+    {
+      "melt": 0.0211318892817107,
+      "mint": "13fEyDz9X7Ej",
+      "post_lo/post_first": 0.021184717374663622,
+      "post_lo/pre_hi": 0.049893228003385616,
+      "post_lo/pre_last": 0.049893228003385616
+    },
+    {
+      "melt": 0.059397044788436,
+      "mint": "13FsQqEWkZt7",
+      "post_lo/post_first": 0.05086784867487615,
+      "post_lo/pre_hi": 0.04563137472752579,
+      "post_lo/pre_last": 0.04563137472752579
+    },
+    {
+      "melt": 1.0,
+      "mint": "13G1ULbNAkWk",
+      "post_lo/post_first": 0.04268618799930166,
+      "post_lo/pre_hi": 0.053272653729109415,
+      "post_lo/pre_last": 0.053272653729109415
+    },
+    {
+      "melt": 0.7056808017538224,
+      "mint": "13gYjrFiSwK1",
+      "post_lo/post_first": 0.6158354541051179,
+      "post_lo/pre_hi": 0.7627752866956179,
+      "post_lo/pre_last": 0.7627752866956179
+    },
+    {
+      "melt": 0.4841188639309283,
+      "mint": "13HGvpUVddPF",
+      "post_lo/post_first": 0.266403742934374,
+      "post_lo/pre_hi": 0.2522163527593026,
+      "post_lo/pre_last": 0.2522163527593026
+    },
+    {
+      "melt": 0.03461945238347,
+      "mint": "13ip5WNzRhzQ",
+      "post_lo/post_first": 0.04987421514835026,
+      "post_lo/pre_hi": 0.046766636069233196,
+      "post_lo/pre_last": 0.046766636069233196
+    },
+    {
+      "melt": 0.0473736562214846,
+      "mint": "13JDZDdNYgsm",
+      "post_lo/post_first": 0.0464716490463405,
+      "post_lo/pre_hi": 0.04576070227449763,
+      "post_lo/pre_last": 0.04576070227449763
+    },
+    {
+      "melt": 0.0382352908228672,
+      "mint": "13JhnS5cc4yc",
+      "post_lo/post_first": 0.037707136870812945,
+      "post_lo/pre_hi": 0.04429417121357412,
+      "post_lo/pre_last": 0.04429417121357412
+    },
+    {
+      "melt": 0.0347970579785758,
+      "mint": "13JwgP8sdjp4",
+      "post_lo/post_first": 0.038083513547043576,
+      "post_lo/pre_hi": 0.04683988136585314,
+      "post_lo/pre_last": 0.04683988136585314
+    },
+    {
+      "melt": 0.0601252701269419,
+      "mint": "13MGY9gyUdVh",
+      "post_lo/post_first": 0.0473389983704472,
+      "post_lo/pre_hi": 0.047645053283297496,
+      "post_lo/pre_last": 0.047645053283297496
+    },
+    {
+      "melt": 0.0423152236336806,
+      "mint": "13NByqCNgSDn",
+      "post_lo/post_first": 0.04271986632235646,
+      "post_lo/pre_hi": 0.045473432276865136,
+      "post_lo/pre_last": 0.045473432276865136
+    },
+    {
+      "melt": 0.0523506984577305,
+      "mint": "13NhfRWuBAuq",
+      "post_lo/post_first": 0.051890094715390314,
+      "post_lo/pre_hi": 0.04502942160960221,
+      "post_lo/pre_last": 0.04502942160960221
+    },
+    {
+      "melt": 0.5215141702566406,
+      "mint": "13RLTJHfqAXd",
+      "post_lo/post_first": 0.3350461680075096,
+      "post_lo/pre_hi": 0.2856328752107926,
+      "post_lo/pre_last": 0.2856328752107926
+    },
+    {
+      "melt": 0.060838530382352,
+      "mint": "13rpsUjkBPar",
+      "post_lo/post_first": 0.05366678759057044,
+      "post_lo/pre_hi": 0.05515218531501557,
+      "post_lo/pre_last": 0.05515218531501557
+    },
+    {
+      "melt": 0.047736288685372,
+      "mint": "13S6DR2fMBWg",
+      "post_lo/post_first": 0.046628564351788,
+      "post_lo/pre_hi": 0.046053365175484216,
+      "post_lo/pre_last": 0.046053365175484216
+    },
+    {
+      "melt": 0.2136333815465718,
+      "mint": "13tKxGuLCoa5",
+      "post_lo/post_first": 0.09887254049323205,
+      "post_lo/pre_hi": 0.0923256635459399,
+      "post_lo/pre_last": 0.0923256635459399
+    },
+    {
+      "melt": 0.0663933867477519,
+      "mint": "13tvoiaSbXAP",
+      "post_lo/post_first": 0.052703098062086014,
+      "post_lo/pre_hi": 0.05550737778571878,
+      "post_lo/pre_last": 0.05550737778571878
+    },
+    {
+      "melt": 1.0,
+      "mint": "13ukyEb2rHXZ",
+      "post_lo/post_first": 0.8428100035080534,
+      "post_lo/pre_hi": 1.1381806677733841,
+      "post_lo/pre_last": 1.1381806677733841
+    },
+    {
+      "melt": 0.1589025770425084,
+      "mint": "13vsYe5TC9ni",
+      "post_lo/post_first": 0.16077567004514043,
+      "post_lo/pre_hi": 0.16471134564358836,
+      "post_lo/pre_last": 0.16471134564358836
+    },
+    {
+      "melt": 0.8343766560776718,
+      "mint": "13wZpVjeHzgz",
+      "post_lo/post_first": 0.8308284462423233,
+      "post_lo/pre_hi": 0.7636365841368843,
+      "post_lo/pre_last": 0.7636365841368843
+    },
+    {
+      "melt": 0.0495146887190155,
+      "mint": "13XN7CT4rpap",
+      "post_lo/post_first": 0.048531667460816205,
+      "post_lo/pre_hi": 0.04686216190241528,
+      "post_lo/pre_last": 0.04686216190241528
+    },
+    {
+      "melt": 0.1071351901875305,
+      "mint": "13xuEo1fGqpA",
+      "post_lo/post_first": 0.08132393381188245,
+      "post_lo/pre_hi": 0.0662262432895848,
+      "post_lo/pre_last": 0.0662262432895848
+    },
+    {
+      "melt": 0.0291028980556631,
+      "mint": "13ymyaDziEq5",
+      "post_lo/post_first": 0.029608265713237283,
+      "post_lo/pre_hi": 0.045089619443532014,
+      "post_lo/pre_last": 0.045089619443532014
+    },
+    {
+      "melt": 0.0485757017532232,
+      "mint": "13Z95SuSEFoU",
+      "post_lo/post_first": 0.04696894960668274,
+      "post_lo/pre_hi": 0.0505718924759711,
+      "post_lo/pre_last": 0.0505718924759711
+    },
+    {
+      "melt": 0.0437254149817568,
+      "mint": "13zUTTEU2YUr",
+      "post_lo/post_first": 0.043598645065819425,
+      "post_lo/pre_hi": 0.0444323769000659,
+      "post_lo/pre_last": 0.0444323769000659
+    },
+    {
+      "melt": 0.2260638806093655,
+      "mint": "13ZZNsEr6169",
+      "post_lo/post_first": 0.0857609675747807,
+      "post_lo/pre_hi": 0.0798539683094627,
+      "post_lo/pre_last": 0.0800648347110913
+    },
+    {
+      "melt": 0.7709139045444758,
+      "mint": "141YCgX5UqN6",
+      "post_lo/post_first": 0.43728757063025964,
+      "post_lo/pre_hi": 0.40765995504921176,
+      "post_lo/pre_last": 0.40765995504921176
+    },
+    {
+      "melt": 0.6649674015097409,
+      "mint": "142iuzfSsLDy",
+      "post_lo/post_first": 0.36744733492091664,
+      "post_lo/pre_hi": 0.35102642033122183,
+      "post_lo/pre_last": 0.35102642033122183
+    },
+    {
+      "melt": 0.0520625644668291,
+      "mint": "145VdGuiyoSu",
+      "post_lo/post_first": 0.052500262316559486,
+      "post_lo/pre_hi": 0.05076484278163233,
+      "post_lo/pre_last": 0.05076484278163233
+    },
+    {
+      "melt": 0.946637519188789,
+      "mint": "1476AtsQNGU4",
+      "post_lo/post_first": 0.946637519188789,
+      "post_lo/pre_hi": 0.8891721641774222,
+      "post_lo/pre_last": 0.8891721641774222
+    },
+    {
+      "melt": 0.2915311088080413,
+      "mint": "147gXU8bzNpX",
+      "post_lo/post_first": 0.06872451087912751,
+      "post_lo/pre_hi": 0.07754629473287743,
+      "post_lo/pre_last": 0.07754629473287743
+    },
+    {
+      "melt": 0.0339180464554232,
+      "mint": "148S7fXSQMs1",
+      "post_lo/post_first": 0.03493730008729842,
+      "post_lo/pre_hi": 0.04312093933568655,
+      "post_lo/pre_last": 0.04312093933568655
+    },
+    {
+      "melt": 0.7564024635238004,
+      "mint": "149eV9govfbe",
+      "post_lo/post_first": 0.29283177136818417,
+      "post_lo/pre_hi": 0.2923511764383455,
+      "post_lo/pre_last": 0.299815509450789
+    },
+    {
+      "melt": 0.0440803469941961,
+      "mint": "149zwoah9vTL",
+      "post_lo/post_first": 0.04163581332139273,
+      "post_lo/pre_hi": 0.05061392618869284,
+      "post_lo/pre_last": 0.05061392618869284
+    },
+    {
+      "melt": 1.0,
+      "mint": "14A8mHHYnJs3",
+      "post_lo/post_first": 1.0,
+      "post_lo/pre_hi": 0.947036748660841,
+      "post_lo/pre_last": 0.947036748660841
+    },
+    {
+      "melt": 0.0338854290560824,
+      "mint": "14aEHVXzoaJR",
+      "post_lo/post_first": 0.04399838118318572,
+      "post_lo/pre_hi": 0.0443513467696176,
+      "post_lo/pre_last": 0.0443513467696176
+    },
+    {
+      "melt": 0.9556772884174972,
+      "mint": "14aFmu7R2AH9",
+      "post_lo/post_first": 0.2461530416181885,
+      "post_lo/pre_hi": 0.23751965495341723,
+      "post_lo/pre_last": 0.23751965495341723
+    },
+    {
+      "melt": 0.6689181250944694,
+      "mint": "14AhKLnKv2ce",
+      "post_lo/post_first": 0.666000475173898,
+      "post_lo/pre_hi": 0.638852130672712,
+      "post_lo/pre_last": 0.638852130672712
+    },
+    {
+      "melt": 0.0790267624706759,
+      "mint": "14AnJFQgnyGf",
+      "post_lo/post_first": 0.06196189784040459,
+      "post_lo/pre_hi": 0.05545365427943229,
+      "post_lo/pre_last": 0.055799329612136586
+    },
+    {
+      "melt": 0.6336239415364482,
+      "mint": "14av7EWbARTM",
+      "post_lo/post_first": 0.6136512984707121,
+      "post_lo/pre_hi": 0.5798825222261804,
+      "post_lo/pre_last": 0.5891349560216572
+    },
+    {
+      "melt": 0.0466482299267447,
+      "mint": "14B3iUtbyLuh",
+      "post_lo/post_first": 0.0466482299267447,
+      "post_lo/pre_hi": 0.043745982275881674,
+      "post_lo/pre_last": 0.043745982275881674
+    },
+    {
+      "melt": 0.0504580837652181,
+      "mint": "14b4Va7ZVNor",
+      "post_lo/post_first": 0.05014735500488201,
+      "post_lo/pre_hi": 0.04086046135781459,
+      "post_lo/pre_last": 0.04086046135781459
+    },
+    {
+      "melt": 1.0,
+      "mint": "14bba9ZxNKBV",
+      "post_lo/post_first": 1.0,
+      "post_lo/pre_hi": 0.924664014134966,
+      "post_lo/pre_last": 0.924664014134966
+    },
+    {
+      "melt": 0.0499069422312026,
+      "mint": "14BxqBFUJmek",
+      "post_lo/post_first": 0.054133441458239555,
+      "post_lo/pre_hi": 0.0686928021047799,
+      "post_lo/pre_last": 0.0686928021047799
+    },
+    {
+      "melt": 0.0292330808542757,
+      "mint": "14ciSHq8giNx",
+      "post_lo/post_first": 0.03187726286849382,
+      "post_lo/pre_hi": 0.048969521059034134,
+      "post_lo/pre_last": 0.048969521059034134
+    },
+    {
+      "melt": 0.7754886234516033,
+      "mint": "14cRxxEHQJ7q",
+      "post_lo/post_first": 0.06187219384455506,
+      "post_lo/pre_hi": 0.06215853583542328,
+      "post_lo/pre_last": 0.06215853583542328
+    },
+    {
+      "melt": 0.0590538799262308,
+      "mint": "14GMfv95pd8M",
+      "post_lo/post_first": 0.054664174690507134,
+      "post_lo/pre_hi": 0.048748962184162394,
+      "post_lo/pre_last": 0.048748962184162394
+    },
+    {
+      "melt": 0.7979481655163695,
+      "mint": "14HDUZ5SSUp9",
+      "post_lo/post_first": 0.045315329910539145,
+      "post_lo/pre_hi": 0.046206293642326535,
+      "post_lo/pre_last": 0.046206293642326535
+    },
+    {
+      "melt": 0.8151026928085983,
+      "mint": "14hwvbrrQGzP",
+      "post_lo/post_first": 0.8053481659834033,
+      "post_lo/pre_hi": 1.014310287846505,
+      "post_lo/pre_last": 1.014310287846505
+    },
+    {
+      "melt": 0.0779421868905873,
+      "mint": "14iA1sSrLeKo",
+      "post_lo/post_first": 0.0769574911868759,
+      "post_lo/pre_hi": 0.09641633355055988,
+      "post_lo/pre_last": 0.09641633355055988
+    },
+    {
+      "melt": 0.8099693987414391,
+      "mint": "14iFvqdztguh",
+      "post_lo/post_first": 0.8915773335546424,
+      "post_lo/pre_hi": 0.8907577591898314,
+      "post_lo/pre_last": 0.8907577591898314
+    },
+    {
+      "melt": 0.0074415408242921,
+      "mint": "14mQjiiUPqLz",
+      "post_lo/post_first": 0.004266638680831868,
+      "post_lo/pre_hi": 0.024052545625138325,
+      "post_lo/pre_last": 0.024052545625138325
+    },
+    {
+      "melt": 0.045388120965324,
+      "mint": "14ni8uV6s8g8",
+      "post_lo/post_first": 0.05044054096990196,
+      "post_lo/pre_hi": 0.04767793489274803,
+      "post_lo/pre_last": 0.04767793489274803
+    },
+    {
+      "melt": 0.0815398854327538,
+      "mint": "14qHs3Q8JJw5",
+      "post_lo/post_first": 0.07324673427017889,
+      "post_lo/pre_hi": 0.06922703500126187,
+      "post_lo/pre_last": 0.06922703500126187
+    },
+    {
+      "melt": 0.066446797573925,
+      "mint": "14QWtcGk6saP",
+      "post_lo/post_first": 0.06417594098096838,
+      "post_lo/pre_hi": 0.057518984290363416,
+      "post_lo/pre_last": 0.057518984290363416
+    },
+    {
+      "melt": 0.0969760950970152,
+      "mint": "14qXBnieyPuy",
+      "post_lo/post_first": 0.09693733735999453,
+      "post_lo/pre_hi": 0.1046320941107702,
+      "post_lo/pre_last": 0.1046320941107702
+    },
+    {
+      "melt": 0.1426261715819224,
+      "mint": "14sj5Mcjk1At",
+      "post_lo/post_first": 0.1330588309001999,
+      "post_lo/pre_hi": 0.1289291210726605,
+      "post_lo/pre_last": 0.1289291210726605
+    },
+    {
+      "melt": 0.0685056759281115,
+      "mint": "14Tvv1DSJg58",
+      "post_lo/post_first": 0.06366250272589938,
+      "post_lo/pre_hi": 0.06812041736781069,
+      "post_lo/pre_last": 0.06812041736781069
+    },
+    {
+      "melt": 0.0714809196152519,
+      "mint": "14uM4mU7BEen",
+      "post_lo/post_first": 0.06203954386391189,
+      "post_lo/pre_hi": 0.06256214030406058,
+      "post_lo/pre_last": 0.06256214030406058
+    },
+    {
+      "melt": 0.3858059338163492,
+      "mint": "14VHeQSjcNTD",
+      "post_lo/post_first": 0.1114889505169391,
+      "post_lo/pre_hi": 0.11638261412615368,
+      "post_lo/pre_last": 0.11638261412615368
+    },
+    {
+      "melt": 0.1708228569381146,
+      "mint": "14VxDrnwZ8KC",
+      "post_lo/post_first": 0.14825633205584396,
+      "post_lo/pre_hi": 0.14652218116398363,
+      "post_lo/pre_last": 0.14652218116398363
+    },
+    {
+      "melt": 0.0561574830480803,
+      "mint": "14WSNbDRbW9A",
+      "post_lo/post_first": 0.05410568265122994,
+      "post_lo/pre_hi": 0.05267756572914598,
+      "post_lo/pre_last": 0.05267756572914598
+    },
+    {
+      "melt": 0.9910116736006136,
+      "mint": "14WXMYCFCxxv",
+      "post_lo/post_first": 1.0,
+      "post_lo/pre_hi": 1.238899655899031,
+      "post_lo/pre_last": 1.238899655899031
+    },
+    {
+      "melt": 0.042835117196753,
+      "mint": "14XvnHvpNnmv",
+      "post_lo/post_first": 0.04361730092913342,
+      "post_lo/pre_hi": 0.045472613569759165,
+      "post_lo/pre_last": 0.045472613569759165
+    },
+    {
+      "melt": 0.7810542241066626,
+      "mint": "14YRs8xy1g6T",
+      "post_lo/post_first": 0.8714695927480474,
+      "post_lo/pre_hi": 1.0773321270494352,
+      "post_lo/pre_last": 1.0773321270494352
+    },
+    {
+      "melt": 0.1441425510762213,
+      "mint": "17c1qg9QmfzU",
+      "post_lo/post_first": 0.17536591347343525,
+      "post_lo/pre_hi": 0.1666359778235806,
+      "post_lo/pre_last": 0.1692215727906653
+    },
+    {
+      "melt": 0.1079089166201523,
+      "mint": "17gCHYwk8rgS",
+      "post_lo/post_first": 0.07830464298533941,
+      "post_lo/pre_hi": 0.06769654289056652,
+      "post_lo/pre_last": 0.06769654289056652
+    },
+    {
+      "melt": 0.0159853248494449,
+      "mint": "17qGJh7cJnTT",
+      "post_lo/post_first": 0.015584693334096842,
+      "post_lo/pre_hi": 0.046604420339328156,
+      "post_lo/pre_last": 0.046604420339328156
+    },
+    {
+      "melt": 0.2682286478054512,
+      "mint": "19JEi9sVXYux",
+      "post_lo/post_first": 0.11607176157456454,
+      "post_lo/pre_hi": 0.13571780654116825,
+      "post_lo/pre_last": 0.13571780654116825
+    },
+    {
+      "melt": 0.1161617977729576,
+      "mint": "1aw4tTpsSWLn",
+      "post_lo/post_first": 0.09414922104245325,
+      "post_lo/pre_hi": 0.08544846527842238,
+      "post_lo/pre_last": 0.08544846527842238
+    },
+    {
+      "melt": 1.0,
+      "mint": "1BTtsAMfuVRP",
+      "post_lo/post_first": 0.40475669861208047,
+      "post_lo/pre_hi": 0.41534004947241904,
+      "post_lo/pre_last": 0.41534004947241904
+    },
+    {
+      "melt": 0.0876041655960147,
+      "mint": "1bVb3ffhJTra",
+      "post_lo/post_first": 0.04360341803599023,
+      "post_lo/pre_hi": 0.06321167494470951,
+      "post_lo/pre_last": 0.06321167494470951
+    },
+    {
+      "melt": 0.0211088202359469,
+      "mint": "1Cdk9o7NUoTA",
+      "post_lo/post_first": 0.0345530763354271,
+      "post_lo/pre_hi": 0.04941413107745456,
+      "post_lo/pre_last": 0.04941413107745456
+    },
+    {
+      "melt": 0.0229618645776945,
+      "mint": "1DBRxmQKNGvp",
+      "post_lo/post_first": 0.023758663767386133,
+      "post_lo/pre_hi": 0.047355957790543746,
+      "post_lo/pre_last": 0.047355957790543746
+    },
+    {
+      "melt": 0.0534633490799703,
+      "mint": "1eNGJwmiqPKV",
+      "post_lo/post_first": 0.05192021709395012,
+      "post_lo/pre_hi": 0.04903999547076809,
+      "post_lo/pre_last": 0.04948874753194379
+    },
+    {
+      "melt": 0.0430198874066191,
+      "mint": "1f3jtVg4BQ7e",
+      "post_lo/post_first": 0.042957602170399796,
+      "post_lo/pre_hi": 0.04504130776376772,
+      "post_lo/pre_last": 0.04504130776376772
+    },
+    {
+      "melt": 1.0,
+      "mint": "1FyikXwdp5QU",
+      "post_lo/post_first": 0.6922493936429776,
+      "post_lo/pre_hi": 0.814994454302089,
+      "post_lo/pre_last": 0.814994454302089
+    },
+    {
+      "melt": 0.0389684620884299,
+      "mint": "1gc6yARWMqZK",
+      "post_lo/post_first": 0.04368561398470133,
+      "post_lo/pre_hi": 0.04333670101595221,
+      "post_lo/pre_last": 0.04333670101595221
+    },
+    {
+      "melt": 1.0,
+      "mint": "1GitgbbcseeL",
+      "post_lo/post_first": 1.0,
+      "post_lo/pre_hi": 1.246762691246709,
+      "post_lo/pre_last": 1.246762691246709
+    },
+    {
+      "melt": 0.7334546418455238,
+      "mint": "1h8Ft5jbTXBj",
+      "post_lo/post_first": 0.7562622858919387,
+      "post_lo/pre_hi": 1.0952960623932098,
+      "post_lo/pre_last": 1.0952960623932098
+    },
+    {
+      "melt": 0.1483461766744408,
+      "mint": "1hs2A588k24R",
+      "post_lo/post_first": 0.0988533993200953,
+      "post_lo/pre_hi": 0.10454296284109313,
+      "post_lo/pre_last": 0.10454296284109313
+    },
+    {
+      "melt": 0.1087426437288766,
+      "mint": "1hvYsVpQYbKj",
+      "post_lo/post_first": 0.08239006895295327,
+      "post_lo/pre_hi": 0.0838705391626058,
+      "post_lo/pre_last": 0.0838705391626058
+    },
+    {
+      "melt": 0.8715349673245535,
+      "mint": "1JfvfpY9vFEg",
+      "post_lo/post_first": 0.06973144817446449,
+      "post_lo/pre_hi": 0.07309653065034306,
+      "post_lo/pre_last": 0.07309653065034306
+    },
+    {
+      "melt": 0.0523202718432182,
+      "mint": "1KzbCcRKdQsk",
+      "post_lo/post_first": 0.04952407449752714,
+      "post_lo/pre_hi": 0.047086260160343285,
+      "post_lo/pre_last": 0.047086260160343285
+    },
+    {
+      "melt": 0.1518084057238155,
+      "mint": "1Lxt6zCQ7jzk",
+      "post_lo/post_first": 0.13028137210435592,
+      "post_lo/pre_hi": 0.11839939856247149,
+      "post_lo/pre_last": 0.11839939856247149
+    },
+    {
+      "melt": 0.0612276940216611,
+      "mint": "1mbx7Kvx7Dek",
+      "post_lo/post_first": 0.05857928264957156,
+      "post_lo/pre_hi": 0.04775165101357672,
+      "post_lo/pre_last": 0.04775165101357672
+    },
+    {
+      "melt": 0.0534709481428601,
+      "mint": "1nMag6Sj3N7X",
+      "post_lo/post_first": 0.04969281789479121,
+      "post_lo/pre_hi": 0.04262518703479986,
+      "post_lo/pre_last": 0.04262518703479986
+    },
+    {
+      "melt": 1.0,
+      "mint": "1nnEfY45GcMT",
+      "post_lo/post_first": 1.0,
+      "post_lo/pre_hi": 6.813286365309314,
+      "post_lo/pre_last": 6.813286365309314
+    },
+    {
+      "melt": 0.0404584681693544,
+      "mint": "1oLjY4Ygx8J1",
+      "post_lo/post_first": 0.03580977764584789,
+      "post_lo/pre_hi": 0.04923267512681866,
+      "post_lo/pre_last": 0.04923267512681866
+    },
+    {
+      "melt": 0.2975956812831176,
+      "mint": "1ooTWyFaUXxA",
+      "post_lo/post_first": 0.2970596863345617,
+      "post_lo/pre_hi": 0.2778746467480642,
+      "post_lo/pre_last": 0.2778746467480642
+    },
+    {
+      "melt": 0.9645139652714614,
+      "mint": "1PwSGcGkXKNX",
+      "post_lo/post_first": 0.04338355632047106,
+      "post_lo/pre_hi": 0.05474823453317736,
+      "post_lo/pre_last": 0.05474823453317736
+    },
+    {
+      "melt": 0.0994244971041675,
+      "mint": "1QLhEq52vCLj",
+      "post_lo/post_first": 0.07169238892782509,
+      "post_lo/pre_hi": 0.06271841697959597,
+      "post_lo/pre_last": 0.06271841697959597
+    },
+    {
+      "melt": 0.5506725925997217,
+      "mint": "1QU34hPk3dvh",
+      "post_lo/post_first": 0.5692327561997946,
+      "post_lo/pre_hi": 0.8242307744652222,
+      "post_lo/pre_last": 0.8242307744652222
+    },
+    {
+      "melt": 1.0,
+      "mint": "1qUH5q3Xo5z7",
+      "post_lo/post_first": 0.6485122770156616,
+      "post_lo/pre_hi": 0.6570913775655145,
+      "post_lo/pre_last": 0.6570913775655145
+    },
+    {
+      "melt": 0.3704204593966367,
+      "mint": "1RWmRXCvKhju",
+      "post_lo/post_first": 0.08328165783548436,
+      "post_lo/pre_hi": 0.07447743241065659,
+      "post_lo/pre_last": 0.07447743241065659
+    },
+    {
+      "melt": 0.1606437171042429,
+      "mint": "1skqGmQPzeZZ",
+      "post_lo/post_first": 0.05838831168079391,
+      "post_lo/pre_hi": 2.235441737083342e-05,
+      "post_lo/pre_last": 0.054917709139766076
+    },
+    {
+      "melt": 0.0805318835389578,
+      "mint": "1sXZ3urQEGts",
+      "post_lo/post_first": 0.06493422905728753,
+      "post_lo/pre_hi": 0.06760909081939148,
+      "post_lo/pre_last": 0.06760909081939148
+    },
+    {
+      "melt": 0.2420539585202578,
+      "mint": "1tLx68iCUT1U",
+      "post_lo/post_first": 0.06109277880731257,
+      "post_lo/pre_hi": 0.08075551983047552,
+      "post_lo/pre_last": 0.08075551983047552
+    },
+    {
+      "melt": 0.0720169905633315,
+      "mint": "1ujkJN6poGS9",
+      "post_lo/post_first": 0.06089110281121735,
+      "post_lo/pre_hi": 0.06638781361381435,
+      "post_lo/pre_last": 0.06638781361381435
+    },
+    {
+      "melt": 0.5139115220769048,
+      "mint": "1uQWgFxDmjWt",
+      "post_lo/post_first": 0.1078456739087536,
+      "post_lo/pre_hi": 0.13357791320241416,
+      "post_lo/pre_last": 0.13357791320241416
+    },
+    {
+      "melt": 0.0432072306424692,
+      "mint": "1WWdi69HTLeS",
+      "post_lo/post_first": 0.04320723064246923,
+      "post_lo/pre_hi": 0.0450308196909146,
+      "post_lo/pre_last": 0.0450308196909146
+    },
+    {
+      "melt": 0.7537308947023096,
+      "mint": "1xdtu7y3Lkkr",
+      "post_lo/post_first": 0.7577605264361739,
+      "post_lo/pre_hi": 1.1962152345191193,
+      "post_lo/pre_last": 1.1962152345191193
+    },
+    {
+      "melt": 0.141866770876425,
+      "mint": "1xtS1ZgCtmUM",
+      "post_lo/post_first": 0.1244963558680371,
+      "post_lo/pre_hi": 0.11638565632245408,
+      "post_lo/pre_last": 0.11638565632245408
+    },
+    {
+      "melt": 1.0,
+      "mint": "1yoXX6jMWXkN",
+      "post_lo/post_first": 0.0019374453999973296,
+      "post_lo/pre_hi": 0.04738861242151186,
+      "post_lo/pre_last": 0.04738861242151186
+    },
+    {
+      "melt": 0.0921104152178786,
+      "mint": "214gAizhguaF",
+      "post_lo/post_first": 0.07272140477622668,
+      "post_lo/pre_hi": 0.07381887287243613,
+      "post_lo/pre_last": 0.07381887287243613
+    },
+    {
+      "melt": 0.0306195082928301,
+      "mint": "216i6XEiMjrF",
+      "post_lo/post_first": 0.042918139105588386,
+      "post_lo/pre_hi": 0.05181770146879899,
+      "post_lo/pre_last": 0.05181770146879899
+    },
+    {
+      "melt": 0.0458399304019599,
+      "mint": "218Fx9m8ZGqx",
+      "post_lo/post_first": 0.04483674765709623,
+      "post_lo/pre_hi": 0.05496113470855602,
+      "post_lo/pre_last": 0.05496113470855602
+    },
+    {
+      "melt": 0.2020570846482459,
+      "mint": "219jqrxuGDh1",
+      "post_lo/post_first": 0.08096661469949809,
+      "post_lo/pre_hi": 0.08721454145527632,
+      "post_lo/pre_last": 0.08721454145527632
+    },
+    {
+      "melt": 0.0857100930200281,
+      "mint": "21AoR31TEgZY",
+      "post_lo/post_first": 0.08571009302002812,
+      "post_lo/pre_hi": 0.08199691179128668,
+      "post_lo/pre_last": 0.08199691179128668
+    },
+    {
+      "melt": 0.2203730872662844,
+      "mint": "21B2cGKanQAx",
+      "post_lo/post_first": 0.21038111671329196,
+      "post_lo/pre_hi": 0.21597931746368945,
+      "post_lo/pre_last": 0.21597931746368945
+    },
+    {
+      "melt": 0.0358555288021351,
+      "mint": "21BQfJo8Ekw2",
+      "post_lo/post_first": 0.049489223236303635,
+      "post_lo/pre_hi": 0.0502727453176582,
+      "post_lo/pre_last": 0.0502727453176582
+    },
+    {
+      "melt": 0.6838863186329865,
+      "mint": "21bZHq4a1sjk",
+      "post_lo/post_first": 0.497285610138934,
+      "post_lo/pre_hi": 2.00409265649129,
+      "post_lo/pre_last": 2.00409265649129
+    },
+    {
+      "melt": 0.7903015249051549,
+      "mint": "21dm8xF8KBHZ",
+      "post_lo/post_first": 0.07990274448559485,
+      "post_lo/pre_hi": 0.07997688881140518,
+      "post_lo/pre_last": 0.07997688881140518
+    },
+    {
+      "melt": 0.0323800798140687,
+      "mint": "21DSobF4YyR5",
+      "post_lo/post_first": 0.040112066059541825,
+      "post_lo/pre_hi": 0.04445016383510643,
+      "post_lo/pre_last": 0.04445016383510643
+    },
+    {
+      "melt": 0.0595760983872592,
+      "mint": "21DtMGdBYpLV",
+      "post_lo/post_first": 0.053084571777046244,
+      "post_lo/pre_hi": 0.05371667466769862,
+      "post_lo/pre_last": 0.057443998128862216
+    },
+    {
+      "melt": 0.0958764857946918,
+      "mint": "21dxURdR97xL",
+      "post_lo/post_first": 0.06339620438078954,
+      "post_lo/pre_hi": 0.06257497502360719,
+      "post_lo/pre_last": 0.06257497502360719
+    },
+    {
+      "melt": 0.04461764458332,
+      "mint": "21hBGCqq4izn",
+      "post_lo/post_first": 0.043137543016600034,
+      "post_lo/pre_hi": 0.07041486139989586,
+      "post_lo/pre_last": 0.07041486139989586
+    },
+    {
+      "melt": 0.7571391380817508,
+      "mint": "21Hw8Jc5gwDD",
+      "post_lo/post_first": 0.04319287660334252,
+      "post_lo/pre_hi": 0.046834138903392684,
+      "post_lo/pre_last": 0.046834138903392684
+    },
+    {
+      "melt": 0.0938584760791599,
+      "mint": "21HyEKf4FpEC",
+      "post_lo/post_first": 0.07785544932301039,
+      "post_lo/pre_hi": 0.07314515716233383,
+      "post_lo/pre_last": 0.07323740354202081
+    },
+    {
+      "melt": 0.0559844296421941,
+      "mint": "21mGxNyEf8LT",
+      "post_lo/post_first": 0.0479981575104872,
+      "post_lo/pre_hi": 0.04730321627423891,
+      "post_lo/pre_last": 0.04730321627423891
+    },
+    {
+      "melt": 0.0472777120178267,
+      "mint": "21Mkkc1T8W4Z",
+      "post_lo/post_first": 0.046313881117155516,
+      "post_lo/pre_hi": 0.04317214255986061,
+      "post_lo/pre_last": 0.04317214255986061
+    },
+    {
+      "melt": 0.4269651142318345,
+      "mint": "21mRGp47yF4o",
+      "post_lo/post_first": 0.13142073458558742,
+      "post_lo/pre_hi": 0.13038003531080578,
+      "post_lo/pre_last": 0.13038003531080578
+    },
+    {
+      "melt": 0.2743238296876463,
+      "mint": "21MXgeZTm1yy",
+      "post_lo/post_first": 0.2579939562162154,
+      "post_lo/pre_hi": 0.27390016109322074,
+      "post_lo/pre_last": 0.27390016109322074
+    },
+    {
+      "melt": 0.0360093112127207,
+      "mint": "21Nr87MHhf6Q",
+      "post_lo/post_first": 0.03748739141135208,
+      "post_lo/pre_hi": 0.048271269515991345,
+      "post_lo/pre_last": 0.048271269515991345
+    },
+    {
+      "melt": 1.0,
+      "mint": "21nrngqpfAqy",
+      "post_lo/post_first": 0.7534701886422769,
+      "post_lo/pre_hi": 0.7962071944503989,
+      "post_lo/pre_last": 0.7962071944503989
+    },
+    {
+      "melt": 0.180926095057745,
+      "mint": "21q7owscwusD",
+      "post_lo/post_first": 0.08231014198532006,
+      "post_lo/pre_hi": 0.08331655053286736,
+      "post_lo/pre_last": 0.08331655053286736
+    },
+    {
+      "melt": 0.194456272550123,
+      "mint": "21QV72LDtdXF",
+      "post_lo/post_first": 0.10789154990318145,
+      "post_lo/pre_hi": 0.095756975918181,
+      "post_lo/pre_last": 0.095756975918181
+    },
+    {
+      "melt": 0.0461382545467904,
+      "mint": "21Riupo1yT6R",
+      "post_lo/post_first": 0.0813361346310241,
+      "post_lo/pre_hi": 0.08153809592224014,
+      "post_lo/pre_last": 0.08153809592224014
+    },
+    {
+      "melt": 0.1040532883525784,
+      "mint": "21RvieCC5caw",
+      "post_lo/post_first": 0.08542900341587091,
+      "post_lo/pre_hi": 0.0834421288069169,
+      "post_lo/pre_last": 0.0834421288069169
+    },
+    {
+      "melt": 0.2387962821892613,
+      "mint": "21Sdms6xMPpf",
+      "post_lo/post_first": 0.004404279374379223,
+      "post_lo/pre_hi": 0.0043196574941191486,
+      "post_lo/pre_last": 0.0043196574941191486
+    },
+    {
+      "melt": 0.051640355341648,
+      "mint": "21sf2vkGxFka",
+      "post_lo/post_first": 0.049824391504734375,
+      "post_lo/pre_hi": 0.052267367110118604,
+      "post_lo/pre_last": 0.052267367110118604
+    },
+    {
+      "melt": 0.0569433451747123,
+      "mint": "21XR6AEvBwTW",
+      "post_lo/post_first": 0.053363608270798994,
+      "post_lo/pre_hi": 0.05006007668888573,
+      "post_lo/pre_last": 0.05006007668888573
+    },
+    {
+      "melt": 0.37199052523811,
+      "mint": "21yqVUGvtEcs",
+      "post_lo/post_first": 0.40702122229986704,
+      "post_lo/pre_hi": 0.4385584684321364,
+      "post_lo/pre_last": 0.4385584684321364
+    },
+    {
+      "melt": 0.0463054156653206,
+      "mint": "221dLHhiAr3W",
+      "post_lo/post_first": 0.04729792300236387,
+      "post_lo/pre_hi": 0.04985931647399294,
+      "post_lo/pre_last": 0.04985931647399294
+    },
+    {
+      "melt": 0.0336416856572486,
+      "mint": "224uExQphWQp",
+      "post_lo/post_first": 0.033656522927322956,
+      "post_lo/pre_hi": 0.04364368090670854,
+      "post_lo/pre_last": 0.04364368090670854
+    },
+    {
+      "melt": 0.0555470678683127,
+      "mint": "2258WsY8NBQD",
+      "post_lo/post_first": 0.04049709524557941,
+      "post_lo/pre_hi": 0.05228802520040098,
+      "post_lo/pre_last": 0.05228802520040098
+    },
+    {
+      "melt": 0.3097936522654402,
+      "mint": "229vWzBTiUNd",
+      "post_lo/post_first": 0.08127836949037237,
+      "post_lo/pre_hi": 0.05617761143601085,
+      "post_lo/pre_last": 0.05617761143601085
+    },
+    {
+      "melt": 0.9211155862623096,
+      "mint": "22AQQyy4AAzD",
+      "post_lo/post_first": 0.054539389349050484,
+      "post_lo/pre_hi": 0.05460182696678458,
+      "post_lo/pre_last": 0.05460182696678458
+    },
+    {
+      "melt": 0.0697336269603399,
+      "mint": "22BDoDL8VPyZ",
+      "post_lo/post_first": 0.06460224055609176,
+      "post_lo/pre_hi": 0.05498429029808452,
+      "post_lo/pre_last": 0.05498429029808452
+    },
+    {
+      "melt": 0.6735536239336246,
+      "mint": "22BdxXRZLGxV",
+      "post_lo/post_first": 0.6719923408999721,
+      "post_lo/pre_hi": 0.7342050092167113,
+      "post_lo/pre_last": 0.7342050092167113
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "minimum_blocks": {
+    "per_block_sd": 0.014579621675839972,
+    "table": [
+      {
+        "alpha": 0.05,
+        "days_at_0_93_per_hour": 0.8512544802867383,
+        "formula": "n = ((t_crit(n-1) + z_power) * sd / effect)^2, by fixed point",
+        "n_blocks": 17,
+        "n_blocks_t": 19,
+        "note": "",
+        "per_block_sd": 0.014579621675839972,
+        "power": 0.8,
+        "targeted_effect": 0.01
+      },
+      {
+        "alpha": 0.05,
+        "days_at_0_93_per_hour": 0.26881720430107525,
+        "formula": "n = ((t_crit(n-1) + z_power) * sd / effect)^2, by fixed point",
+        "n_blocks": 5,
+        "n_blocks_t": 6,
+        "note": "",
+        "per_block_sd": 0.014579621675839972,
+        "power": 0.8,
+        "targeted_effect": 0.02
+      },
+      {
+        "alpha": 0.05,
+        "days_at_0_93_per_hour": 0.08960573476702509,
+        "formula": "n = ((t_crit(n-1) + z_power) * sd / effect)^2, by fixed point",
+        "n_blocks": 2,
+        "n_blocks_t": 2,
+        "note": "",
+        "per_block_sd": 0.014579621675839972,
+        "power": 0.8,
+        "targeted_effect": 0.03
+      },
+      {
+        "alpha": 0.05,
+        "days_at_0_93_per_hour": 0.044802867383512544,
+        "formula": "n = ((t_crit(n-1) + z_power) * sd / effect)^2, by fixed point",
+        "n_blocks": 1,
+        "n_blocks_t": 1,
+        "note": "DEGENERATE (n=1: no test exists)",
+        "per_block_sd": 0.014579621675839972,
+        "power": 0.8,
+        "targeted_effect": 0.05
+      }
+    ]
+  },
+  "n_distinct_by_key": {
+    "config_version": 6,
+    "engine_version": 6,
+    "model_version": 2
+  },
+  "n_distinct_trials": 6,
+  "n_run_directories": 11,
+  "note": "A trial is one distinct (model_version, config_version, engine_version) combination recorded in a run's measurement_runs.csv. Written AFTER the runs, so it makes them COUNTABLE, not prespecified.",
+  "trials": [
+    {
+      "config_version": "500e3e90524f6cfed45074dd4d0caf872e3f5e17de3ee1b4388b93b5a40f3b16",
+      "engine_version": "5ab5edb92317a34a839572c6801bf0d0dd92a748497561587a876cd0cf843fe5",
+      "measurement_version": 2,
+      "model_version": "6a35d039835dcbf16f822d5fe95d7218d49ed42a1dfd40f930f64f01f03d12e0",
+      "models": {
+        "pump": "3c895a1362c4014e6f470f27f0d845239b3b78e2e33fd4881c9ce1fbe59c8f5a",
+        "rug": "120d8fe79a7df36bafc672a5ba981bcde56d64a228ba65e716d7712bcdcc514b"
+      },
+      "n_code_files": 10,
+      "policy_sha256": "7add054c5b8771bd79b8db94fd079740c856d8f1cafc0ec4262d43218b10afd9",
+      "run_label": "dev_dump_book_20260926"
+    },
+    {
+      "config_version": "a4d2a95cdcda31958093a6a0753a737836c07b1f893db1f38d48966a3a731430",
+      "engine_version": "173b2aae2db092be29f68fcb03f1deff1084a02f4febe5ba978a452ffcbef291",
+      "measurement_version": 2,
+      "model_version": "6a35d039835dcbf16f822d5fe95d7218d49ed42a1dfd40f930f64f01f03d12e0",
+      "models": {
+        "pump": "3c895a1362c4014e6f470f27f0d845239b3b78e2e33fd4881c9ce1fbe59c8f5a",
+        "rug": "120d8fe79a7df36bafc672a5ba981bcde56d64a228ba65e716d7712bcdcc514b"
+      },
+      "n_code_files": 10,
+      "policy_sha256": "7add054c5b8771bd79b8db94fd079740c856d8f1cafc0ec4262d43218b10afd9",
+      "run_label": "dev_dump_book_20260926"
+    },
+    {
+      "config_version": "a4d2a95cdcda31958093a6a0753a737836c07b1f893db1f38d48966a3a731430",
+      "engine_version": "173b2aae2db092be29f68fcb03f1deff1084a02f4febe5ba978a452ffcbef291",
+      "measurement_version": 2,
+      "model_version": "6a35d039835dcbf16f822d5fe95d7218d49ed42a1dfd40f930f64f01f03d12e0",
+      "models": {
+        "pump": "3c895a1362c4014e6f470f27f0d845239b3b78e2e33fd4881c9ce1fbe59c8f5a",
+        "rug": "120d8fe79a7df36bafc672a5ba981bcde56d64a228ba65e716d7712bcdcc514b"
+      },
+      "n_code_files": 10,
+      "policy_sha256": "7add054c5b8771bd79b8db94fd079740c856d8f1cafc0ec4262d43218b10afd9",
+      "run_label": "dev_dump_book_20260926"
+    },
+    {
+      "config_version": "a4d2a95cdcda31958093a6a0753a737836c07b1f893db1f38d48966a3a731430",
+      "engine_version": "173b2aae2db092be29f68fcb03f1deff1084a02f4febe5ba978a452ffcbef291",
+      "measurement_version": 2,
+      "model_version": "6a35d039835dcbf16f822d5fe95d7218d49ed42a1dfd40f930f64f01f03d12e0",
+      "models": {
+        "pump": "3c895a1362c4014e6f470f27f0d845239b3b78e2e33fd4881c9ce1fbe59c8f5a",
+        "rug": "120d8fe79a7df36bafc672a5ba981bcde56d64a228ba65e716d7712bcdcc514b"
+      },
+      "n_code_files": 10,
+      "policy_sha256": "7add054c5b8771bd79b8db94fd079740c856d8f1cafc0ec4262d43218b10afd9",
+      "run_label": "dev_dump_book_20260926"
+    },
+    {
+      "config_version": "2b11e8e1aa9a2faf3cd5a9d2fe63c49289917c5b5d7f2cb75ee13422257b9b73",
+      "engine_version": "00263c634f47a02928b4e8bc80fe1c8a45743a8247626d278319c6d232037e23",
+      "measurement_version": 2,
+      "model_version": "b62e0777ede2388bacbeed7939d72df8c23458e813f32044732f81ccb2b2a365",
+      "models": {
+        "pump": "d9c8a2487760443d49c69be73f0427341d6d8c88a8e3a8a88b5dc3a79039dde9",
+        "rug": "b2c4c124b991f582aeed3c43ba7c90dda0ce68d15a9fb87c3102b2b31dc17350"
+      },
+      "n_code_files": 6,
+      "policy_sha256": null,
+      "run_label": "fixed_cohort_20260916"
+    },
+    {
+      "config_version": "2b11e8e1aa9a2faf3cd5a9d2fe63c49289917c5b5d7f2cb75ee13422257b9b73",
+      "engine_version": "00263c634f47a02928b4e8bc80fe1c8a45743a8247626d278319c6d232037e23",
+      "measurement_version": 2,
+      "model_version": "b62e0777ede2388bacbeed7939d72df8c23458e813f32044732f81ccb2b2a365",
+      "models": {
+        "pump": "d9c8a2487760443d49c69be73f0427341d6d8c88a8e3a8a88b5dc3a79039dde9",
+        "rug": "b2c4c124b991f582aeed3c43ba7c90dda0ce68d15a9fb87c3102b2b31dc17350"
+      },
+      "n_code_files": 6,
+      "policy_sha256": null,
+      "run_label": "fixed_cohort_20260916"
+    },
+    {
+      "config_version": "2b11e8e1aa9a2faf3cd5a9d2fe63c49289917c5b5d7f2cb75ee13422257b9b73",
+      "engine_version": "00263c634f47a02928b4e8bc80fe1c8a45743a8247626d278319c6d232037e23",
+      "measurement_version": 2,
+      "model_version": "b62e0777ede2388bacbeed7939d72df8c23458e813f32044732f81ccb2b2a365",
+      "models": {
+        "pump": "d9c8a2487760443d49c69be73f0427341d6d8c88a8e3a8a88b5dc3a79039dde9",
+        "rug": "b2c4c124b991f582aeed3c43ba7c90dda0ce68d15a9fb87c3102b2b31dc17350"
+      },
+      "n_code_files": 6,
+      "policy_sha256": null,
+      "run_label": "fixed_cohort_20260916"
+    },
+    {
+      "config_version": "2b11e8e1aa9a2faf3cd5a9d2fe63c49289917c5b5d7f2cb75ee13422257b9b73",
+      "engine_version": "00263c634f47a02928b4e8bc80fe1c8a45743a8247626d278319c6d232037e23",
+      "measurement_version": 2,
+      "model_version": "b62e0777ede2388bacbeed7939d72df8c23458e813f32044732f81ccb2b2a365",
+      "models": {
+        "pump": "d9c8a2487760443d49c69be73f0427341d6d8c88a8e3a8a88b5dc3a79039dde9",
+        "rug": "b2c4c124b991f582aeed3c43ba7c90dda0ce68d15a9fb87c3102b2b31dc17350"
+      },
+      "n_code_files": 6,
+      "policy_sha256": null,
+      "run_label": "fixed_cohort_20260916"
+    },
+    {
+      "config_version": "09f9447896fd4a80c5f30a293f04e9ac0206f9b4a09b5bfc06b7e31cba2eec12",
+      "engine_version": "379bdbe979f4d37b4aa0c0c8cf391a74e45ed5f7311edb4524bf4e6f267ae0df",
+      "measurement_version": 2,
+      "model_version": "6a35d039835dcbf16f822d5fe95d7218d49ed42a1dfd40f930f64f01f03d12e0",
+      "models": {
+        "pump": "3c895a1362c4014e6f470f27f0d845239b3b78e2e33fd4881c9ce1fbe59c8f5a",
+        "rug": "120d8fe79a7df36bafc672a5ba981bcde56d64a228ba65e716d7712bcdcc514b"
+      },
+      "n_code_files": 10,
+      "policy_sha256": "fee6292dba3121da4b0565197bc8af8f0d77f594f4951c2f4247911a005ca70a",
+      "run_label": "measurement_book_20260928"
+    },
+    {
+      "config_version": "64d64429945d6e8f55737ddc472cc9d3e2e9a735e8963b4f0e6460b9ed85ca70",
+      "engine_version": "22a03a71019e6a545fb03367dd97f148942207a1175b257925705b7c54963316",
+      "measurement_version": 2,
+      "model_version": "6a35d039835dcbf16f822d5fe95d7218d49ed42a1dfd40f930f64f01f03d12e0",
+      "models": {
+        "pump": "3c895a1362c4014e6f470f27f0d845239b3b78e2e33fd4881c9ce1fbe59c8f5a",
+        "rug": "120d8fe79a7df36bafc672a5ba981bcde56d64a228ba65e716d7712bcdcc514b"
+      },
+      "n_code_files": 10,
+      "policy_sha256": "fee6292dba3121da4b0565197bc8af8f0d77f594f4951c2f4247911a005ca70a",
+      "run_label": "measurement_book_20260928"
+    },
+    {
+      "config_version": "f4c22a896105c9d4f2e78c608ca4d3468fb17c558042e0bf7677671dce919656",
+      "engine_version": "1781323b29d5b839da2b4cec319c2a4f6c8a6fabb86bb60970b4fd751ca42cdd",
+      "measurement_version": 2,
+      "model_version": "6a35d039835dcbf16f822d5fe95d7218d49ed42a1dfd40f930f64f01f03d12e0",
+      "models": {
+        "pump": "3c895a1362c4014e6f470f27f0d845239b3b78e2e33fd4881c9ce1fbe59c8f5a",
+        "rug": "120d8fe79a7df36bafc672a5ba981bcde56d64a228ba65e716d7712bcdcc514b"
+      },
+      "n_code_files": 10,
+      "policy_sha256": "fee6292dba3121da4b0565197bc8af8f0d77f594f4951c2f4247911a005ca70a",
+      "run_label": "measurement_book_20260928"
+    }
+  ]
+}

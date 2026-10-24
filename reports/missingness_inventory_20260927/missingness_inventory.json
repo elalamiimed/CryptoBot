@@ -1,0 +1,76 @@
+{
+  "mechanisms": [
+    {
+      "meaning": "no valid entry basis (version or venue check failed) -- the row is NOT a measurement and must not enter a rate",
+      "mechanism": "missing_entry",
+      "stage": "outcome_status",
+      "where": "dm.outcome_quality -> status"
+    },
+    {
+      "meaning": "measurement_version predates the current contract -- excluded by version",
+      "mechanism": "legacy_unverified",
+      "stage": "outcome_status",
+      "where": "dm.outcome_quality -> status"
+    },
+    {
+      "meaning": "a basis exists but `covered(target)` is False -- carried as a LOWER BOUND, never as a zero",
+      "mechanism": "incomplete",
+      "stage": "outcome_status",
+      "where": "dm.outcome_quality -> status"
+    },
+    {
+      "meaning": "coverage satisfied -- the only status that supports a rate",
+      "mechanism": "complete_sampled",
+      "stage": "outcome_status",
+      "where": "dm.outcome_quality -> status"
+    },
+    {
+      "meaning": "a tape-priced REFUSAL is followable as a counterfactual, so it earns its own basis instead of being discarded as unverified",
+      "mechanism": "ENTRY_BASIS_VENUE / ENTRY_BASIS_TAPE",
+      "stage": "entry basis",
+      "where": "dm.ENTRY_BASIS_* + _price_refusal"
+    },
+    {
+      "meaning": "a token with no marks carries no rung evidence; `sizing.target_hit_rate` drops these rows explicitly",
+      "mechanism": "n_marks > 0",
+      "stage": "grading filter",
+      "where": "sizing.target_hit_rate"
+    },
+    {
+      "meaning": "written 1 only when a rung was OBSERVED; a miss is left blank rather than 0 unless the horizon completed",
+      "mechanism": "hit_<m>x empty",
+      "stage": "rung evidence",
+      "where": "live_paper_trader._shadow_finalize"
+    },
+    {
+      "meaning": "withheld when the horizon is incomplete -- never a 0 that would read as 'traded flat'",
+      "mechanism": "sim_pnl empty",
+      "stage": "P&L",
+      "where": "live_paper_trader._shadow_finalize"
+    },
+    {
+      "meaning": "'missing' == no NEW print; transport_ok separates a quiet pool (True) from a failed fetch (False)",
+      "mechanism": "missing + transport_ok",
+      "stage": "poll status",
+      "where": "live_paper_trader._shadow_poll"
+    },
+    {
+      "meaning": "NULL is an ABSENCE (reported, not an error); an exact 0.0 on a bag with a cost is a SILENT ZERO and IS an error, because COALESCE keeps it",
+      "mechanism": "cost_released_sol NULL vs 0.0",
+      "stage": "cost basis",
+      "where": "reconcile_lifecycles C5"
+    },
+    {
+      "meaning": "a failed query yields no verdict at all -- neither pass nor failure",
+      "mechanism": "COULD NOT RUN",
+      "stage": "money check",
+      "where": "reconcile_lifecycles Check.verdict"
+    },
+    {
+      "meaning": "a severity outside (0, 1] is REFUSED rather than clipped, so an invalid loss cannot size a ticket",
+      "mechanism": "loss_severity out of domain",
+      "stage": "sizing input",
+      "where": "sizing.kelly_fraction"
+    }
+  ]
+}

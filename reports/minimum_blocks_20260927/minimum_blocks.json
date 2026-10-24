@@ -1,0 +1,27 @@
+{
+  "closed_form_vs_simulation": [
+    {
+      "effect": 0.01,
+      "empirical_power": 0.8034,
+      "n": 17
+    },
+    {
+      "effect": 0.02,
+      "empirical_power": 0.8464,
+      "n": 5
+    },
+    {
+      "effect": 0.03,
+      "empirical_power": 0.81775,
+      "n": 2
+    },
+    {
+      "effect": 0.05,
+      "empirical_power": 0.0,
+      "n": 1
+    }
+  ],
+  "lag1_autocorrelation": -0.0571654382649893,
+  "n_observations": 78,
+  "sd": 0.01458
+}

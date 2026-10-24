@@ -1,0 +1,210 @@
+{
+  "books": {
+    "dev_dump_book_20260926": {
+      "action_mix": {
+        "buy": {
+          "cohort": 0.16216216216216217,
+          "decisions": 0.03003003003003003
+        },
+        "reject": {
+          "cohort": 0.02702702702702703,
+          "decisions": 0.021021021021021023
+        },
+        "skip": {
+          "cohort": 0.8108108108108109,
+          "decisions": 0.948948948948949
+        }
+      },
+      "fresh_arrival_fraction": 0.012012012012012012,
+      "gates": {
+        "informed_ratio": {
+          "diff": 0.0,
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean_a": 0.0,
+          "mean_b": 0.0,
+          "n_a": 37,
+          "n_b": 629,
+          "separated": false
+        },
+        "p_pump": {
+          "diff": 0.0064855202702703285,
+          "hi": 0.07168996975299581,
+          "lo": -0.058718929212455154,
+          "mean_a": 0.34893116216216225,
+          "mean_b": 0.3424456418918919,
+          "n_a": 37,
+          "n_b": 444,
+          "separated": false
+        },
+        "p_rug": {
+          "diff": -0.06096994594594585,
+          "hi": -0.002706100140253964,
+          "lo": -0.11923379175163773,
+          "mean_a": 0.545358918918919,
+          "mean_b": 0.6063288648648648,
+          "n_a": 37,
+          "n_b": 444,
+          "separated": true
+        }
+      },
+      "hit_rate_raw": 0.0,
+      "hit_rate_reweighted": 0.0,
+      "n_decisions": 666,
+      "n_graded": 37,
+      "strata": {
+        "buy": {
+          "decision_weight": 0.03003003003003003,
+          "hits": 0.0,
+          "n": 6,
+          "rate": 0.0
+        },
+        "reject": {
+          "decision_weight": 0.021021021021021023,
+          "hits": 0.0,
+          "n": 1,
+          "rate": 0.0
+        },
+        "skip": {
+          "decision_weight": 0.948948948948949,
+          "hits": 0.0,
+          "n": 30,
+          "rate": 0.0
+        }
+      }
+    },
+    "fixed_cohort_20260916": {
+      "action_mix": {
+        "observe": {
+          "cohort": 0.0,
+          "decisions": 0.4482758620689655
+        },
+        "skip": {
+          "cohort": 1.0,
+          "decisions": 0.5517241379310345
+        }
+      },
+      "fresh_arrival_fraction": 0.01567398119122257,
+      "gates": {
+        "informed_ratio": {
+          "diff": 0.0,
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean_a": 0.0,
+          "mean_b": 0.0,
+          "n_a": 32,
+          "n_b": 287,
+          "separated": false
+        },
+        "p_pump": {
+          "diff": -0.02324621787587411,
+          "hi": 0.021460774717120143,
+          "lo": -0.06795321046886836,
+          "mean_a": 0.31307265625,
+          "mean_b": 0.33631887412587413,
+          "n_a": 32,
+          "n_b": 143,
+          "separated": false
+        },
+        "p_rug": {
+          "diff": 0.018552052010489373,
+          "hi": 0.06144491840869932,
+          "lo": -0.024340814387720573,
+          "mean_a": 0.9480365625,
+          "mean_b": 0.9294845104895106,
+          "n_a": 32,
+          "n_b": 143,
+          "separated": false
+        }
+      },
+      "hit_rate_raw": 0.0,
+      "hit_rate_reweighted": 0.0,
+      "n_decisions": 319,
+      "n_graded": 32,
+      "strata": {
+        "skip": {
+          "decision_weight": 0.5517241379310345,
+          "hits": 0.0,
+          "n": 32,
+          "rate": 0.0
+        }
+      }
+    },
+    "measurement_book_20260928": {
+      "action_mix": {
+        "buy": {
+          "cohort": 0.09803921568627451,
+          "decisions": 0.051555555555555556
+        },
+        "reject": {
+          "cohort": 0.3333333333333333,
+          "decisions": 0.09244444444444444
+        },
+        "skip": {
+          "cohort": 0.5686274509803921,
+          "decisions": 0.856
+        }
+      },
+      "fresh_arrival_fraction": 0.011555555555555555,
+      "gates": {
+        "informed_ratio": {
+          "diff": 0.0,
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean_a": 0.0,
+          "mean_b": 0.0,
+          "n_a": 51,
+          "n_b": 1074,
+          "separated": false
+        },
+        "p_pump": {
+          "diff": 0.033997762455801994,
+          "hi": 0.07826251778862656,
+          "lo": -0.010266992877022561,
+          "mean_a": 0.4036504509803922,
+          "mean_b": 0.3696526885245902,
+          "n_a": 51,
+          "n_b": 793,
+          "separated": false
+        },
+        "p_rug": {
+          "diff": 0.008921564201468724,
+          "hi": 0.04498066057912,
+          "lo": -0.027137532176182554,
+          "mean_a": 0.6376337647058824,
+          "mean_b": 0.6287122005044137,
+          "n_a": 51,
+          "n_b": 793,
+          "separated": false
+        }
+      },
+      "hit_rate_raw": 0.0196078431372549,
+      "hit_rate_reweighted": 0.029517241379310343,
+      "n_decisions": 1125,
+      "n_graded": 51,
+      "strata": {
+        "buy": {
+          "decision_weight": 0.051555555555555556,
+          "hits": 0.0,
+          "n": 5,
+          "rate": 0.0
+        },
+        "reject": {
+          "decision_weight": 0.09244444444444444,
+          "hits": 0.0,
+          "n": 17,
+          "rate": 0.0
+        },
+        "skip": {
+          "decision_weight": 0.856,
+          "hits": 1.0,
+          "n": 29,
+          "rate": 0.034482758620689655
+        }
+      }
+    }
+  },
+  "separated": [
+    "dev_dump_book_20260926.p_rug"
+  ]
+}

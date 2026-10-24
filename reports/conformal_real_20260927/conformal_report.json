@@ -1,0 +1,421 @@
+{
+  "adaptive_level_runs": [
+    {
+      "alpha_target": 0.1,
+      "coverage": 0.917910447761194,
+      "final_alpha": 0.008500000000000021,
+      "gamma": 0.005,
+      "gap": 0.017910447761193993,
+      "gate": "rug",
+      "nominal": 0.9
+    },
+    {
+      "alpha_target": 0.1,
+      "coverage": 0.945273631840796,
+      "final_alpha": 0.031000000000000076,
+      "gamma": 0.02,
+      "gap": 0.045273631840796025,
+      "gate": "rug",
+      "nominal": 0.9
+    },
+    {
+      "alpha_target": 0.2,
+      "coverage": 0.7014925373134329,
+      "final_alpha": 0.3010000000000001,
+      "gamma": 0.005,
+      "gap": -0.09850746268656718,
+      "gate": "rug",
+      "nominal": 0.8
+    },
+    {
+      "alpha_target": 0.2,
+      "coverage": 0.6194029850746269,
+      "final_alpha": 0.6040000000000003,
+      "gamma": 0.02,
+      "gap": -0.18059701492537317,
+      "gate": "rug",
+      "nominal": 0.8
+    },
+    {
+      "alpha_target": 0.1,
+      "coverage": 0.9353233830845771,
+      "final_alpha": 0.2605000000000001,
+      "gamma": 0.005,
+      "gap": 0.035323383084577054,
+      "gate": "pump",
+      "nominal": 0.9
+    },
+    {
+      "alpha_target": 0.1,
+      "coverage": 0.5845771144278606,
+      "final_alpha": 0.7420000000000005,
+      "gamma": 0.02,
+      "gap": -0.3154228855721394,
+      "gate": "pump",
+      "nominal": 0.9
+    },
+    {
+      "alpha_target": 0.2,
+      "coverage": 0.6517412935323383,
+      "final_alpha": 0.5610000000000003,
+      "gamma": 0.005,
+      "gap": -0.1482587064676617,
+      "gate": "pump",
+      "nominal": 0.8
+    },
+    {
+      "alpha_target": 0.2,
+      "coverage": 0.20398009950248755,
+      "final_alpha": 0.999,
+      "gamma": 0.02,
+      "gap": -0.5960199004975125,
+      "gate": "pump",
+      "nominal": 0.8
+    }
+  ],
+  "base_rates": {
+    "calibration": {
+      "pump": 0.01990049751243781,
+      "rug": 0.08208955223880597
+    },
+    "evaluation": {
+      "pump": 0.01990049751243781,
+      "rug": 0.14925373134328357
+    }
+  },
+  "calibration_class_support": {
+    "n_calibration": 402,
+    "pump_positives": 8,
+    "rug_positives": 33
+  },
+  "calibration_window": [
+    "2026-09-14 12:18:37+00:00",
+    "2026-09-14 19:40:47+00:00"
+  ],
+  "conformal_version": 1,
+  "evaluation_window": [
+    "2026-09-14 19:45:05+00:00",
+    "2026-09-15 01:08:18+00:00"
+  ],
+  "individual_gate_decisiveness_note": "rug_only_decisive_rate is 0.000 at every split point, which is the reason the joint decisive count is 0; it is not evidence about the pump gate, which alone is decisive on 0-2% of tokens.",
+  "labelling_rule": {
+    "pump": "peak_mult >= 2.0",
+    "rug": "min_mult <= 0.5"
+  },
+  "levels": [
+    {
+      "abstain_reasons": {
+        "contradiction:no-rug-but-no-pump": 9,
+        "two-label:rug": 393
+      },
+      "alpha": 0.01,
+      "alpha_pump": 0.01,
+      "alpha_rug": 0.01,
+      "certifiable": true,
+      "coverage_gap_pump": -0.7163681592039801,
+      "coverage_gap_rug": -0.009900497512437823,
+      "coverage_pump": 0.2736318407960199,
+      "coverage_rug": 0.9800995024875622,
+      "decisive_coverage_pump": null,
+      "decisive_coverage_rug": null,
+      "decisive_rate": 0.0,
+      "mean_set_size_pump": 1.2587064676616915,
+      "mean_set_size_rug": 1.9776119402985075,
+      "n": 402,
+      "n_decisive": 0,
+      "nominal_joint": 0.98,
+      "quantile_pump": 0.94735,
+      "quantile_rug": 0.998009,
+      "verdict": "COVERAGE BELOW NOMINAL by 0.716: drift or non-exchangeability -- do not read the guarantee as holding (and nothing was decisive)"
+    },
+    {
+      "abstain_reasons": {
+        "contradiction:no-rug-but-no-pump": 28,
+        "two-label:rug": 374
+      },
+      "alpha": 0.02,
+      "alpha_pump": 0.02,
+      "alpha_rug": 0.02,
+      "certifiable": true,
+      "coverage_gap_pump": -0.7387064676616915,
+      "coverage_gap_rug": -0.044676616915422906,
+      "coverage_pump": 0.24129353233830847,
+      "coverage_rug": 0.9353233830845771,
+      "decisive_coverage_pump": null,
+      "decisive_coverage_rug": null,
+      "decisive_rate": 0.0,
+      "mean_set_size_pump": 1.2238805970149254,
+      "mean_set_size_rug": 1.9303482587064678,
+      "n": 402,
+      "n_decisive": 0,
+      "nominal_joint": 0.96,
+      "quantile_pump": 0.93591,
+      "quantile_rug": 0.996687,
+      "verdict": "COVERAGE BELOW NOMINAL by 0.739: drift or non-exchangeability -- do not read the guarantee as holding (and nothing was decisive)"
+    },
+    {
+      "abstain_reasons": {
+        "contradiction:no-rug-but-no-pump": 39,
+        "two-label:rug": 363
+      },
+      "alpha": 0.05,
+      "alpha_pump": 0.05,
+      "alpha_rug": 0.05,
+      "certifiable": true,
+      "coverage_gap_pump": -0.7883084577114428,
+      "coverage_gap_rug": -0.0420398009950248,
+      "coverage_pump": 0.16169154228855723,
+      "coverage_rug": 0.9079601990049752,
+      "decisive_coverage_pump": null,
+      "decisive_coverage_rug": null,
+      "decisive_rate": 0.0,
+      "mean_set_size_pump": 1.1393034825870647,
+      "mean_set_size_rug": 1.9029850746268657,
+      "n": 402,
+      "n_decisive": 0,
+      "nominal_joint": 0.8999999999999999,
+      "quantile_pump": 0.897428,
+      "quantile_rug": 0.995882,
+      "verdict": "COVERAGE BELOW NOMINAL by 0.788: drift or non-exchangeability -- do not read the guarantee as holding (and nothing was decisive)"
+    },
+    {
+      "abstain_reasons": {
+        "contradiction:no-rug-but-no-pump": 70,
+        "two-label:rug": 332
+      },
+      "alpha": 0.1,
+      "alpha_pump": 0.1,
+      "alpha_rug": 0.1,
+      "certifiable": true,
+      "coverage_gap_pump": -0.8328358208955224,
+      "coverage_gap_rug": -0.05920398009950256,
+      "coverage_pump": 0.06716417910447761,
+      "coverage_rug": 0.8407960199004975,
+      "decisive_coverage_pump": null,
+      "decisive_coverage_rug": null,
+      "decisive_rate": 0.0,
+      "mean_set_size_pump": 1.037313432835821,
+      "mean_set_size_rug": 1.8258706467661692,
+      "n": 402,
+      "n_decisive": 0,
+      "nominal_joint": 0.8,
+      "quantile_pump": 0.757444,
+      "quantile_rug": 0.993934,
+      "verdict": "COVERAGE BELOW NOMINAL by 0.833: drift or non-exchangeability -- do not read the guarantee as holding (and nothing was decisive)"
+    },
+    {
+      "abstain_reasons": {
+        "contradiction:no-rug-but-no-pump": 127,
+        "two-label:rug": 275
+      },
+      "alpha": 0.2,
+      "alpha_pump": 0.2,
+      "alpha_rug": 0.2,
+      "certifiable": true,
+      "coverage_gap_pump": -0.7502487562189055,
+      "coverage_gap_rug": -0.06616915422885572,
+      "coverage_pump": 0.04975124378109453,
+      "coverage_rug": 0.7338308457711443,
+      "decisive_coverage_pump": null,
+      "decisive_coverage_rug": null,
+      "decisive_rate": 0.0,
+      "mean_set_size_pump": 1.0149253731343284,
+      "mean_set_size_rug": 1.6840796019900497,
+      "n": 402,
+      "n_decisive": 0,
+      "nominal_joint": 0.6000000000000001,
+      "quantile_pump": 0.642707,
+      "quantile_rug": 0.989457,
+      "verdict": "COVERAGE BELOW NOMINAL by 0.750: drift or non-exchangeability -- do not read the guarantee as holding (and nothing was decisive)"
+    },
+    {
+      "abstain_reasons": {
+        "contradiction:no-rug-but-no-pump": 161,
+        "two-label:rug": 241
+      },
+      "alpha": 0.3,
+      "alpha_pump": 0.3,
+      "alpha_rug": 0.3,
+      "certifiable": true,
+      "coverage_gap_pump": -0.6626865671641791,
+      "coverage_gap_rug": -0.023383084577114355,
+      "coverage_pump": 0.03731343283582089,
+      "coverage_rug": 0.6766169154228856,
+      "decisive_coverage_pump": null,
+      "decisive_coverage_rug": null,
+      "decisive_rate": 0.0,
+      "mean_set_size_pump": 1.0,
+      "mean_set_size_rug": 1.599502487562189,
+      "n": 402,
+      "n_decisive": 0,
+      "nominal_joint": 0.39999999999999997,
+      "quantile_pump": 0.508972,
+      "quantile_rug": 0.986251,
+      "verdict": "COVERAGE BELOW NOMINAL by 0.663: drift or non-exchangeability -- do not read the guarantee as holding (and nothing was decisive)"
+    }
+  ],
+  "max_certifiable": {
+    "pump": 0.9975186104218362,
+    "rug": 0.9975186104218362
+  },
+  "n_calibration": 402,
+  "n_evaluation": 402,
+  "source": "<repo>\\archive\\finalization_20260917\\shadow_outcomes.csv",
+  "split_sensitivity_alpha_0_10": [
+    {
+      "abstain_reasons": {
+        "contradiction:no-rug-but-no-pump": 116,
+        "two-label:rug": 447
+      },
+      "alpha_pump": 0.1,
+      "alpha_rug": 0.1,
+      "cal_frac": 0.3,
+      "cal_pump_pos": 6,
+      "coverage_gap_pump": -0.8040852575488455,
+      "coverage_gap_rug": -0.08117229129662529,
+      "coverage_pump": 0.09591474245115453,
+      "coverage_rug": 0.8188277087033747,
+      "decisive_coverage_pump": null,
+      "decisive_coverage_rug": null,
+      "decisive_rate": 0.0,
+      "mean_set_size_pump": 1.0728241563055063,
+      "mean_set_size_rug": 1.7939609236234457,
+      "n": 563,
+      "n_cal": 241,
+      "n_decisive": 0,
+      "n_test": 563,
+      "nominal_joint": 0.8,
+      "pump_only_decisive_rate": 0.019538188277087035,
+      "quantile_pump": 0.824295,
+      "quantile_rug": 0.992383,
+      "rug_only_decisive_rate": 0.0,
+      "test_pump_pos": 10,
+      "test_rug_pos": 76,
+      "verdict": "COVERAGE BELOW NOMINAL by 0.804: drift or non-exchangeability -- do not read the guarantee as holding (and nothing was decisive)"
+    },
+    {
+      "abstain_reasons": {
+        "contradiction:no-rug-but-no-pump": 99,
+        "two-label:rug": 384
+      },
+      "alpha_pump": 0.1,
+      "alpha_rug": 0.1,
+      "cal_frac": 0.4,
+      "cal_pump_pos": 7,
+      "coverage_gap_pump": -0.8006211180124224,
+      "coverage_gap_rug": -0.08219461697722574,
+      "coverage_pump": 0.09937888198757763,
+      "coverage_rug": 0.8178053830227743,
+      "decisive_coverage_pump": null,
+      "decisive_coverage_rug": null,
+      "decisive_rate": 0.0,
+      "mean_set_size_pump": 1.0724637681159421,
+      "mean_set_size_rug": 1.795031055900621,
+      "n": 483,
+      "n_cal": 321,
+      "n_decisive": 0,
+      "n_test": 483,
+      "nominal_joint": 0.8,
+      "pump_only_decisive_rate": 0.0,
+      "quantile_pump": 0.826461,
+      "quantile_rug": 0.992816,
+      "rug_only_decisive_rate": 0.0,
+      "test_pump_pos": 9,
+      "test_rug_pos": 69,
+      "verdict": "COVERAGE BELOW NOMINAL by 0.801: drift or non-exchangeability -- do not read the guarantee as holding (and nothing was decisive)"
+    },
+    {
+      "abstain_reasons": {
+        "contradiction:no-rug-but-no-pump": 70,
+        "two-label:rug": 332
+      },
+      "alpha_pump": 0.1,
+      "alpha_rug": 0.1,
+      "cal_frac": 0.5,
+      "cal_pump_pos": 8,
+      "coverage_gap_pump": -0.8328358208955224,
+      "coverage_gap_rug": -0.05920398009950256,
+      "coverage_pump": 0.06716417910447761,
+      "coverage_rug": 0.8407960199004975,
+      "decisive_coverage_pump": null,
+      "decisive_coverage_rug": null,
+      "decisive_rate": 0.0,
+      "mean_set_size_pump": 1.037313432835821,
+      "mean_set_size_rug": 1.8258706467661692,
+      "n": 402,
+      "n_cal": 402,
+      "n_decisive": 0,
+      "n_test": 402,
+      "nominal_joint": 0.8,
+      "pump_only_decisive_rate": 0.009950248756218905,
+      "quantile_pump": 0.757444,
+      "quantile_rug": 0.993934,
+      "rug_only_decisive_rate": 0.0,
+      "test_pump_pos": 8,
+      "test_rug_pos": 60,
+      "verdict": "COVERAGE BELOW NOMINAL by 0.833: drift or non-exchangeability -- do not read the guarantee as holding (and nothing was decisive)"
+    },
+    {
+      "abstain_reasons": {
+        "contradiction:no-rug-but-no-pump": 52,
+        "two-label:rug": 270
+      },
+      "alpha_pump": 0.1,
+      "alpha_rug": 0.1,
+      "cal_frac": 0.6,
+      "cal_pump_pos": 10,
+      "coverage_gap_pump": -0.8316770186335404,
+      "coverage_gap_rug": -0.05217391304347829,
+      "coverage_pump": 0.06832298136645963,
+      "coverage_rug": 0.8478260869565217,
+      "decisive_coverage_pump": null,
+      "decisive_coverage_rug": null,
+      "decisive_rate": 0.0,
+      "mean_set_size_pump": 1.0372670807453417,
+      "mean_set_size_rug": 1.8385093167701863,
+      "n": 322,
+      "n_cal": 482,
+      "n_decisive": 0,
+      "n_test": 322,
+      "nominal_joint": 0.8,
+      "pump_only_decisive_rate": 0.018633540372670808,
+      "quantile_pump": 0.729347,
+      "quantile_rug": 0.994243,
+      "rug_only_decisive_rate": 0.0,
+      "test_pump_pos": 6,
+      "test_rug_pos": 44,
+      "verdict": "COVERAGE BELOW NOMINAL by 0.832: drift or non-exchangeability -- do not read the guarantee as holding (and nothing was decisive)"
+    },
+    {
+      "abstain_reasons": {
+        "contradiction:no-rug-but-no-pump": 38,
+        "two-label:rug": 204
+      },
+      "alpha_pump": 0.1,
+      "alpha_rug": 0.1,
+      "cal_frac": 0.7,
+      "cal_pump_pos": 12,
+      "coverage_gap_pump": -0.8504132231404959,
+      "coverage_gap_rug": -0.04876033057851237,
+      "coverage_pump": 0.049586776859504134,
+      "coverage_rug": 0.8512396694214877,
+      "decisive_coverage_pump": null,
+      "decisive_coverage_rug": null,
+      "decisive_rate": 0.0,
+      "mean_set_size_pump": 1.024793388429752,
+      "mean_set_size_rug": 1.8429752066115703,
+      "n": 242,
+      "n_cal": 562,
+      "n_decisive": 0,
+      "n_test": 242,
+      "nominal_joint": 0.8,
+      "pump_only_decisive_rate": 0.01652892561983471,
+      "quantile_pump": 0.722048,
+      "quantile_rug": 0.994672,
+      "rug_only_decisive_rate": 0.0,
+      "test_pump_pos": 4,
+      "test_rug_pos": 35,
+      "verdict": "COVERAGE BELOW NOMINAL by 0.850: drift or non-exchangeability -- do not read the guarantee as holding (and nothing was decisive)"
+    }
+  ]
+}

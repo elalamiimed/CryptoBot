@@ -1,0 +1,1807 @@
+{
+  "best_candidate": "min/max",
+  "best_median_abs_error": 0.06859840954037708,
+  "n_compared": 300,
+  "sample": [
+    {
+      "last/first": 10.041643026250425,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.6084877990413394,
+      "min/first": 0.8822609954260054,
+      "min/max": 0.08786022298538569,
+      "mint": "121bjjRtRGP8",
+      "n_trades": 221
+    },
+    {
+      "last/first": 12.202201707364646,
+      "last/max": 0.9747332013189621,
+      "melt_min_ratio": 0.0457329074012146,
+      "min/first": 1.0,
+      "min/max": 0.07988174795788382,
+      "mint": "123twmzQouro",
+      "n_trades": 321
+    },
+    {
+      "last/first": 13.4483382105163,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.6032754621270704,
+      "min/first": 1.0,
+      "min/max": 0.07435862961997955,
+      "mint": "124qCYyJs7RZ",
+      "n_trades": 9
+    },
+    {
+      "last/first": 6.0478753421288785,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.1938591129265546,
+      "min/first": 1.0,
+      "min/max": 0.16534732338712452,
+      "mint": "1253mearRnnQ",
+      "n_trades": 20
+    },
+    {
+      "last/first": 9.365961555905717,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.5979647654170366,
+      "min/first": 0.9246324116089952,
+      "min/max": 0.09872263580090902,
+      "mint": "126ZtUqgYgJj",
+      "n_trades": 209
+    },
+    {
+      "last/first": 14.089081055956196,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.7579247675705459,
+      "min/first": 1.0,
+      "min/max": 0.07097694988256507,
+      "mint": "127LNZfN3Pbn",
+      "n_trades": 773
+    },
+    {
+      "last/first": 13.047275763803853,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0477938280255489,
+      "min/first": 1.0,
+      "min/max": 0.07664435228495976,
+      "mint": "128UBAhNYKSr",
+      "n_trades": 10
+    },
+    {
+      "last/first": 13.354114107051949,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0209121940736873,
+      "min/first": 0.9089299172827803,
+      "min/max": 0.06806366262834303,
+      "mint": "12AfEaGpuqq8",
+      "n_trades": 12
+    },
+    {
+      "last/first": 14.014930786019072,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.968563569693352,
+      "min/first": 1.0,
+      "min/max": 0.07135247510444888,
+      "mint": "12c98AzyzaQ1",
+      "n_trades": 6
+    },
+    {
+      "last/first": 6.187230959706842,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.5073771286848355,
+      "min/first": 1.0,
+      "min/max": 0.16162318919599233,
+      "mint": "12CA8yij8RBm",
+      "n_trades": 94
+    },
+    {
+      "last/first": 3.872130315353524,
+      "last/max": 1.0,
+      "melt_min_ratio": 1.0,
+      "min/first": 1.0,
+      "min/max": 0.2582557709989418,
+      "mint": "12cihjfgS3P8",
+      "n_trades": 19
+    },
+    {
+      "last/first": 13.97178752281771,
+      "last/max": 1.0,
+      "melt_min_ratio": 1.0,
+      "min/first": 1.0,
+      "min/max": 0.07157280329140939,
+      "mint": "12cjErmnH7Nb",
+      "n_trades": 6
+    },
+    {
+      "last/first": 12.044076390000441,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0850306140500003,
+      "min/first": 1.0,
+      "min/max": 0.08302836744129646,
+      "mint": "12DaaMYzapxF",
+      "n_trades": 400
+    },
+    {
+      "last/first": 12.852326965228462,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0347228179256054,
+      "min/first": 1.0,
+      "min/max": 0.07780692186757046,
+      "mint": "12Dr6QHGL5Wj",
+      "n_trades": 105
+    },
+    {
+      "last/first": 13.354114115064418,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0114193169200601,
+      "min/first": 0.9739136122175652,
+      "min/max": 0.07292985546071673,
+      "mint": "12DsEDqA9sEb",
+      "n_trades": 10
+    },
+    {
+      "last/first": 14.371806863180133,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.1325852463069378,
+      "min/first": 0.9878307108187094,
+      "min/max": 0.06873392609731512,
+      "mint": "12fibP7odn9C",
+      "n_trades": 539
+    },
+    {
+      "last/first": 10.009920074211681,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.5005506073045893,
+      "min/first": 1.0,
+      "min/max": 0.09990089756823096,
+      "mint": "12FVeHe4Mm8U",
+      "n_trades": 72
+    },
+    {
+      "last/first": 10.209884051427526,
+      "last/max": 0.988193412434352,
+      "melt_min_ratio": 0.5252695120162569,
+      "min/first": 0.8841792900394801,
+      "min/max": 0.0855778719353558,
+      "mint": "12fvwiJhB8q9",
+      "n_trades": 211
+    },
+    {
+      "last/first": 10.972430200243418,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0450638815725535,
+      "min/first": 1.0,
+      "min/max": 0.09113751299851655,
+      "mint": "12gq3u7N7PVz",
+      "n_trades": 25
+    },
+    {
+      "last/first": 13.950004392498863,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0635081448238766,
+      "min/first": 1.0,
+      "min/max": 0.07168456524198055,
+      "mint": "12HzM4xusvaR",
+      "n_trades": 131
+    },
+    {
+      "last/first": 6.7704105565586366,
+      "last/max": 1.0,
+      "melt_min_ratio": 1.0,
+      "min/first": 1.0,
+      "min/max": 0.14770153030546712,
+      "mint": "12ifMz54Sq4A",
+      "n_trades": 64
+    },
+    {
+      "last/first": 12.868676771959995,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0869803177209876,
+      "min/first": 1.0,
+      "min/max": 0.07770806724891362,
+      "mint": "12ivzRaW5oXC",
+      "n_trades": 465
+    },
+    {
+      "last/first": 12.793361264782467,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.1061815958841288,
+      "min/first": 1.0,
+      "min/max": 0.07816554065058708,
+      "mint": "12iY44KgaEyq",
+      "n_trades": 37
+    },
+    {
+      "last/first": 14.117891329956441,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.8781285221896,
+      "min/first": 1.0,
+      "min/max": 0.07083210775805605,
+      "mint": "12jEjukmCUH5",
+      "n_trades": 6
+    },
+    {
+      "last/first": 13.97178752281771,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.8659739535924226,
+      "min/first": 1.0,
+      "min/max": 0.07157280329140939,
+      "mint": "12jRvdc7rSjU",
+      "n_trades": 6
+    },
+    {
+      "last/first": 13.121466507250714,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.8012862609096615,
+      "min/first": 0.928367465956458,
+      "min/max": 0.07075180700598191,
+      "mint": "12Kf3wZY8ngj",
+      "n_trades": 3795
+    },
+    {
+      "last/first": 12.593227444534909,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0656693492681226,
+      "min/first": 0.8575029602068965,
+      "min/max": 0.06809239045222103,
+      "mint": "12KtppUtYFhQ",
+      "n_trades": 12
+    },
+    {
+      "last/first": 6.289241397500309,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.1211388451845996,
+      "min/first": 1.0,
+      "min/max": 0.15900168824772018,
+      "mint": "12LHL2R7rNUu",
+      "n_trades": 30
+    },
+    {
+      "last/first": 13.97178752281771,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.8286355510256325,
+      "min/first": 1.0,
+      "min/max": 0.07157280329140939,
+      "mint": "12m8KjjEuZSQ",
+      "n_trades": 6
+    },
+    {
+      "last/first": 12.456932416036233,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0525920466171455,
+      "min/first": 1.0,
+      "min/max": 0.0802765854868624,
+      "mint": "12N3N1atFiZY",
+      "n_trades": 198
+    },
+    {
+      "last/first": 12.963366622158476,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0419140537484204,
+      "min/first": 1.0,
+      "min/max": 0.077140455033547,
+      "mint": "12N4NWy3PjhD",
+      "n_trades": 98
+    },
+    {
+      "last/first": 13.050163740985992,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.960764157959218,
+      "min/first": 0.9437618120420386,
+      "min/max": 0.07231800541153467,
+      "mint": "12pNQs9grusF",
+      "n_trades": 651
+    },
+    {
+      "last/first": 11.456575952866146,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0448539554592617,
+      "min/first": 1.0,
+      "min/max": 0.08728611446510118,
+      "mint": "12QFYkbXD8UE",
+      "n_trades": 137
+    },
+    {
+      "last/first": 12.6130727637186,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0796267582502862,
+      "min/first": 1.0,
+      "min/max": 0.07928282177809136,
+      "mint": "12rwpAXQPYd3",
+      "n_trades": 56
+    },
+    {
+      "last/first": 13.341718105932808,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.5296704803334845,
+      "min/first": 1.0,
+      "min/max": 0.07495286529516158,
+      "mint": "12tRBR9FTfhn",
+      "n_trades": 139
+    },
+    {
+      "last/first": 10.282424164236373,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.4143018541919173,
+      "min/first": 0.9099632007764475,
+      "min/max": 0.0884969522986048,
+      "mint": "12uy4Q3hLA3D",
+      "n_trades": 68
+    },
+    {
+      "last/first": 13.552682278645436,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.3212778351772682,
+      "min/first": 1.0,
+      "min/max": 0.07378613173686442,
+      "mint": "12wWZQfWMpdw",
+      "n_trades": 16
+    },
+    {
+      "last/first": 10.240702305110286,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.4801187000748476,
+      "min/first": 1.0,
+      "min/max": 0.09764955275586742,
+      "mint": "12XTEFhtDXEL",
+      "n_trades": 49
+    },
+    {
+      "last/first": 13.744176037323903,
+      "last/max": 0.9999815608207313,
+      "melt_min_ratio": 0.0548589378628572,
+      "min/first": 1.0,
+      "min/max": 0.0727567486115694,
+      "mint": "12y4gBa5BCtF",
+      "n_trades": 93
+    },
+    {
+      "last/first": 13.669578278620468,
+      "last/max": 0.9963463736018247,
+      "melt_min_ratio": 0.1233381094050406,
+      "min/first": 1.0,
+      "min/max": 0.07288786481146481,
+      "mint": "12YeGhwNmzaq",
+      "n_trades": 432
+    },
+    {
+      "last/first": 13.185615334405446,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.4639678556304221,
+      "min/first": 1.0,
+      "min/max": 0.07584022244230675,
+      "mint": "12ysAvApXX3N",
+      "n_trades": 569
+    },
+    {
+      "last/first": 8.011299844035504,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.3147442725824144,
+      "min/first": 0.6752202521128567,
+      "min/max": 0.0842834827378937,
+      "mint": "12ziu9W2RrqA",
+      "n_trades": 99
+    },
+    {
+      "last/first": 11.96004075323657,
+      "last/max": 1.0,
+      "melt_min_ratio": 1.0,
+      "min/first": 1.0,
+      "min/max": 0.08361175522996314,
+      "mint": "134bAzX2yysX",
+      "n_trades": 145
+    },
+    {
+      "last/first": 13.130016171237468,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0380289698088867,
+      "min/first": 1.0,
+      "min/max": 0.07616136849782361,
+      "mint": "134MGXpbv7WS",
+      "n_trades": 55
+    },
+    {
+      "last/first": 7.4714917104395075,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0451914850168834,
+      "min/first": 1.0,
+      "min/max": 0.1338420811740652,
+      "mint": "1369dK1ovahD",
+      "n_trades": 80
+    },
+    {
+      "last/first": 13.387803255272765,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.048399675259257,
+      "min/first": 1.0,
+      "min/max": 0.07469485328790977,
+      "mint": "136HqEHcBYW1",
+      "n_trades": 146
+    },
+    {
+      "last/first": 13.615627275145005,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0856961935864532,
+      "min/first": 1.0,
+      "min/max": 0.0734450187120997,
+      "mint": "137KwbeshXPQ",
+      "n_trades": 396
+    },
+    {
+      "last/first": 13.350873764186147,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.7947020419134291,
+      "min/first": 1.0,
+      "min/max": 0.07490146470282043,
+      "mint": "137sB2kQD6CD",
+      "n_trades": 1761
+    },
+    {
+      "last/first": 13.347335619319432,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0694021588722218,
+      "min/first": 1.0,
+      "min/max": 0.07492131976906033,
+      "mint": "1387rQ2QEKtp",
+      "n_trades": 114
+    },
+    {
+      "last/first": 7.396540641746396,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.8550277607167016,
+      "min/first": 0.664430119728908,
+      "min/max": 0.08982984775055998,
+      "mint": "138mxhGnStDV",
+      "n_trades": 952
+    },
+    {
+      "last/first": 8.308113326790972,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.402725521366488,
+      "min/first": 0.6855924235639289,
+      "min/max": 0.08252083193823508,
+      "mint": "138WGQyf9mtY",
+      "n_trades": 810
+    },
+    {
+      "last/first": 13.351935450893675,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0428710324265549,
+      "min/first": 1.0,
+      "min/max": 0.07489550887044379,
+      "mint": "138WxVx5rFE3",
+      "n_trades": 6
+    },
+    {
+      "last/first": 10.7659248263422,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.8277255210691088,
+      "min/first": 0.9377981699503488,
+      "min/max": 0.08710799908761507,
+      "mint": "139umgeVfmwa",
+      "n_trades": 135
+    },
+    {
+      "last/first": 9.758011577639351,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.2734284619607973,
+      "min/first": 0.800661082818094,
+      "min/max": 0.08205166354309544,
+      "mint": "13aoBrHDJ7or",
+      "n_trades": 1298
+    },
+    {
+      "last/first": 9.769114042958932,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.026323228956743,
+      "min/first": 1.0,
+      "min/max": 0.10236342779934561,
+      "mint": "13BH2K68ZKcB",
+      "n_trades": 57
+    },
+    {
+      "last/first": 13.889961417496428,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.894771782475147,
+      "min/first": 0.999999966700001,
+      "min/max": 0.07199443804360432,
+      "mint": "13BuVNhBNYbf",
+      "n_trades": 32
+    },
+    {
+      "last/first": 13.759199199930743,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0504211138645266,
+      "min/first": 1.0,
+      "min/max": 0.07267864833332985,
+      "mint": "13CVvVbTtwBq",
+      "n_trades": 137
+    },
+    {
+      "last/first": 6.6947491601885325,
+      "last/max": 1.0,
+      "melt_min_ratio": 1.0,
+      "min/first": 1.0,
+      "min/max": 0.14937079434531625,
+      "mint": "13Dcce9KRt7g",
+      "n_trades": 82
+    },
+    {
+      "last/first": 13.97178752281771,
+      "last/max": 1.0,
+      "melt_min_ratio": 1.0,
+      "min/first": 1.0,
+      "min/max": 0.07157280329140939,
+      "mint": "13eNFUJQkJCv",
+      "n_trades": 6
+    },
+    {
+      "last/first": 13.22672921705465,
+      "last/max": 0.9978981218755134,
+      "melt_min_ratio": 0.0602744003721883,
+      "min/first": 1.0,
+      "min/max": 0.0754455697625393,
+      "mint": "13eY6XE9MVcM",
+      "n_trades": 282
+    },
+    {
+      "last/first": 12.962209326454463,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0211318892817107,
+      "min/first": 0.885001777704708,
+      "min/max": 0.06827553508941685,
+      "mint": "13fEyDz9X7Ej",
+      "n_trades": 16
+    },
+    {
+      "last/first": 11.553943726652598,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.059397044788436,
+      "min/first": 1.0,
+      "min/max": 0.0865505340564541,
+      "mint": "13FsQqEWkZt7",
+      "n_trades": 204
+    },
+    {
+      "last/first": 14.014930786019072,
+      "last/max": 1.0,
+      "melt_min_ratio": 1.0,
+      "min/first": 1.0,
+      "min/max": 0.07135247510444888,
+      "mint": "13G1ULbNAkWk",
+      "n_trades": 6
+    },
+    {
+      "last/first": 13.97178752281771,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.7056808017538224,
+      "min/first": 1.0,
+      "min/max": 0.07157280329140939,
+      "mint": "13gYjrFiSwK1",
+      "n_trades": 6
+    },
+    {
+      "last/first": 14.369126259357683,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.4841188639309283,
+      "min/first": 1.0,
+      "min/max": 0.06959365391815418,
+      "mint": "13HGvpUVddPF",
+      "n_trades": 193
+    },
+    {
+      "last/first": 13.312367536260048,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.03461945238347,
+      "min/first": 1.0,
+      "min/max": 0.07511811834192629,
+      "mint": "13ip5WNzRhzQ",
+      "n_trades": 166
+    },
+    {
+      "last/first": 13.316132140207557,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0473736562214846,
+      "min/first": 1.0,
+      "min/max": 0.07509688169739152,
+      "mint": "13JDZDdNYgsm",
+      "n_trades": 28
+    },
+    {
+      "last/first": 13.691470877527102,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0382352908228672,
+      "min/first": 1.0,
+      "min/max": 0.07303817164314898,
+      "mint": "13JhnS5cc4yc",
+      "n_trades": 42
+    },
+    {
+      "last/first": 13.063798258386736,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0347970579785758,
+      "min/first": 1.0,
+      "min/max": 0.07654741601341072,
+      "mint": "13JwgP8sdjp4",
+      "n_trades": 62
+    },
+    {
+      "last/first": 12.777973901347856,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0601252701269419,
+      "min/first": 1.0,
+      "min/max": 0.07825966837313052,
+      "mint": "13MGY9gyUdVh",
+      "n_trades": 143
+    },
+    {
+      "last/first": 13.17999053214876,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0423152236336806,
+      "min/first": 1.0,
+      "min/max": 0.07587258864570427,
+      "mint": "13NByqCNgSDn",
+      "n_trades": 43
+    },
+    {
+      "last/first": 11.91397097660718,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0523506984577305,
+      "min/first": 1.0,
+      "min/max": 0.083935071015657,
+      "mint": "13NhfRWuBAuq",
+      "n_trades": 182
+    },
+    {
+      "last/first": 9.81687811522649,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.5215141702566406,
+      "min/first": 0.8519688885956348,
+      "min/max": 0.08678613288212131,
+      "mint": "13RLTJHfqAXd",
+      "n_trades": 339
+    },
+    {
+      "last/first": 12.990781424416669,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.060838530382352,
+      "min/first": 0.9798478165081703,
+      "min/max": 0.07542639541810078,
+      "mint": "13rpsUjkBPar",
+      "n_trades": 135
+    },
+    {
+      "last/first": 12.457653789571904,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.047736288685372,
+      "min/first": 0.8826692800024627,
+      "min/max": 0.07085357282454988,
+      "mint": "13S6DR2fMBWg",
+      "n_trades": 25
+    },
+    {
+      "last/first": 13.325966689016736,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.2136333815465718,
+      "min/first": 0.9336346832392982,
+      "min/max": 0.07006130999928133,
+      "mint": "13tKxGuLCoa5",
+      "n_trades": 445
+    },
+    {
+      "last/first": 13.39137464870695,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0663933867477519,
+      "min/first": 1.0,
+      "min/max": 0.07467493265126135,
+      "mint": "13tvoiaSbXAP",
+      "n_trades": 96
+    },
+    {
+      "last/first": 8.764729107533134,
+      "last/max": 1.0,
+      "melt_min_ratio": 1.0,
+      "min/first": 1.0,
+      "min/max": 0.11409365740014912,
+      "mint": "13ukyEb2rHXZ",
+      "n_trades": 33
+    },
+    {
+      "last/first": 13.810658117219969,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.1589025770425084,
+      "min/first": 1.0,
+      "min/max": 0.07240784555756537,
+      "mint": "13vsYe5TC9ni",
+      "n_trades": 86
+    },
+    {
+      "last/first": 9.790075384715474,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.8343766560776718,
+      "min/first": 1.0,
+      "min/max": 0.10214425943657458,
+      "mint": "13wZpVjeHzgz",
+      "n_trades": 167
+    },
+    {
+      "last/first": 13.66197515889281,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0495146887190155,
+      "min/first": 1.0,
+      "min/max": 0.07319585845894934,
+      "mint": "13XN7CT4rpap",
+      "n_trades": 411
+    },
+    {
+      "last/first": 13.937995105279997,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.1071351901875305,
+      "min/first": 1.0,
+      "min/max": 0.07174633026102725,
+      "mint": "13xuEo1fGqpA",
+      "n_trades": 282
+    },
+    {
+      "last/first": 13.670781099408238,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0291028980556631,
+      "min/first": 0.9359869323132566,
+      "min/max": 0.06846623653082795,
+      "mint": "13ymyaDziEq5",
+      "n_trades": 27
+    },
+    {
+      "last/first": 13.34026193732305,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0485757017532232,
+      "min/first": 1.0,
+      "min/max": 0.07496104684438205,
+      "mint": "13Z95SuSEFoU",
+      "n_trades": 467
+    },
+    {
+      "last/first": 6.733976186013284,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0437254149817568,
+      "min/first": 1.0,
+      "min/max": 0.14850067365504452,
+      "mint": "13zUTTEU2YUr",
+      "n_trades": 136
+    },
+    {
+      "last/first": 10.171396549871345,
+      "last/max": 0.9973663044157964,
+      "melt_min_ratio": 0.2260638806093655,
+      "min/first": 0.864986270988648,
+      "min/max": 0.08481708054900884,
+      "mint": "13ZZNsEr6169",
+      "n_trades": 529
+    },
+    {
+      "last/first": 7.467702084685281,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.7709139045444758,
+      "min/first": 0.6355793697230576,
+      "min/max": 0.08511043457752554,
+      "mint": "141YCgX5UqN6",
+      "n_trades": 480
+    },
+    {
+      "last/first": 10.035847761096688,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.6649674015097409,
+      "min/first": 0.8430094840840685,
+      "min/max": 0.08399982783237706,
+      "mint": "142iuzfSsLDy",
+      "n_trades": 2513
+    },
+    {
+      "last/first": 13.354239980615713,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0520625644668291,
+      "min/first": 0.911197908386404,
+      "min/max": 0.06823285411292962,
+      "mint": "145VdGuiyoSu",
+      "n_trades": 25
+    },
+    {
+      "last/first": 13.674495481265689,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.946637519188789,
+      "min/first": 1.0,
+      "min/max": 0.07312884057550924,
+      "mint": "1476AtsQNGU4",
+      "n_trades": 143
+    },
+    {
+      "last/first": 13.993263104435579,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.2915311088080413,
+      "min/first": 1.0,
+      "min/max": 0.0714629598926801,
+      "mint": "147gXU8bzNpX",
+      "n_trades": 41
+    },
+    {
+      "last/first": 7.281389605019854,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0339180464554232,
+      "min/first": 1.0,
+      "min/max": 0.13733642261232545,
+      "mint": "148S7fXSQMs1",
+      "n_trades": 102
+    },
+    {
+      "last/first": 12.919346592821089,
+      "last/max": 0.9751035794441827,
+      "melt_min_ratio": 0.7564024635238004,
+      "min/first": 1.0,
+      "min/max": 0.07547623035254893,
+      "mint": "149eV9govfbe",
+      "n_trades": 184
+    },
+    {
+      "last/first": 13.87355111755952,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0440803469941961,
+      "min/first": 1.0,
+      "min/max": 0.0720795989092019,
+      "mint": "149zwoah9vTL",
+      "n_trades": 64
+    },
+    {
+      "last/first": 13.30370976320368,
+      "last/max": 1.0,
+      "melt_min_ratio": 1.0,
+      "min/first": 0.9103763193809454,
+      "min/max": 0.06843026009924895,
+      "mint": "14A8mHHYnJs3",
+      "n_trades": 109
+    },
+    {
+      "last/first": 12.367769572413158,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0338854290560824,
+      "min/first": 0.8572173668134986,
+      "min/max": 0.06931058682768143,
+      "mint": "14aEHVXzoaJR",
+      "n_trades": 31
+    },
+    {
+      "last/first": 13.455036766356493,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.9556772884174972,
+      "min/first": 1.0,
+      "min/max": 0.07432161036530495,
+      "mint": "14aFmu7R2AH9",
+      "n_trades": 87
+    },
+    {
+      "last/first": 13.137648967392495,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.6689181250944694,
+      "min/first": 1.0,
+      "min/max": 0.0761171197740166,
+      "mint": "14AhKLnKv2ce",
+      "n_trades": 657
+    },
+    {
+      "last/first": 12.432950379279148,
+      "last/max": 0.9938050271372952,
+      "melt_min_ratio": 0.0790267624706759,
+      "min/first": 1.0,
+      "min/max": 0.0799331612224222,
+      "mint": "14AnJFQgnyGf",
+      "n_trades": 455
+    },
+    {
+      "last/first": 14.240208244675568,
+      "last/max": 0.984294882350969,
+      "melt_min_ratio": 0.6336239415364482,
+      "min/first": 1.0,
+      "min/max": 0.06912082080815063,
+      "mint": "14av7EWbARTM",
+      "n_trades": 1453
+    },
+    {
+      "last/first": 6.980670627625743,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0466482299267447,
+      "min/first": 1.0,
+      "min/max": 0.14325271214523963,
+      "mint": "14B3iUtbyLuh",
+      "n_trades": 94
+    },
+    {
+      "last/first": 7.303979705461059,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0504580837652181,
+      "min/first": 1.0,
+      "min/max": 0.13691166190567552,
+      "mint": "14b4Va7ZVNor",
+      "n_trades": 164
+    },
+    {
+      "last/first": 14.176599336164298,
+      "last/max": 1.0,
+      "melt_min_ratio": 1.0,
+      "min/first": 1.0,
+      "min/max": 0.07053877846776797,
+      "mint": "14bba9ZxNKBV",
+      "n_trades": 55
+    },
+    {
+      "last/first": 12.161445654965677,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0499069422312026,
+      "min/first": 1.0,
+      "min/max": 0.08222706645008827,
+      "mint": "14BxqBFUJmek",
+      "n_trades": 365
+    },
+    {
+      "last/first": 13.97178752281771,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0292330808542757,
+      "min/first": 1.0,
+      "min/max": 0.07157280329140939,
+      "mint": "14ciSHq8giNx",
+      "n_trades": 6
+    },
+    {
+      "last/first": 13.623810734208865,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.7754886234516033,
+      "min/first": 1.0,
+      "min/max": 0.07340090225189626,
+      "mint": "14cRxxEHQJ7q",
+      "n_trades": 112
+    },
+    {
+      "last/first": 12.562282868150882,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0590538799262308,
+      "min/first": 1.0,
+      "min/max": 0.07960336592446082,
+      "mint": "14GMfv95pd8M",
+      "n_trades": 329
+    },
+    {
+      "last/first": 12.133685833085604,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.7979481655163695,
+      "min/first": 1.0,
+      "min/max": 0.0824151880769192,
+      "mint": "14HDUZ5SSUp9",
+      "n_trades": 238
+    },
+    {
+      "last/first": 13.97178752281771,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.8151026928085983,
+      "min/first": 1.0,
+      "min/max": 0.07157280329140939,
+      "mint": "14hwvbrrQGzP",
+      "n_trades": 6
+    },
+    {
+      "last/first": 7.746031150204032,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0779421868905873,
+      "min/first": 0.7841545464783951,
+      "min/max": 0.10123307423799094,
+      "mint": "14iA1sSrLeKo",
+      "n_trades": 85
+    },
+    {
+      "last/first": 7.696113684342929,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.8099693987414391,
+      "min/first": 0.7730478448759098,
+      "min/max": 0.1004465210082081,
+      "mint": "14iFvqdztguh",
+      "n_trades": 243
+    },
+    {
+      "last/first": 14.493239805481197,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0074415408242921,
+      "min/first": 0.9866119408135345,
+      "min/max": 0.06807394026837311,
+      "mint": "14mQjiiUPqLz",
+      "n_trades": 10
+    },
+    {
+      "last/first": 12.243560637016417,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.045388120965324,
+      "min/first": 0.8337177100521312,
+      "min/max": 0.06809438322472314,
+      "mint": "14ni8uV6s8g8",
+      "n_trades": 18
+    },
+    {
+      "last/first": 8.37843739113275,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0815398854327538,
+      "min/first": 0.7306600965070098,
+      "min/max": 0.08720720372993394,
+      "mint": "14qHs3Q8JJw5",
+      "n_trades": 940
+    },
+    {
+      "last/first": 9.898073099069896,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.066446797573925,
+      "min/first": 1.0,
+      "min/max": 0.10102976508568806,
+      "mint": "14QWtcGk6saP",
+      "n_trades": 62
+    },
+    {
+      "last/first": 8.267555995347381,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0969760950970152,
+      "min/first": 0.6766698423310021,
+      "min/max": 0.08184641781825273,
+      "mint": "14qXBnieyPuy",
+      "n_trades": 513
+    },
+    {
+      "last/first": 13.61454961509852,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.1426261715819224,
+      "min/first": 1.0,
+      "min/max": 0.07345083225456105,
+      "mint": "14sj5Mcjk1At",
+      "n_trades": 194
+    },
+    {
+      "last/first": 12.915650248293188,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0685056759281115,
+      "min/first": 1.0,
+      "min/max": 0.07742544748237903,
+      "mint": "14Tvv1DSJg58",
+      "n_trades": 185
+    },
+    {
+      "last/first": 11.781858483524688,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0714809196152519,
+      "min/first": 0.8609817387498007,
+      "min/max": 0.07307690377997371,
+      "mint": "14uM4mU7BEen",
+      "n_trades": 957
+    },
+    {
+      "last/first": 9.380962115025124,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.3858059338163492,
+      "min/first": 0.8555471047800107,
+      "min/max": 0.09120035816046139,
+      "mint": "14VHeQSjcNTD",
+      "n_trades": 184
+    },
+    {
+      "last/first": 9.605137622039809,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.1708228569381146,
+      "min/first": 0.7862521772090032,
+      "min/max": 0.08185746088685708,
+      "mint": "14VxDrnwZ8KC",
+      "n_trades": 575
+    },
+    {
+      "last/first": 13.225878727162165,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0561574830480803,
+      "min/first": 0.9383808830322972,
+      "min/max": 0.0709503619676424,
+      "mint": "14WSNbDRbW9A",
+      "n_trades": 137
+    },
+    {
+      "last/first": 14.014930786019072,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.9910116736006136,
+      "min/first": 1.0,
+      "min/max": 0.07135247510444888,
+      "mint": "14WXMYCFCxxv",
+      "n_trades": 6
+    },
+    {
+      "last/first": 6.648405036945871,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.042835117196753,
+      "min/first": 1.0,
+      "min/max": 0.15041201527928838,
+      "mint": "14XvnHvpNnmv",
+      "n_trades": 139
+    },
+    {
+      "last/first": 14.014930786019072,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.7810542241066626,
+      "min/first": 1.0,
+      "min/max": 0.07135247510444888,
+      "mint": "14YRs8xy1g6T",
+      "n_trades": 6
+    },
+    {
+      "last/first": 13.749310958875352,
+      "last/max": 0.9847206539660095,
+      "melt_min_ratio": 0.1441425510762213,
+      "min/first": 1.0,
+      "min/max": 0.07161963657025008,
+      "mint": "17c1qg9QmfzU",
+      "n_trades": 72
+    },
+    {
+      "last/first": 13.827450107459935,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.1079089166201523,
+      "min/first": 1.0,
+      "min/max": 0.07231991381118766,
+      "mint": "17gCHYwk8rgS",
+      "n_trades": 340
+    },
+    {
+      "last/first": 13.768108412854941,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0159853248494449,
+      "min/first": 0.9402820588496038,
+      "min/max": 0.06829420793721276,
+      "mint": "17qGJh7cJnTT",
+      "n_trades": 10
+    },
+    {
+      "last/first": 8.797738924784158,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.2682286478054512,
+      "min/first": 1.0,
+      "min/max": 0.11366556890917673,
+      "mint": "19JEi9sVXYux",
+      "n_trades": 30
+    },
+    {
+      "last/first": 10.344837308342804,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.1161617977729576,
+      "min/first": 1.0,
+      "min/max": 0.09666657581879318,
+      "mint": "1aw4tTpsSWLn",
+      "n_trades": 240
+    },
+    {
+      "last/first": 13.966093868061392,
+      "last/max": 1.0,
+      "melt_min_ratio": 1.0,
+      "min/first": 1.0,
+      "min/max": 0.07160198187460759,
+      "mint": "1BTtsAMfuVRP",
+      "n_trades": 6
+    },
+    {
+      "last/first": 11.627391772873775,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0876041655960147,
+      "min/first": 1.0,
+      "min/max": 0.08600381061666458,
+      "mint": "1bVb3ffhJTra",
+      "n_trades": 8
+    },
+    {
+      "last/first": 5.049015763608659,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0211088202359469,
+      "min/first": 1.0,
+      "min/max": 0.19805840322535948,
+      "mint": "1Cdk9o7NUoTA",
+      "n_trades": 3
+    },
+    {
+      "last/first": 5.049015763608659,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0229618645776945,
+      "min/first": 1.0,
+      "min/max": 0.19805840322535948,
+      "mint": "1DBRxmQKNGvp",
+      "n_trades": 3
+    },
+    {
+      "last/first": 13.502226300224287,
+      "last/max": 0.9909322404878798,
+      "melt_min_ratio": 0.0534633490799703,
+      "min/first": 1.0,
+      "min/max": 0.07339028530957294,
+      "mint": "1eNGJwmiqPKV",
+      "n_trades": 833
+    },
+    {
+      "last/first": 6.941105541608628,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0430198874066191,
+      "min/first": 1.0,
+      "min/max": 0.14406926879377865,
+      "mint": "1f3jtVg4BQ7e",
+      "n_trades": 120
+    },
+    {
+      "last/first": 13.97178752281771,
+      "last/max": 1.0,
+      "melt_min_ratio": 1.0,
+      "min/first": 1.0,
+      "min/max": 0.07157280329140939,
+      "mint": "1FyikXwdp5QU",
+      "n_trades": 6
+    },
+    {
+      "last/first": 13.457584147907468,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0389684620884299,
+      "min/first": 1.0,
+      "min/max": 0.07430754205282016,
+      "mint": "1gc6yARWMqZK",
+      "n_trades": 6
+    },
+    {
+      "last/first": 13.21442962693895,
+      "last/max": 1.0,
+      "melt_min_ratio": 1.0,
+      "min/first": 0.9381551642543435,
+      "min/max": 0.07099475276192167,
+      "mint": "1GitgbbcseeL",
+      "n_trades": 46
+    },
+    {
+      "last/first": 12.045848863161188,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.7334546418455238,
+      "min/first": 0.9277752880308135,
+      "min/max": 0.07702033277772155,
+      "mint": "1h8Ft5jbTXBj",
+      "n_trades": 312
+    },
+    {
+      "last/first": 13.439452498789086,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.1483461766744408,
+      "min/first": 1.0,
+      "min/max": 0.07440779303249902,
+      "mint": "1hs2A588k24R",
+      "n_trades": 234
+    },
+    {
+      "last/first": 12.564673781048684,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.1087426437288766,
+      "min/first": 0.9569819119549916,
+      "min/max": 0.07616448533653208,
+      "mint": "1hvYsVpQYbKj",
+      "n_trades": 591
+    },
+    {
+      "last/first": 4.790669604044789,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.8715349673245535,
+      "min/first": 1.0,
+      "min/max": 0.20873908715301395,
+      "mint": "1JfvfpY9vFEg",
+      "n_trades": 30
+    },
+    {
+      "last/first": 13.249747798399117,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0523202718432182,
+      "min/first": 1.0,
+      "min/max": 0.07547313467512368,
+      "mint": "1KzbCcRKdQsk",
+      "n_trades": 341
+    },
+    {
+      "last/first": 12.935870364237726,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.1518084057238155,
+      "min/first": 1.0,
+      "min/max": 0.07730442342438604,
+      "mint": "1Lxt6zCQ7jzk",
+      "n_trades": 269
+    },
+    {
+      "last/first": 12.996576729044795,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0612276940216611,
+      "min/first": 1.0,
+      "min/max": 0.07694333829963058,
+      "mint": "1mbx7Kvx7Dek",
+      "n_trades": 27
+    },
+    {
+      "last/first": 13.930842350379908,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0534709481428601,
+      "min/first": 1.0,
+      "min/max": 0.07178316822835404,
+      "mint": "1nMag6Sj3N7X",
+      "n_trades": 7
+    },
+    {
+      "last/first": 12.593273406328569,
+      "last/max": 1.0,
+      "melt_min_ratio": 1.0,
+      "min/first": 0.8577886221879231,
+      "min/max": 0.06811482563039199,
+      "mint": "1nnEfY45GcMT",
+      "n_trades": 16
+    },
+    {
+      "last/first": 12.864889138942344,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0404584681693544,
+      "min/first": 1.0,
+      "min/max": 0.0777309457702962,
+      "mint": "1oLjY4Ygx8J1",
+      "n_trades": 7
+    },
+    {
+      "last/first": 13.946286747799183,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.2975956812831176,
+      "min/first": 1.0,
+      "min/max": 0.07170367410936869,
+      "mint": "1ooTWyFaUXxA",
+      "n_trades": 3609
+    },
+    {
+      "last/first": 5.792089149964738,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.9645139652714614,
+      "min/first": 1.0,
+      "min/max": 0.17264927629887877,
+      "mint": "1PwSGcGkXKNX",
+      "n_trades": 20
+    },
+    {
+      "last/first": 11.735273400596508,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0994244971041675,
+      "min/first": 1.0,
+      "min/max": 0.08521318301362878,
+      "mint": "1QLhEq52vCLj",
+      "n_trades": 130
+    },
+    {
+      "last/first": 6.649969741478494,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.5506725925997217,
+      "min/first": 1.0,
+      "min/max": 0.150376624086363,
+      "mint": "1QU34hPk3dvh",
+      "n_trades": 4
+    },
+    {
+      "last/first": 14.238748962311933,
+      "last/max": 1.0,
+      "melt_min_ratio": 1.0,
+      "min/first": 1.0,
+      "min/max": 0.07023088914952196,
+      "mint": "1qUH5q3Xo5z7",
+      "n_trades": 730
+    },
+    {
+      "last/first": 13.1058208309346,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.3704204593966367,
+      "min/first": 1.0,
+      "min/max": 0.07630197397782433,
+      "mint": "1RWmRXCvKhju",
+      "n_trades": 121
+    },
+    {
+      "last/first": 13.640593304431896,
+      "last/max": 0.0004070529838369845,
+      "melt_min_ratio": 0.1606437171042429,
+      "min/first": 0.9481003281489945,
+      "min/max": 2.829254262895462e-05,
+      "mint": "1skqGmQPzeZZ",
+      "n_trades": 31
+    },
+    {
+      "last/first": 12.862182296784049,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0805318835389578,
+      "min/first": 1.0,
+      "min/max": 0.0777473042230191,
+      "mint": "1sXZ3urQEGts",
+      "n_trades": 294
+    },
+    {
+      "last/first": 10.930014539249454,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.2420539585202578,
+      "min/first": 1.0,
+      "min/max": 0.0914911866227644,
+      "mint": "1tLx68iCUT1U",
+      "n_trades": 41
+    },
+    {
+      "last/first": 14.060681220707139,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0720169905633315,
+      "min/first": 1.0,
+      "min/max": 0.07112030948595163,
+      "mint": "1ujkJN6poGS9",
+      "n_trades": 23
+    },
+    {
+      "last/first": 13.984725035117048,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.5139115220769048,
+      "min/first": 1.0,
+      "min/max": 0.07150659004656149,
+      "mint": "1uQWgFxDmjWt",
+      "n_trades": 6
+    },
+    {
+      "last/first": 5.466923588936561,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0432072306424692,
+      "min/first": 1.0,
+      "min/max": 0.18291823248155592,
+      "mint": "1WWdi69HTLeS",
+      "n_trades": 380
+    },
+    {
+      "last/first": 11.390551904718647,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.7537308947023096,
+      "min/first": 1.0,
+      "min/max": 0.08779205857318821,
+      "mint": "1xdtu7y3Lkkr",
+      "n_trades": 5
+    },
+    {
+      "last/first": 13.350704632775212,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.141866770876425,
+      "min/first": 1.0,
+      "min/max": 0.07490241358085757,
+      "mint": "1xtS1ZgCtmUM",
+      "n_trades": 1572
+    },
+    {
+      "last/first": 13.15509653058972,
+      "last/max": 1.0,
+      "melt_min_ratio": 1.0,
+      "min/first": 0.8958041004480259,
+      "min/max": 0.06809559309314081,
+      "mint": "1yoXX6jMWXkN",
+      "n_trades": 10
+    },
+    {
+      "last/first": 13.808900070337907,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0921104152178786,
+      "min/first": 1.0,
+      "min/max": 0.07241706398817685,
+      "mint": "214gAizhguaF",
+      "n_trades": 345
+    },
+    {
+      "last/first": 12.239208560633745,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0306195082928301,
+      "min/first": 1.0,
+      "min/max": 0.08170462943301784,
+      "mint": "216i6XEiMjrF",
+      "n_trades": 221
+    },
+    {
+      "last/first": 14.454382998554372,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0458399304019599,
+      "min/first": 0.999999998,
+      "min/max": 0.06918316735484406,
+      "mint": "218Fx9m8ZGqx",
+      "n_trades": 6
+    },
+    {
+      "last/first": 14.361461892378623,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.2020570846482459,
+      "min/first": 1.0,
+      "min/max": 0.06963079437829951,
+      "mint": "219jqrxuGDh1",
+      "n_trades": 1522
+    },
+    {
+      "last/first": 13.206108744329317,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0857100930200281,
+      "min/first": 1.0,
+      "min/max": 0.07572253260669222,
+      "mint": "21AoR31TEgZY",
+      "n_trades": 1065
+    },
+    {
+      "last/first": 11.838531521221366,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.2203730872662844,
+      "min/first": 1.0,
+      "min/max": 0.08446993600578184,
+      "mint": "21B2cGKanQAx",
+      "n_trades": 389
+    },
+    {
+      "last/first": 13.13314404979091,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0358555288021351,
+      "min/first": 1.0,
+      "min/max": 0.07614322939036983,
+      "mint": "21BQfJo8Ekw2",
+      "n_trades": 141
+    },
+    {
+      "last/first": 13.295127355385016,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.6838863186329865,
+      "min/first": 1.0,
+      "min/max": 0.07521552620516743,
+      "mint": "21bZHq4a1sjk",
+      "n_trades": 132
+    },
+    {
+      "last/first": 13.296890848020489,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.7903015249051549,
+      "min/first": 1.0,
+      "min/max": 0.07520555078850408,
+      "mint": "21dm8xF8KBHZ",
+      "n_trades": 158
+    },
+    {
+      "last/first": 14.062808893055255,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0323800798140687,
+      "min/first": 0.9578355067130526,
+      "min/max": 0.06811125103079996,
+      "mint": "21DSobF4YyR5",
+      "n_trades": 18
+    },
+    {
+      "last/first": 12.800450861430027,
+      "last/max": 0.9351137876440595,
+      "melt_min_ratio": 0.0595760983872592,
+      "min/first": 1.0,
+      "min/max": 0.07305319146700677,
+      "mint": "21DtMGdBYpLV",
+      "n_trades": 310
+    },
+    {
+      "last/first": 13.99409398583208,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0958764857946918,
+      "min/first": 1.0,
+      "min/max": 0.07145871687101868,
+      "mint": "21dxURdR97xL",
+      "n_trades": 719
+    },
+    {
+      "last/first": 13.174187420531535,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.04461764458332,
+      "min/first": 1.0,
+      "min/max": 0.07590600984175563,
+      "mint": "21hBGCqq4izn",
+      "n_trades": 66
+    },
+    {
+      "last/first": 3.83344900193454,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.7571391380817508,
+      "min/first": 1.0,
+      "min/max": 0.26086169386767705,
+      "mint": "21Hw8Jc5gwDD",
+      "n_trades": 2
+    },
+    {
+      "last/first": 13.980922514365744,
+      "last/max": 0.9987404471591617,
+      "melt_min_ratio": 0.0938584760791599,
+      "min/first": 1.0,
+      "min/max": 0.07143594753013838,
+      "mint": "21HyEKf4FpEC",
+      "n_trades": 1304
+    },
+    {
+      "last/first": 14.218061038506594,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0559844296421941,
+      "min/first": 1.0,
+      "min/max": 0.07033307827921914,
+      "mint": "21mGxNyEf8LT",
+      "n_trades": 606
+    },
+    {
+      "last/first": 14.274818650837013,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0472777120178267,
+      "min/first": 0.9985355762534531,
+      "min/max": 0.06995084145569187,
+      "mint": "21Mkkc1T8W4Z",
+      "n_trades": 9
+    },
+    {
+      "last/first": 12.557159865014965,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.4269651142318345,
+      "min/first": 0.9093235652202909,
+      "min/max": 0.07241474784068995,
+      "mint": "21mRGp47yF4o",
+      "n_trades": 1877
+    },
+    {
+      "last/first": 14.25178208696255,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.2743238296876463,
+      "min/first": 0.9942832257226853,
+      "min/max": 0.0697655366645165,
+      "mint": "21MXgeZTm1yy",
+      "n_trades": 823
+    },
+    {
+      "last/first": 14.416259747251654,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0360093112127207,
+      "min/first": 1.0,
+      "min/max": 0.06936611975173672,
+      "mint": "21Nr87MHhf6Q",
+      "n_trades": 81
+    },
+    {
+      "last/first": 13.389289709375863,
+      "last/max": 1.0,
+      "melt_min_ratio": 1.0,
+      "min/first": 0.9757483405528602,
+      "min/max": 0.07287528776598146,
+      "mint": "21nrngqpfAqy",
+      "n_trades": 185
+    },
+    {
+      "last/first": 12.752521153783606,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.180926095057745,
+      "min/first": 1.0,
+      "min/max": 0.07841586678751011,
+      "mint": "21q7owscwusD",
+      "n_trades": 1276
+    },
+    {
+      "last/first": 14.167311879083915,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.194456272550123,
+      "min/first": 1.0,
+      "min/max": 0.07058502054129001,
+      "mint": "21QV72LDtdXF",
+      "n_trades": 447
+    },
+    {
+      "last/first": 13.681548311475094,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0461382545467904,
+      "min/first": 1.0,
+      "min/max": 0.07309114270066,
+      "mint": "21Riupo1yT6R",
+      "n_trades": 105
+    },
+    {
+      "last/first": 14.333486574380615,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.1040532883525784,
+      "min/first": 1.0,
+      "min/max": 0.06976669596826356,
+      "mint": "21RvieCC5caw",
+      "n_trades": 54
+    },
+    {
+      "last/first": 4.988615049928256,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.2387962821892613,
+      "min/first": 1.0,
+      "min/max": 0.2004564373060578,
+      "mint": "21Sdms6xMPpf",
+      "n_trades": 518
+    },
+    {
+      "last/first": 13.983590390446873,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.051640355341648,
+      "min/first": 1.0,
+      "min/max": 0.07151239217384163,
+      "mint": "21sf2vkGxFka",
+      "n_trades": 252
+    },
+    {
+      "last/first": 12.584956136804196,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0569433451747123,
+      "min/first": 1.0,
+      "min/max": 0.07945995116149356,
+      "mint": "21XR6AEvBwTW",
+      "n_trades": 50
+    },
+    {
+      "last/first": 12.269697221432969,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.37199052523811,
+      "min/first": 0.9087427338879877,
+      "min/max": 0.07406399012850753,
+      "mint": "21yqVUGvtEcs",
+      "n_trades": 286
+    },
+    {
+      "last/first": 5.352920154155649,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0463054156653206,
+      "min/first": 1.0,
+      "min/max": 0.186813920477343,
+      "mint": "221dLHhiAr3W",
+      "n_trades": 94
+    },
+    {
+      "last/first": 14.315416029392527,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0336416856572486,
+      "min/first": 1.0,
+      "min/max": 0.0698547634205525,
+      "mint": "224uExQphWQp",
+      "n_trades": 140
+    },
+    {
+      "last/first": 12.542750829517308,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0555470678683127,
+      "min/first": 1.0,
+      "min/max": 0.0797273272499892,
+      "mint": "2258WsY8NBQD",
+      "n_trades": 72
+    },
+    {
+      "last/first": 12.152011538526912,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.3097936522654402,
+      "min/first": 1.0,
+      "min/max": 0.08229090277190618,
+      "mint": "229vWzBTiUNd",
+      "n_trades": 273
+    },
+    {
+      "last/first": 13.509302284716105,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.9211155862623096,
+      "min/first": 1.0,
+      "min/max": 0.07402306787755877,
+      "mint": "22AQQyy4AAzD",
+      "n_trades": 296
+    },
+    {
+      "last/first": 13.390969422105567,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.0697336269603399,
+      "min/first": 1.0,
+      "min/max": 0.07467719240320408,
+      "mint": "22BDoDL8VPyZ",
+      "n_trades": 252
+    },
+    {
+      "last/first": 3.9622377211702458,
+      "last/max": 1.0,
+      "melt_min_ratio": 0.6735536239336246,
+      "min/first": 1.0,
+      "min/max": 0.25238263586684806,
+      "mint": "22BdxXRZLGxV",
+      "n_trades": 133
+    }
+  ]
+}

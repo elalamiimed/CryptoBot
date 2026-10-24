@@ -1,0 +1,101 @@
+{
+  "column_present": {
+    "decisions": true,
+    "positions": true,
+    "shadow_outcomes": true,
+    "trades": true
+  },
+  "defects": [],
+  "generated_utc": "2026-09-28T00:58:36+00:00",
+  "invariant_1_orphans": {
+    "decisions": {
+      "orphans": 0
+    },
+    "shadow_outcomes": {
+      "orphans": 0
+    },
+    "trades": {
+      "orphans": 0
+    }
+  },
+  "invariant_2_mislinkage": {
+    "decisions": {
+      "compared_on": "token_address",
+      "compared_run": true,
+      "mismatched_rows": 0
+    },
+    "trades": {
+      "compared_on": "token_address",
+      "compared_run": true,
+      "mismatched_rows": 0
+    }
+  },
+  "invariant_3_span": {
+    "decisions": {
+      "distinct_ids": 113,
+      "ids_not_in_positions": 0,
+      "shared_with_positions": 113
+    },
+    "distinct_position_ids": 113,
+    "shadow_outcomes": {
+      "distinct_ids": 5,
+      "ids_not_in_positions": 0,
+      "shared_with_positions": 5
+    },
+    "trades": {
+      "distinct_ids": 113,
+      "ids_not_in_positions": 0,
+      "shared_with_positions": 113
+    }
+  },
+  "invariant_4_uniqueness": {
+    "duplicate_position_ids": 0
+  },
+  "migrations": {
+    "applied": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "path": "<local-temp>\\snap.sqlite3",
+    "version_after": 7,
+    "version_before": 3,
+    "views": 11
+  },
+  "population": {
+    "decisions": {
+      "empty": 0,
+      "frac_linked": 0.041,
+      "linked": 113,
+      "null": 2646,
+      "rows": 2759
+    },
+    "positions": {
+      "empty": 0,
+      "frac_linked": 1.0,
+      "linked": 113,
+      "null": 0,
+      "rows": 113
+    },
+    "shadow_outcomes": {
+      "empty": 0,
+      "frac_linked": 0.098,
+      "linked": 5,
+      "null": 46,
+      "rows": 51
+    },
+    "trades": {
+      "empty": 0,
+      "frac_linked": 1.0,
+      "linked": 293,
+      "null": 0,
+      "rows": 293
+    }
+  },
+  "schema_after": 7,
+  "schema_before": 3,
+  "snapshot_bytes": 17031168,
+  "source": "<repo>\\coin_database.sqlite3",
+  "verdict": "CLEAN"
+}

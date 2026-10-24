@@ -1,0 +1,22 @@
+{
+  "attainable": 113,
+  "ceiling_frac": 0.041,
+  "decisions_total": 2759,
+  "linked": 113,
+  "linked_of_ceiling": 1.0,
+  "selection": {
+    "p_pump": {
+      "mean_linked": 0.5423,
+      "mean_unlinked": 0.3505,
+      "n_linked": 113,
+      "n_unlinked": 1918
+    },
+    "p_rug": {
+      "mean_linked": 0.452,
+      "mean_unlinked": 0.6337,
+      "n_linked": 113,
+      "n_unlinked": 1918
+    }
+  },
+  "unambiguous_ceiling": 113
+}

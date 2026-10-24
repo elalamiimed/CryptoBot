@@ -1,0 +1,92 @@
+{
+  "buy_arm": [
+    {
+      "book": "dev_dump_book_20260926",
+      "buy_rate": 0.03007518796992481,
+      "buys": 20,
+      "decisions": 665,
+      "graded_buy_per_hour": 0.14856901934408784
+    },
+    {
+      "book": "measurement_book_20260928",
+      "buy_rate": 0.051555555555555556,
+      "buys": 58,
+      "decisions": 1125,
+      "graded_buy_per_hour": 0.21566643882433356
+    }
+  ],
+  "horizons": [
+    {
+      "days": 7,
+      "graded_tokens": 829.9065420560746,
+      "resolvable_diff": 0.04810813257782308
+    },
+    {
+      "days": 30,
+      "graded_tokens": 3556.7423230974628,
+      "resolvable_diff": 0.023238435791362134
+    },
+    {
+      "days": 90,
+      "graded_tokens": 10670.22696929239,
+      "resolvable_diff": 0.01341671715968876
+    }
+  ],
+  "rates": {
+    "dev_dump_book_20260926": {
+      "decisions_per_hour": 88.78504672897196,
+      "graded_fraction": 0.055639097744360905,
+      "graded_per_hour": 4.939919893190921,
+      "n_buys": 20,
+      "n_decisions": 665,
+      "n_graded": 37,
+      "span_hours": 7.49
+    },
+    "fixed_cohort_20260916": {
+      "decisions_per_hour": 6.655115062094704,
+      "graded_fraction": 0.0,
+      "graded_per_hour": 0.0,
+      "n_buys": 0,
+      "n_decisions": 319,
+      "n_graded": 0,
+      "span_hours": 47.933055555555555
+    },
+    "measurement_book_20260928": {
+      "decisions_per_hour": 92.27614490772386,
+      "graded_fraction": 0.04533333333333334,
+      "graded_per_hour": 4.183185235816815,
+      "n_buys": 58,
+      "n_decisions": 1125,
+      "n_graded": 51,
+      "span_hours": 12.191666666666666
+    }
+  },
+  "reference_book": "dev_dump_book_20260926",
+  "rows": [
+    {
+      "days_at_decisions_rate": 5.334043859649122,
+      "days_at_graded_rate": 95.86862612612613,
+      "diff": 0.013,
+      "per_arm_n": 11366
+    },
+    {
+      "days_at_decisions_rate": 2.2535701754385964,
+      "days_at_graded_rate": 40.50335585585586,
+      "diff": 0.02,
+      "per_arm_n": 4802
+    },
+    {
+      "days_at_decisions_rate": 0.360890350877193,
+      "days_at_graded_rate": 6.486272522522523,
+      "diff": 0.05,
+      "per_arm_n": 769
+    },
+    {
+      "days_at_decisions_rate": 0.09057456140350878,
+      "days_at_graded_rate": 1.6278941441441441,
+      "diff": 0.1,
+      "per_arm_n": 193
+    }
+  ],
+  "target_mult": 4.0
+}

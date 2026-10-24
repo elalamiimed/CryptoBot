@@ -1,0 +1,15 @@
+{
+  "path": "melt_full_features_frame.joblib",
+  "bytes": 1735141597,
+  "type": "dict",
+  "keys": [
+    "provenance",
+    "df",
+    "meta"
+  ],
+  "value_desc": {
+    "provenance": "dict",
+    "df": "DataFrame shape=(42106, 49)",
+    "meta": "dict"
+  }
+}

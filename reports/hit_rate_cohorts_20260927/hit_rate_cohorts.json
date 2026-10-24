@@ -1,0 +1,111 @@
+{
+  "books": {
+    "dev_dump_book_20260926": {
+      "actions": {
+        "buy": 6,
+        "reject_gate1": 1,
+        "skip_depth": 4,
+        "skip_pairing": 2,
+        "skip_quote": 6,
+        "skip_stale": 3,
+        "skip_thin": 15
+      },
+      "all": {
+        "ci_hi": 0.0940578258771955,
+        "ci_lo": 0.0,
+        "k": 0,
+        "label": "all",
+        "n": 37,
+        "rate": 0.0
+      },
+      "buy": {
+        "ci_hi": 0.390334288013856,
+        "ci_lo": 0.0,
+        "k": 0,
+        "label": "buy",
+        "n": 6,
+        "rate": 0.0
+      },
+      "declined": {
+        "ci_hi": 0.11025539550647792,
+        "ci_lo": 0.0,
+        "k": 0,
+        "label": "declined",
+        "n": 31,
+        "rate": 0.0
+      },
+      "n_decisions": 663,
+      "n_graded": 37
+    },
+    "fixed_cohort_20260916": {
+      "n_decisions": 319,
+      "n_graded": 0
+    },
+    "measurement_book_20260928": {
+      "actions": {
+        "buy": 5,
+        "reject_gate1": 17,
+        "skip_depth": 5,
+        "skip_pairing": 3,
+        "skip_stale": 3,
+        "skip_thin": 18
+      },
+      "all": {
+        "ci_hi": 0.1030456872919653,
+        "ci_lo": 0.0034696926399192807,
+        "k": 1,
+        "label": "all",
+        "n": 51,
+        "rate": 0.0196078431372549
+      },
+      "buy": {
+        "ci_hi": 0.4344824648984954,
+        "ci_lo": 0.0,
+        "k": 0,
+        "label": "buy",
+        "n": 5,
+        "rate": 0.0
+      },
+      "declined": {
+        "ci_hi": 0.11335294524831394,
+        "ci_lo": 0.003847854256784085,
+        "k": 1,
+        "label": "declined",
+        "n": 46,
+        "rate": 0.021739130434782608
+      },
+      "n_decisions": 1125,
+      "n_graded": 51
+    }
+  },
+  "pooled": {
+    "buy": {
+      "ci_hi": 0.25883296705806935,
+      "ci_lo": 2.7755575615628914e-17,
+      "k": 0,
+      "label": "buy",
+      "n": 11,
+      "rate": 0.0
+    },
+    "declined": {
+      "ci_hi": 0.06996198916825117,
+      "ci_lo": 0.0022962172963689534,
+      "k": 1,
+      "label": "declined",
+      "n": 77,
+      "rate": 0.012987012987012988
+    }
+  },
+  "resolvable": {
+    "diff": 0.012987012987012988,
+    "intervals_overlap": true,
+    "per_arm_n_needed": 11389
+  },
+  "target_mult": 4.0,
+  "time_to_resolve": {
+    "days": 64.39545181186169,
+    "decisions": 2107,
+    "decisions_per_hour": 7.36917986153885,
+    "span_hours": 285.92055555555555
+  }
+}

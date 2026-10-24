@@ -1,0 +1,399 @@
+{
+  "version": 1,
+  "generated_utc": "2026-09-27T17:14:20+00:00",
+  "scan_path": "strategy_reports\\atomic_manipulation_20260928\\atomic_scan.json",
+  "scan_version": 1,
+  "n_high": 34890,
+  "n_low": 1878,
+  "n_medium_excluded": 4702,
+  "1_high_rate_by_activity": {
+    "edges": [
+      30.0,
+      116.0,
+      293.0,
+      752.0
+    ],
+    "table": [
+      {
+        "band": 0,
+        "n": 8296,
+        "swap_range": [
+          null,
+          30.0
+        ],
+        "high_rate": 0.9951
+      },
+      {
+        "band": 1,
+        "n": 8320,
+        "swap_range": [
+          30.0,
+          116.0
+        ],
+        "high_rate": 0.9602
+      },
+      {
+        "band": 2,
+        "n": 8274,
+        "swap_range": [
+          116.0,
+          293.0
+        ],
+        "high_rate": 0.8774
+      },
+      {
+        "band": 3,
+        "n": 8293,
+        "swap_range": [
+          293.0,
+          752.0
+        ],
+        "high_rate": 0.7737
+      },
+      {
+        "band": 4,
+        "n": 8287,
+        "swap_range": [
+          752.0,
+          null
+        ],
+        "high_rate": 0.5997
+      }
+    ]
+  },
+  "2_auc_within_activity_band": {
+    "split_tok_share": [
+      0.6523,
+      0.5954,
+      0.4984,
+      0.445,
+      0.3936
+    ],
+    "fanout_tok_share": [
+      0.6468,
+      0.5109,
+      0.5081,
+      0.5033,
+      0.504
+    ],
+    "entity_shrink": [
+      0.5136,
+      0.5974,
+      0.5108,
+      0.4523,
+      0.4013
+    ],
+    "split_max_wallets": [
+      0.6465,
+      0.5925,
+      0.5172,
+      0.4976,
+      0.5174
+    ],
+    "repeat_tranches": [
+      0.5036,
+      0.5049,
+      0.499,
+      0.4986,
+      0.4953
+    ],
+    "h50_ratio": [
+      0.356,
+      0.4224,
+      0.4707,
+      0.5142,
+      0.5914
+    ],
+    "ent_h50": [
+      0.5262,
+      0.2658,
+      0.386,
+      0.4034,
+      0.3496
+    ],
+    "n_buyers": [
+      0.7243,
+      0.3544,
+      0.4079,
+      0.4392,
+      0.3625
+    ],
+    "n_swap": [
+      0.7428,
+      0.3538,
+      0.4362,
+      0.4583,
+      0.4051
+    ]
+  },
+  "3_incremental_over_baseline": {
+    "split_tok_share": {
+      "threshold_p90": 0.061401,
+      "n_flagged": 663,
+      "n_flagged_high": 425,
+      "precision": 0.641,
+      "baseline_false_accept": 3818,
+      "false_accept_after": 3393,
+      "frac_of_error_removed": 0.1113,
+      "retention_kept": 0.9
+    },
+    "fanout_tok_share": {
+      "threshold_p90": 0.0,
+      "n_flagged": 97,
+      "n_flagged_high": 68,
+      "precision": 0.701,
+      "baseline_false_accept": 3818,
+      "false_accept_after": 3750,
+      "frac_of_error_removed": 0.0178,
+      "retention_kept": 0.9854
+    },
+    "entity_shrink": {
+      "threshold_p90": 0.053247,
+      "n_flagged": 663,
+      "n_flagged_high": 314,
+      "precision": 0.4736,
+      "baseline_false_accept": 3818,
+      "false_accept_after": 3504,
+      "frac_of_error_removed": 0.0822,
+      "retention_kept": 0.9
+    },
+    "split_max_wallets": {
+      "threshold_p90": 3.0,
+      "n_flagged": 502,
+      "n_flagged_high": 390,
+      "precision": 0.7769,
+      "baseline_false_accept": 3818,
+      "false_accept_after": 3428,
+      "frac_of_error_removed": 0.1021,
+      "retention_kept": 0.9243
+    },
+    "ent_h50": {
+      "threshold_p90": 60.0,
+      "n_flagged": 610,
+      "n_flagged_high": 243,
+      "precision": 0.3984,
+      "baseline_false_accept": 3818,
+      "false_accept_after": 3575,
+      "frac_of_error_removed": 0.0636,
+      "retention_kept": 0.908
+    }
+  },
+  "4_mechanism_rate_by_band": {
+    "fanout_tok_share": [
+      {
+        "band": 0,
+        "label": "high",
+        "n": 8255,
+        "frac_nonzero": 0.2935,
+        "median": 0.0
+      },
+      {
+        "band": 0,
+        "label": "low",
+        "n": 19,
+        "frac_nonzero": 0.0,
+        "median": 0.0
+      },
+      {
+        "band": 1,
+        "label": "high",
+        "n": 7989,
+        "frac_nonzero": 0.0413,
+        "median": 0.0
+      },
+      {
+        "band": 1,
+        "label": "low",
+        "n": 99,
+        "frac_nonzero": 0.0202,
+        "median": 0.0
+      },
+      {
+        "band": 2,
+        "label": "high",
+        "n": 7260,
+        "frac_nonzero": 0.0303,
+        "median": 0.0
+      },
+      {
+        "band": 2,
+        "label": "low",
+        "n": 352,
+        "frac_nonzero": 0.0142,
+        "median": 0.0
+      },
+      {
+        "band": 3,
+        "label": "high",
+        "n": 6416,
+        "frac_nonzero": 0.0242,
+        "median": 0.0
+      },
+      {
+        "band": 3,
+        "label": "low",
+        "n": 511,
+        "frac_nonzero": 0.0176,
+        "median": 0.0
+      },
+      {
+        "band": 4,
+        "label": "high",
+        "n": 4970,
+        "frac_nonzero": 0.0169,
+        "median": 0.0
+      },
+      {
+        "band": 4,
+        "label": "low",
+        "n": 897,
+        "frac_nonzero": 0.0089,
+        "median": 0.0
+      }
+    ],
+    "split_tok_share": [
+      {
+        "band": 0,
+        "label": "high",
+        "n": 8255,
+        "frac_nonzero": 0.5386,
+        "median": 0.47622
+      },
+      {
+        "band": 0,
+        "label": "low",
+        "n": 19,
+        "frac_nonzero": 0.4211,
+        "median": 0.0
+      },
+      {
+        "band": 1,
+        "label": "high",
+        "n": 7989,
+        "frac_nonzero": 0.2841,
+        "median": 0.0
+      },
+      {
+        "band": 1,
+        "label": "low",
+        "n": 99,
+        "frac_nonzero": 0.1111,
+        "median": 0.0
+      },
+      {
+        "band": 2,
+        "label": "high",
+        "n": 7260,
+        "frac_nonzero": 0.5116,
+        "median": 7.8e-05
+      },
+      {
+        "band": 2,
+        "label": "low",
+        "n": 352,
+        "frac_nonzero": 0.5398,
+        "median": 0.000463
+      },
+      {
+        "band": 3,
+        "label": "high",
+        "n": 6416,
+        "frac_nonzero": 0.8396,
+        "median": 0.00476
+      },
+      {
+        "band": 3,
+        "label": "low",
+        "n": 511,
+        "frac_nonzero": 0.9198,
+        "median": 0.007473
+      },
+      {
+        "band": 4,
+        "label": "high",
+        "n": 4970,
+        "frac_nonzero": 0.96,
+        "median": 0.016011
+      },
+      {
+        "band": 4,
+        "label": "low",
+        "n": 897,
+        "frac_nonzero": 0.9955,
+        "median": 0.023863
+      }
+    ],
+    "entity_shrink": [
+      {
+        "band": 0,
+        "label": "high",
+        "n": 8255,
+        "frac_nonzero": 0.5392,
+        "median": 0.4
+      },
+      {
+        "band": 0,
+        "label": "low",
+        "n": 19,
+        "frac_nonzero": 0.4211,
+        "median": 0.0
+      },
+      {
+        "band": 1,
+        "label": "high",
+        "n": 7989,
+        "frac_nonzero": 0.2935,
+        "median": 0.0
+      },
+      {
+        "band": 1,
+        "label": "low",
+        "n": 99,
+        "frac_nonzero": 0.1212,
+        "median": 0.0
+      },
+      {
+        "band": 2,
+        "label": "high",
+        "n": 7260,
+        "frac_nonzero": 0.5244,
+        "median": 0.005814
+      },
+      {
+        "band": 2,
+        "label": "low",
+        "n": 352,
+        "frac_nonzero": 0.5597,
+        "median": 0.006192
+      },
+      {
+        "band": 3,
+        "label": "high",
+        "n": 6416,
+        "frac_nonzero": 0.8446,
+        "median": 0.012
+      },
+      {
+        "band": 3,
+        "label": "low",
+        "n": 511,
+        "frac_nonzero": 0.9237,
+        "median": 0.015152
+      },
+      {
+        "band": 4,
+        "label": "high",
+        "n": 4970,
+        "frac_nonzero": 0.9606,
+        "median": 0.02314
+      },
+      {
+        "band": 4,
+        "label": "low",
+        "n": 897,
+        "frac_nonzero": 0.9955,
+        "median": 0.029126
+      }
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "generated_utc": "2026-09-28T01:12:20+00:00",
+  "purpose": "GOAL.md section 17's completion criterion: an explicit promote/do-not-promote decision for each filter family. Records conclusions only -- nothing is enabled.",
+  "outcomes_used": [
+    "DO_NOT_ENABLE",
+    "NOT_MEASURABLE",
+    "INSUFFICIENT",
+    "NOT_AVAILABLE",
+    "NOT_EVALUABLE_ZERO_VARIANCE"
+  ],
+  "constraint_check": {
+    "model_promoted": false,
+    "real_money_trade": false,
+    "new_filter_enabled": false
+  },
+  "families": [
+    {
+      "family": "F3",
+      "name": "Atomic manipulation / adjusted activity",
+      "decision": "DO_NOT_ENABLE",
+      "evidence": "strategy_reports/atomic_manipulation_20260928/{atomic_analysis,atomic_incremental}.json; strategy_reports/comparison_ladder_20260928/ladder_clean_jump.json",
+      "rationale": "The patterns ARE detectable -- `melt_atomic_scan.py` scanned all 45,609 tapes and independently reproduced 1.715% of transactions carrying >=2 same-side wallets, matching the earlier V3 measurement. But the family is confounded with activity at the label level (high-risk rate falls 0.9951 -> 0.5997 across n_swap quintiles, and n_swap alone separates the label at AUC 0.79), so separation collapses inside activity bands. Scored on REALISED net return under the deployed exit policy, and restricted to boundary-clean tokens, the F3 rungs worsen or do nothing -- none improves. Do not enable.",
+      "numbers": {
+        "F3_only_split_share": {
+          "delta_median_net": -0.00758,
+          "p": 0.0005
+        },
+        "F3_only_fanout": {
+          "delta_median_net": -0.001594,
+          "p": 0.1049
+        },
+        "F3_only_repeat": {
+          "delta_median_net": 0.000812,
+          "p": 0.4778
+        }
+      }
+    },
+    {
+      "family": "F4",
+      "name": "Entity-adjusted ownership concentration",
+      "decision": "DO_NOT_ENABLE",
+      "evidence": "strategy_reports/atomic_manipulation_20260928/atomic_incremental.json; strategy_reports/comparison_ladder_20260928/ladder_clean_jump.json",
+      "rationale": "The entity adjustment is REAL: merging same-transaction co-buyers changes the exact-volume holders-to-50% count for 37.75% of tokens (mean ratio 0.8806, zero monotonicity violations) and is 4x stronger on high-risk than low-risk. But it is not a filter -- on realised net return the two F4 rungs significantly WORSEN the median, and `ent_h50` scored worse than the baseline it was meant to improve. Do not enable.",
+      "numbers": {
+        "F4_only_entity_shrink": {
+          "delta_median_net": -0.006407,
+          "p": 0.0005
+        },
+        "F4_only_split_wallets": {
+          "delta_median_net": -0.006622,
+          "p": 0.0005
+        }
+      }
+    },
+    {
+      "family": "F5",
+      "name": "Creator-cluster historical reputation",
+      "decision": "NOT_MEASURABLE",
+      "evidence": "tmp/_f5_support.py (measured this round); strategy_reports/identity_span_20260928/attribution_ceiling.json",
+      "rationale": "CORRECTED REASON. An earlier version of this record said F5 failed for 'no matured per-creator outcomes'. That was ASSERTED, not measured, and it is wrong about half the requirement: creator IDENTITY IS AVAILABLE -- `decisions.feature_json` carries `curve_creator` on 1,036 decisions across 768 distinct creators. What is missing is SUPPORT: only 53 creators ever reach a bought position (a matured outcome), 52 of them with exactly ONE, and NO creator has the 5+ matured outcomes a rate needs. So the verdict stands but the reason is sample size, not absent data. No decision is available; this is not a do-not-promote.",
+      "numbers": {
+        "creators_distinct": 768,
+        "decisions_with_creator": 1036,
+        "creators_seen_twice_or_more": 81,
+        "creators_with_any_outcome": 53,
+        "creators_with_5plus_outcomes": 0
+      }
+    },
+    {
+      "family": "F6",
+      "name": "Historically informed-wallet flow",
+      "decision": "NOT_MEASURABLE",
+      "evidence": "tests/test_identity_span.py; strategy_reports/fixture_coverage_20260928/fixture_coverage.json",
+      "rationale": "Needs forward markouts joined to a per-wallet history. MEASURED this round: the `trades` table carries NO wallet identity -- only the book's own fills (token, pool, px, pnl, position_id). So the bot cannot know which wallets traded, and the section-17 fixture category 'wallet skill / flow' is the ONLY one of ten with zero test evidence. The informed-wallet registry is additionally disabled as contaminated (4a.43). No decision is available; this is not a do-not-promote.",
+      "numbers": {
+        "fixture_categories_with_no_evidence": [
+          "6. wallet skill / flow"
+        ]
+      }
+    },
+    {
+      "family": "F7",
+      "name": "Manipulation-adjusted flow and breadth",
+      "decision": "NOT_MEASURABLE",
+      "evidence": "strategy_reports/atomic_manipulation_20260928/atomic_analysis.json",
+      "rationale": "Needs order-flow imbalance per entity with venue attribution. The tape gives per-token aggregates (signed per-wallet sums within a transaction), not an OFI series per entity over time, so the series F7 is defined on cannot be built from it. No decision is available.",
+      "numbers": {}
+    },
+    {
+      "family": "F8",
+      "name": "Executable net value and exit capacity",
+      "decision": "INSUFFICIENT",
+      "evidence": "strategy_reports/exit_capacity_20260928/capacity_analysis.json; strategy_reports/policy_replay_20260928/migration_jump_crosscheck.json",
+      "rationale": "Two findings, neither promotable. (1) CapacITY IS NOT the binding constraint at the deployed 0.01 SOL: the notional sits inside the observed trade-size spectrum for 99.98% of tokens and only 7 of 45,792 cannot absorb it from an entire hour of flow. (2) The net-return replay is NOT ADMISSIBLE: its take-profit engine is a migration-boundary artifact (take-profit tokens carry a 4.70x larger first-print/curve-price jump, and their first print sits BELOW their own median price). F8 cannot be promoted on evidence that cannot distinguish an edge from the boundary.",
+      "numbers": {
+        "tokens_whose_whole_hour_trades_less_than_notional": 7,
+        "notional_share_of_hour_median": 1e-05,
+        "take_profit_jump_ratio_vs_corpus": 4.6994
+      }
+    },
+    {
+      "family": "F9",
+      "name": "Calibration, prediction sets, abstention",
+      "decision": "DO_NOT_ENABLE",
+      "evidence": "strategy_reports/conformal_real_20260927/conformal_report.json",
+      "rationale": "The conformal gate is decisive on 0% of evaluations at EVERY alpha from 0.01 to 0.3 over 402 real outcomes, so there is no accepted subset to value and no accuracy/retention tradeoff to report. A gate that never acts cannot improve a policy. Do not enable.",
+      "numbers": {
+        "n_evaluation": 402,
+        "decisive_rate_by_alpha": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "family": "--",
+      "name": "Frozen candidate policy + fresh prospective cohort",
+      "decision": "NOT_AVAILABLE",
+      "evidence": "strategy_reports/promotion_rubric_20260928/promotion_rubric.json",
+      "rationale": "Phase F item 4 / Phase G require ONE candidate policy frozen BEFORE a fresh prospective cohort. No such cohort exists and the current book is a development set. This is an OPERATOR act, not a research step.",
+      "numbers": {}
+    },
+    {
+      "family": "F5b",
+      "name": "Creator-SOLD exposure (not reputation)",
+      "decision": "NOT_EVALUABLE_ZERO_VARIANCE",
+      "evidence": "tmp/_evaluate_f5b.py; strategy_reports/family_decisions_20260928/f5b_evaluation.json",
+      "rationale": "The F5 measurement separated two features that had been conflated: creator REPUTATION needs history and has none, while creator-SOLD exposure needs no history and IS a recorded per-decision observable. It was recorded as a candidate and then EVALUATED, and the evaluation returns a bounded negative: on the bought population `dev_sell_share` is IDENTICALLY 0.0 (0 of 53 nonzero), so it is a CONSTANT and a constant carries no information -- this is not 'underpowered', it is categorically not evaluable as a predictor. The by-action distribution explains why: nonzero values live almost entirely in `skip` (590 of 922, 64.0%), while BOTH `reject` (0 of 63) and `buy` (0 of 55) are 0.0% -- so the creator-sold condition is resolved BEFORE the gates, not by them. A gate that already requires the creator to hold cannot be credited with the outcome difference later. NOT enabled, NOT promoted.",
+      "numbers": {
+        "n_evaluable": 53,
+        "n_nonzero_on_evaluable": 0,
+        "skip_nonzero_pct": 64.0,
+        "reject_nonzero_pct": 0.0,
+        "buy_nonzero_pct": 0.0
+      }
+    }
+  ],
+  "measurement_limits": [
+    {
+      "limit": "decision -> position attribution ceiling",
+      "value": 0.041,
+      "detail": "only 4.10% of decisions can ever link to an outcome, because a decision links only where the book bought; and the linkable subset is selected on p_rug/p_pump (the gates themselves)"
+    },
+    {
+      "limit": "first ~95-100 s of DEX trading is unobserved",
+      "value": 95,
+      "detail": "the first post-migration print arrives a median 100 s after the last curve swap, so marks['60'] exists for 0 of 44,862 tokens and every take-profit lives inside that gap"
+    },
+    {
+      "limit": "no quotes anywhere in the corpus",
+      "value": null,
+      "detail": "the tapes hold EXECUTED trades, so depth-at-size, impact, slippage, fill probability and fees-at-size are unobservable -- this is what blocks Phase E items 1-3"
+    },
+    {
+      "limit": "no wallet identity on the book's trades",
+      "value": null,
+      "detail": "`trades` records the bot's own fills only, so per-wallet skill (F6) and section-17 category 6 have no data source"
+    }
+  ],
+  "summary": {
+    "DO_NOT_ENABLE": 3,
+    "NOT_MEASURABLE": 3,
+    "INSUFFICIENT": 1,
+    "NOT_AVAILABLE": 1,
+    "NOT_EVALUABLE_ZERO_VARIANCE": 1
+  }
+}

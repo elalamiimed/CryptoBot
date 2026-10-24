@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "generated_utc": "2026-09-27T23:44:28+00:00",
+  "restriction": {
+    "jump_lo": 0.5,
+    "jump_hi": 2.0,
+    "measured_property": "first post print / last curve price",
+    "declared_before": "no return was inspected to choose the band"
+  },
+  "n_all": 29974,
+  "n_clean": 27021,
+  "seed": 20260928,
+  "retention": 0.9015,
+  "baseline_all": {
+    "n": 29974,
+    "median_net": 0.015814,
+    "mean_net": 6.9349,
+    "win_rate": 0.547
+  },
+  "baseline_clean": {
+    "n": 27021,
+    "median_net": 0.004958,
+    "mean_net": 0.1558,
+    "win_rate": 0.518
+  },
+  "take_profit_rate": {
+    "all": 0.0509,
+    "clean": 0.0103
+  },
+  "rungs_clean": {
+    "F3_only_split_share": {
+      "n_kept": 23201,
+      "retention": 0.8586,
+      "median_net_kept": -0.002622,
+      "median_net_dropped": 0.074375,
+      "delta_median_net": -0.00758,
+      "boot_p_median": 0.0005
+    },
+    "F3_only_fanout": {
+      "n_kept": 26210,
+      "retention": 0.97,
+      "median_net_kept": 0.003364,
+      "median_net_dropped": 0.112436,
+      "delta_median_net": -0.001594,
+      "boot_p_median": 0.1049
+    },
+    "F3_only_repeat": {
+      "n_kept": 26062,
+      "retention": 0.9645,
+      "median_net_kept": 0.00577,
+      "median_net_dropped": -0.009359,
+      "delta_median_net": 0.000812,
+      "boot_p_median": 0.4778
+    },
+    "F4_only_entity_shrink": {
+      "n_kept": 21880,
+      "retention": 0.8097,
+      "median_net_kept": -0.001449,
+      "median_net_dropped": 0.039909,
+      "delta_median_net": -0.006407,
+      "boot_p_median": 0.0005
+    },
+    "F4_only_split_wallets": {
+      "n_kept": 23396,
+      "retention": 0.8658,
+      "median_net_kept": -0.001664,
+      "median_net_dropped": 0.070188,
+      "delta_median_net": -0.006622,
+      "boot_p_median": 0.0005
+    }
+  },
+  "holm_clean": {
+    "F3_only_split_share": {
+      "p": 0.0005,
+      "threshold": 0.01,
+      "passes": true,
+      "rank": 1,
+      "family_size": 5
+    },
+    "F4_only_entity_shrink": {
+      "p": 0.0005,
+      "threshold": 0.0125,
+      "passes": true,
+      "rank": 2,
+      "family_size": 5
+    },
+    "F4_only_split_wallets": {
+      "p": 0.0005,
+      "threshold": 0.016666666666666666,
+      "passes": true,
+      "rank": 3,
+      "family_size": 5
+    },
+    "F3_only_fanout": {
+      "p": 0.1049,
+      "threshold": 0.025,
+      "passes": false,
+      "rank": 4,
+      "family_size": 5
+    },
+    "F3_only_repeat": {
+      "p": 0.4778,
+      "threshold": 0.05,
+      "passes": false,
+      "rank": 5,
+      "family_size": 5
+    }
+  },
+  "verdict": {
+    "significant_worsen": [
+      "F3_only_split_share",
+      "F4_only_entity_shrink",
+      "F4_only_split_wallets"
+    ],
+    "significant_improve": [],
+    "conclusion": "With the boundary artifact removed, 3 rung(s) still significantly WORSEN the median realised return and 0 improve it. The 'filters hurt' finding survives on clean data."
+  }
+}

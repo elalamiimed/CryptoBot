@@ -1,0 +1,40 @@
+{
+  "books": {
+    "dev_dump_book_20260926": {
+      "buy_rate_per_hour": 2.7820710973724885,
+      "graded_share_with_full_horizon": 0.3333333333333333,
+      "n_buys": 21,
+      "n_early": 18,
+      "n_early_graded": 6,
+      "n_graded": 6,
+      "n_late": 3,
+      "n_late_graded": 0,
+      "span_hours": 7.548333333333333
+    },
+    "measurement_book_20260928": {
+      "buy_rate_per_hour": 4.7573479152426525,
+      "graded_share_with_full_horizon": 0.09090909090909091,
+      "n_buys": 58,
+      "n_early": 55,
+      "n_early_graded": 5,
+      "n_graded": 5,
+      "n_late": 3,
+      "n_late_graded": 0,
+      "span_hours": 12.191666666666666
+    }
+  },
+  "rows": [
+    {
+      "book": "dev_dump_book_20260926",
+      "buy_rate": 2.7820710973724885,
+      "graded_buys_censoring": 0.9273570324574961,
+      "graded_buys_population": 0.7948774563921395
+    },
+    {
+      "book": "measurement_book_20260928",
+      "buy_rate": 4.7573479152426525,
+      "graded_buys_censoring": 0.4324861741129684,
+      "graded_buys_population": 0.4101161995898839
+    }
+  ]
+}

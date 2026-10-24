@@ -1,0 +1,71 @@
+{
+  "generated_utc": "2026-09-27T17:19:31+00:00",
+  "source_table": "strategy_reports\\trial_registry_20260927\\trial_registry.json",
+  "per_block_sd": 0.014579621675839972,
+  "accrual_per_hour": {
+    "low": 0.41,
+    "high": 0.93
+  },
+  "note": "this file CHOOSES a minimum-blocks number from the derived table and checks it against the instrument's real accrual rate. It changes no model, no threshold and no filter -- prespecification binds only future runs.",
+  "table_with_hours": [
+    {
+      "effect": 0.01,
+      "n_blocks": 17,
+      "n_blocks_t": 19,
+      "hours_at_low": 46.3,
+      "hours_at_high": 20.4,
+      "degenerate": false
+    },
+    {
+      "effect": 0.02,
+      "n_blocks": 5,
+      "n_blocks_t": 6,
+      "hours_at_low": 14.6,
+      "hours_at_high": 6.5,
+      "degenerate": false
+    },
+    {
+      "effect": 0.03,
+      "n_blocks": 2,
+      "n_blocks_t": 2,
+      "hours_at_low": 4.9,
+      "hours_at_high": 2.2,
+      "degenerate": false
+    },
+    {
+      "effect": 0.05,
+      "n_blocks": 1,
+      "n_blocks_t": 1,
+      "hours_at_low": 2.4,
+      "hours_at_high": 1.1,
+      "degenerate": true
+    }
+  ],
+  "chosen": {
+    "block_definition": "1 contiguous hour of decisions",
+    "min_blocks": 6,
+    "claimable_effect_sol_per_trade": 0.02,
+    "alpha": 0.05,
+    "power": 0.8,
+    "hours_needed_at_measured_rates": [
+      14.6,
+      6.5
+    ],
+    "not_claimable_below": 0.01,
+    "not_claimable_reason": "19 blocks = 46-20 h, longer than any planned run",
+    "applies_to": "FUTURE runs only; no current model, threshold or filter changes"
+  },
+  "running_book": {
+    "run_label": "dev_dump_book_20260926",
+    "stops_utc": "2026-09-28T07:14:26Z",
+    "hours_remaining_at_write": 13.92,
+    "verdict": "REACHES",
+    "margin_hours_at_pessimistic_rate": -0.68,
+    "needed_hours_low_to_high": [
+      14.6,
+      6.5
+    ],
+    "can_be_a_promotion_cohort": false,
+    "why_not_a_promotion_cohort": "GOAL.md Phase F4 requires ONE candidate policy frozen BEFORE a new prospective cohort. This book has been used for development this session, so it is a development set; reaching the block count does not make it an untouched evaluation. The number here is a FEASIBILITY bound for future runs, not a licence to read this book as a result."
+  }
+}

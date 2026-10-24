@@ -1,0 +1,28 @@
+{
+  "generated_utc": "2026-09-28T01:12:04+00:00",
+  "n_evaluable": 53,
+  "n_nonzero_on_evaluable": 0,
+  "verdict": "NOT_EVALUABLE_ZERO_VARIANCE",
+  "by_action": {
+    "skip": {
+      "n": 922,
+      "nonzero": 590,
+      "median": 0.047745
+    },
+    "buy": {
+      "n": 55,
+      "nonzero": 0,
+      "median": 0.0
+    },
+    "reject": {
+      "n": 63,
+      "nonzero": 0,
+      "median": 0.0
+    }
+  },
+  "interpretation": "On the BOUGHT population dev_sell_share is identically 0.0, so it cannot be assessed as a predictor: a constant carries no information. The by-action split shows where the nonzero values live, which distinguishes 'the gate already excludes creators who sold' from 'the field is unpopulated on the rows we buy'.",
+  "caveats": [
+    "bounded by the 4.10% attribution ceiling",
+    "nothing enabled; this evaluates a candidate only"
+  ]
+}

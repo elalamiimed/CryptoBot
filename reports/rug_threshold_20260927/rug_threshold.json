@@ -1,0 +1,18 @@
+{
+  "band_0_2_to_0_3": 3000,
+  "band_paper_high_project_not": 3000,
+  "manipulated_only_high": 4179,
+  "manipulated_only_missed_by_project": 4179,
+  "n_labelled": 41470,
+  "paper_high_threshold": 0.3,
+  "paper_low_threshold": 0.7,
+  "paper_rugs": 32167,
+  "project_rugs": 24988,
+  "project_threshold": 0.2,
+  "rugs_by_threshold": {
+    "0.2": 24988,
+    "0.25": 26614,
+    "0.3": 27988,
+    "0.5": 31999
+  }
+}

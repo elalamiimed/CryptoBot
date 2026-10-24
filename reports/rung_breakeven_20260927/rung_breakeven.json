@@ -1,0 +1,201 @@
+{
+  "alloc": 0.01,
+  "observed_vs_required": [
+    {
+      "above_breakeven": false,
+      "hits": 2,
+      "n": 88,
+      "p_observed": 0.022727272727272728,
+      "p_star": 0.3552208971734089,
+      "target_mult": 2.0
+    },
+    {
+      "above_breakeven": false,
+      "hits": 2,
+      "n": 88,
+      "p_observed": 0.022727272727272728,
+      "p_star": 0.20306021416506959,
+      "target_mult": 3.0
+    },
+    {
+      "above_breakeven": false,
+      "hits": 1,
+      "n": 88,
+      "p_observed": 0.011363636363636364,
+      "p_star": 0.14216367773954783,
+      "target_mult": 4.0
+    },
+    {
+      "above_breakeven": false,
+      "hits": 1,
+      "n": 88,
+      "p_observed": 0.011363636363636364,
+      "p_star": 0.10936559411227836,
+      "target_mult": 5.0
+    },
+    {
+      "above_breakeven": false,
+      "hits": 1,
+      "n": 88,
+      "p_observed": 0.011363636363636364,
+      "p_star": 0.05078427918035993,
+      "target_mult": 10.0
+    }
+  ],
+  "rows": [
+    {
+      "gain_mult": 1.347959375,
+      "p_star_bisect": 0.5129683972428256,
+      "p_star_formula": 0.5129683972428257,
+      "payoff_over_stake": 0.347959375,
+      "severity": 0.366489898989899,
+      "target_mult": 1.5
+    },
+    {
+      "gain_mult": 1.8306125,
+      "p_star_bisect": 0.30614749356374094,
+      "p_star_formula": 0.306147493563741,
+      "payoff_over_stake": 0.8306125000000001,
+      "severity": 0.366489898989899,
+      "target_mult": 2.0
+    },
+    {
+      "gain_mult": 2.7959187500000002,
+      "p_star_bisect": 0.16948225727874938,
+      "p_star_formula": 0.16948225727874938,
+      "payoff_over_stake": 1.79591875,
+      "severity": 0.366489898989899,
+      "target_mult": 3.0
+    },
+    {
+      "gain_mult": 3.7612249999999996,
+      "p_star_bisect": 0.11717496985043538,
+      "p_star_formula": 0.1171749698504354,
+      "payoff_over_stake": 2.7612249999999996,
+      "severity": 0.366489898989899,
+      "target_mult": 4.0
+    },
+    {
+      "gain_mult": 4.726531250000001,
+      "p_star_bisect": 0.0895401918654497,
+      "p_star_formula": 0.08954019186544969,
+      "payoff_over_stake": 3.7265312500000003,
+      "severity": 0.366489898989899,
+      "target_mult": 5.0
+    },
+    {
+      "gain_mult": 9.553062500000001,
+      "p_star_bisect": 0.04108837333938442,
+      "p_star_formula": 0.04108837333938442,
+      "payoff_over_stake": 8.553062500000001,
+      "severity": 0.366489898989899,
+      "target_mult": 10.0
+    },
+    {
+      "gain_mult": 48.1653125,
+      "p_star_bisect": 0.007710414511815087,
+      "p_star_formula": 0.007710414511815089,
+      "payoff_over_stake": 47.1653125,
+      "severity": 0.366489898989899,
+      "target_mult": 50.0
+    },
+    {
+      "gain_mult": 1.347959375,
+      "p_star_bisect": 0.5680691094768511,
+      "p_star_formula": 0.5680691094768511,
+      "payoff_over_stake": 0.347959375,
+      "severity": 0.4576310160427807,
+      "target_mult": 1.5
+    },
+    {
+      "gain_mult": 1.8306125,
+      "p_star_bisect": 0.3552364210211817,
+      "p_star_formula": 0.3552364210211817,
+      "payoff_over_stake": 0.8306125000000001,
+      "severity": 0.4576310160427807,
+      "target_mult": 2.0
+    },
+    {
+      "gain_mult": 2.7959187500000002,
+      "p_star_bisect": 0.20307118260200568,
+      "p_star_formula": 0.20307118260200568,
+      "payoff_over_stake": 1.79591875,
+      "severity": 0.4576310160427807,
+      "target_mult": 3.0
+    },
+    {
+      "gain_mult": 3.7612249999999996,
+      "p_star_bisect": 0.14217194362281116,
+      "p_star_formula": 0.1421719436228112,
+      "payoff_over_stake": 2.7612249999999996,
+      "severity": 0.4576310160427807,
+      "target_mult": 4.0
+    },
+    {
+      "gain_mult": 4.726531250000001,
+      "p_star_bisect": 0.10937219613989549,
+      "p_star_formula": 0.1093721961398955,
+      "payoff_over_stake": 3.7265312500000003,
+      "severity": 0.4576310160427807,
+      "target_mult": 5.0
+    },
+    {
+      "gain_mult": 9.553062500000001,
+      "p_star_bisect": 0.05078754651104349,
+      "p_star_formula": 0.05078754651104348,
+      "payoff_over_stake": 8.553062500000001,
+      "severity": 0.4576310160427807,
+      "target_mult": 10.0
+    },
+    {
+      "gain_mult": 48.1653125,
+      "p_star_bisect": 0.009609465149683957,
+      "p_star_formula": 0.009609465149683957,
+      "payoff_over_stake": 47.1653125,
+      "severity": 0.4576310160427807,
+      "target_mult": 50.0
+    }
+  ],
+  "sample_size": [
+    {
+      "days_at_0_93_per_hour": 0.40322580645161293,
+      "gap": 0.33249362444613617,
+      "n_needed": 9,
+      "p_observed": 0.022727272727272728,
+      "p_star": 0.3552208971734089,
+      "target_mult": 2.0
+    },
+    {
+      "days_at_0_93_per_hour": 1.3440860215053763,
+      "gap": 0.18033294143779685,
+      "n_needed": 30,
+      "p_observed": 0.022727272727272728,
+      "p_star": 0.20306021416506959,
+      "target_mult": 3.0
+    },
+    {
+      "days_at_0_93_per_hour": 2.553763440860215,
+      "gap": 0.13080004137591147,
+      "n_needed": 57,
+      "p_observed": 0.011363636363636364,
+      "p_star": 0.14216367773954783,
+      "target_mult": 4.0
+    },
+    {
+      "days_at_0_93_per_hour": 4.480286738351254,
+      "gap": 0.098001957748642,
+      "n_needed": 100,
+      "p_observed": 0.011363636363636364,
+      "p_star": 0.10936559411227836,
+      "target_mult": 5.0
+    },
+    {
+      "days_at_0_93_per_hour": 27.73297491039426,
+      "gap": 0.03942064281672357,
+      "n_needed": 619,
+      "p_observed": 0.011363636363636364,
+      "p_star": 0.05078427918035993,
+      "target_mult": 10.0
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "books": {
+    "dev_dump_book_20260926": {
+      "hit_cells_blank": 0,
+      "rows": 37,
+      "rungs": {
+        "10.0x": {
+          "hits": 0,
+          "median_span_s_of_hits": NaN,
+          "n": 37
+        },
+        "2.0x": {
+          "hits": 0,
+          "median_span_s_of_hits": NaN,
+          "n": 37
+        },
+        "5.0x": {
+          "hits": 0,
+          "median_span_s_of_hits": NaN,
+          "n": 37
+        },
+        "50.0x": {
+          "hits": 0,
+          "median_span_s_of_hits": NaN,
+          "n": 37
+        }
+      },
+      "usable": 37
+    },
+    "fixed_cohort_20260916": {
+      "hit_cells_blank": 0,
+      "rows": 32,
+      "rungs": {
+        "10.0x": {
+          "hits": 0,
+          "median_span_s_of_hits": NaN,
+          "n": 0
+        },
+        "2.0x": {
+          "hits": 0,
+          "median_span_s_of_hits": NaN,
+          "n": 0
+        },
+        "5.0x": {
+          "hits": 0,
+          "median_span_s_of_hits": NaN,
+          "n": 0
+        },
+        "50.0x": {
+          "hits": 0,
+          "median_span_s_of_hits": NaN,
+          "n": 0
+        }
+      },
+      "usable": 0
+    },
+    "measurement_book_20260928": {
+      "hit_cells_blank": 0,
+      "rows": 51,
+      "rungs": {
+        "10.0x": {
+          "hits": 1,
+          "median_span_s_of_hits": 4523.0,
+          "n": 51
+        },
+        "2.0x": {
+          "hits": 2,
+          "median_span_s_of_hits": 2268.7192652225494,
+          "n": 51
+        },
+        "5.0x": {
+          "hits": 1,
+          "median_span_s_of_hits": 4523.0,
+          "n": 51
+        },
+        "50.0x": {
+          "hits": 1,
+          "median_span_s_of_hits": 4523.0,
+          "n": 51
+        }
+      },
+      "usable": 51
+    }
+  },
+  "coverage": {
+    "median": 0.010981045895152622,
+    "n": 88,
+    "n_ge_50pct": 17,
+    "n_ge_90pct": 12
+  },
+  "horizon_s": 3600.0,
+  "pooled": {
+    "10.0": {
+      "hits": 0,
+      "rows": 0
+    },
+    "2.0": {
+      "hits": 0,
+      "rows": 0
+    },
+    "5.0": {
+      "hits": 0,
+      "rows": 0
+    },
+    "50.0": {
+      "hits": 0,
+      "rows": 0
+    },
+    "hit_cols_blank": 0,
+    "peak_usable": 88,
+    "rows": 120
+  },
+  "pooled_by_rung": {
+    "10.0x": {
+      "hits": 1,
+      "rows": 88
+    },
+    "2.0x": {
+      "hits": 2,
+      "rows": 88
+    },
+    "5.0x": {
+      "hits": 1,
+      "rows": 88
+    },
+    "50.0x": {
+      "hits": 1,
+      "rows": 88
+    }
+  },
+  "tail_mults": [
+    2.0,
+    5.0,
+    10.0,
+    50.0
+  ]
+}

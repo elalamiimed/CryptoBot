@@ -1,0 +1,31 @@
+{
+  "alloc": 0.01,
+  "coverage": {
+    "max": 2.0,
+    "median": 0.010981045895152622,
+    "n_under_10pct": 52,
+    "p90": 1.0137375690605903
+  },
+  "max_mark_gap_median_s": 39.53176522254944,
+  "n_usable": 88,
+  "naive": [
+    {
+      "hits": 2,
+      "p_obs": 0.022727272727272728,
+      "p_star": 0.3552208971734089,
+      "rejects": true,
+      "target": 2.0,
+      "upper95": 0.06981673035452068
+    },
+    {
+      "hits": 1,
+      "p_obs": 0.011363636363636364,
+      "p_star": 0.14216367773954783,
+      "rejects": true,
+      "target": 4.0,
+      "upper95": 0.05277429696060693
+    }
+  ],
+  "severity": 0.4576,
+  "trivial_upper_bound": 1.0
+}

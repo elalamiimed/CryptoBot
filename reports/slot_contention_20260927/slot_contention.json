@@ -1,0 +1,434 @@
+{
+  "books": {
+    "dev_dump_book_20260926": {
+      "censored": 3,
+      "details": [
+        {
+          "t": "2026-09-27 07:25:18+00:00",
+          "token": "9ZRy7z7HsZQcu65zikgfvME5jiPQVbEsHdQHii9L5Qse",
+          "verdict": "graded"
+        },
+        {
+          "t": "2026-09-27 07:30:31+00:00",
+          "token": "GfsbgQwc5LhCipgCnEASwUUURRJ17Sa1psSepbXPAgq1",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-27 08:06:22+00:00",
+          "token": "5qTazfVmQ7i3BjQJKj31pVMKw5XPga1toGZF1YP5n377",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-27 08:21:07+00:00",
+          "token": "4fzy9Ca6JVeiYq91Ht6vA89b4PSLuXSvbj4D99ocpump",
+          "verdict": "graded"
+        },
+        {
+          "t": "2026-09-27 08:51:28+00:00",
+          "token": "4rFC4qsH5XeNZN2oTvC98nLK5YcizQLSxNKxn8wApump",
+          "verdict": "graded"
+        },
+        {
+          "t": "2026-09-27 10:05:47+00:00",
+          "token": "GcqQXPf3tbetZ63gku5X9QjToDfPgQtSCWwDHDKYpump",
+          "verdict": "graded"
+        },
+        {
+          "t": "2026-09-27 10:07:18+00:00",
+          "token": "HgrkfqabAi5ZpSswvq2DEhAEL9hJyvu4CJZUrQgvLihQ",
+          "verdict": "graded"
+        },
+        {
+          "t": "2026-09-27 10:24:00+00:00",
+          "token": "FoJ1AKgHeq9kgsjAh8dtqnAB2PkQE9FuAfQx8sEb54Nv",
+          "verdict": "refused"
+        },
+        {
+          "t": "2026-09-27 10:51:45+00:00",
+          "token": "FUdtjQJz1zR2iynbE4xYyqwiSofmU42uVAx13MJEpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-27 10:56:05+00:00",
+          "token": "97XWfMrRVsKSNfA4PdaNH7vnrN7ch714yQE1wGQLpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-27 11:17:20+00:00",
+          "token": "B5cc2rCffU6iJLLBzsfKD5ZduJAuEn3SSbdvP8drpump",
+          "verdict": "graded"
+        },
+        {
+          "t": "2026-09-27 11:29:02+00:00",
+          "token": "8JxWG9Z6LT4fjVt3m416dgnJshpx7xDo1i6WxS31xMCf",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-27 12:12:23+00:00",
+          "token": "BKLc1ESPRnJfhADfYusbHMUR3qJ3HVoABNSWKztNjFLb",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-27 12:13:02+00:00",
+          "token": "Ek1eViet4quexoVX55jYusU5qg6RmeVcSxGAPdtCpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-27 12:15:00+00:00",
+          "token": "8P4iMkCsvTJvdBasN8jAHWGC6qARJahgAacZhKQXpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-27 12:59:25+00:00",
+          "token": "8HnLRKJ6XkeGq1tpmKPqn3yB5ruqbSR5LR5nVCNAshop",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-27 13:18:18+00:00",
+          "token": "9wTRUbDVyxSVLEENo4niVzM1681eQXG6DErmpLJLpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-27 13:21:46+00:00",
+          "token": "4TCLRXd26xWLZqJRMKSa1yPBWZxyaQoRCKWMsaGFpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-27 14:27:50+00:00",
+          "token": "FuzrkYLkRPuKGetURBNWzyv23ogfTF837fMSvDhupump",
+          "verdict": "censored"
+        },
+        {
+          "t": "2026-09-27 14:41:55+00:00",
+          "token": "FkRj9LThNpeMpwuxkgufacmcDCvhujY4BJysfuYymXKM",
+          "verdict": "censored"
+        },
+        {
+          "t": "2026-09-27 14:51:29+00:00",
+          "token": "63rDvTgy8a81ELbGGBhrgCCWkVe96Ep4K7q3e8hnpump",
+          "verdict": "censored"
+        }
+      ],
+      "graded": 6,
+      "lost": 11,
+      "n_buys": 21,
+      "refused": 1
+    },
+    "fixed_cohort_20260916": {
+      "censored": 0,
+      "details": [],
+      "graded": 0,
+      "lost": 0,
+      "n_buys": 0,
+      "refused": 0
+    },
+    "measurement_book_20260928": {
+      "censored": 3,
+      "details": [
+        {
+          "t": "2026-09-26 13:59:06+00:00",
+          "token": "5NfPJam93LXtyNK6A4gYCTp6FzVEtyzHvb2ntzcJVoe7",
+          "verdict": "graded"
+        },
+        {
+          "t": "2026-09-26 14:52:10+00:00",
+          "token": "9PGysY9LbSfdn4EkVZhNEpF4X7Fg2RsvfFbJBJ355soL",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 14:54:33+00:00",
+          "token": "3sUoFE64gCCNUk5aXgLkU3D1wgEzvqMqTHXH6agLpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 15:01:42+00:00",
+          "token": "AGVTbMi7k5fExyWWpfQKjg2zJXwCwskVGQy2JHrgrsoL",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 15:19:55+00:00",
+          "token": "DT3t4sKiJViZDiL5jx4mbwuyouTkfhDh3GBh2SQNpump",
+          "verdict": "graded"
+        },
+        {
+          "t": "2026-09-26 15:32:56+00:00",
+          "token": "DdW4RtwEjcDwj9D5ZgRzuexgABxS5Y6hEMcadG6FLStt",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 15:34:27+00:00",
+          "token": "DeweA8aKTp2qrFTqnXaBNraCSe8rxzXBNYQrnS8BEi7L",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 15:40:44+00:00",
+          "token": "6FLmZJb6fLM5TKr9xNdmkyfH8YPtJSxhBj4jdEB4pump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 16:04:48+00:00",
+          "token": "5YeTYBnSHuwzRWw2eyjxPA4uHGAnbGxozTfBQDkKSjBD",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 16:32:20+00:00",
+          "token": "J1UdAnwUhffNQJS7nEwi5Gz1xYXJFhvkQT7NsPqCpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 16:41:26+00:00",
+          "token": "FTmGxBuo5apdvkgvysxyR1iZmPtb7noCxWJXGYVthNSJ",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 16:58:21+00:00",
+          "token": "C38iQ4ZAWu42LaW2fsnanEe12dNFVs5rvCZMryCSpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 17:10:43+00:00",
+          "token": "EHFe7Mzo7E88NZ4xHK457uHujZa5r2P6EQz8jtQLpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 17:17:00+00:00",
+          "token": "BZQFoCZE3s9WV3BpM3BvziYRHTSxSToxBgzYc2tqUfWa",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 17:21:46+00:00",
+          "token": "Ec3HnV3z9T6QsbYCKCvTemQBWCfCNoctCJS9Kbe1pump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 17:26:06+00:00",
+          "token": "J77QVaVJwY3Tww67NG1PYEW1EhbNfGvCMTWA8Taypump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 17:33:16+00:00",
+          "token": "8auPv123Y1tGzzUea2dQT61TG2xt9axYqZczmKnrpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 17:37:10+00:00",
+          "token": "ZALXhTsGx1Scz2GLztDHvSD2mnUnGf8DQ6xg8WVTtQe",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 17:52:07+00:00",
+          "token": "J1yxV53EmVRmt9RUj6PPufMfdAYUbtgwXCuNYTBTsYzJ",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 18:10:21+00:00",
+          "token": "2eecrtYeSAtCcNJnDmqseWFLVWFPX98PEeQ8u8d8pump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 18:34:25+00:00",
+          "token": "CucsNXpNuXqVRvvLbLrokTfgnWWhBAXVLrYDnCbEpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 18:36:48+00:00",
+          "token": "4qugEu2MQPTUQXMFpR9Hh2QT8M3R8Q41Fq3P5DNR2giJ",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 18:52:38+00:00",
+          "token": "9wZzhdp1zZR76ag2oXXY9QVoT7h4sfMtwj4vRYMubmUd",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 19:16:02+00:00",
+          "token": "5wUW75onTDEckHHfKErxCQvg5aa5DTKSfza1DMYUwYcK",
+          "verdict": "graded"
+        },
+        {
+          "t": "2026-09-26 19:16:42+00:00",
+          "token": "E7GRzQao23WPhC7f34ogh333rYm3JPZUPdPiM38Apump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 19:20:49+00:00",
+          "token": "AzBaBFTQamF4GC2io9CnWcqAuy4Mznc4DXt48QjDpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 19:50:58+00:00",
+          "token": "EWnVAKuJBi4EBEhvUZFLeXT2zh62CMqxfKWrArnA71cD",
+          "verdict": "graded"
+        },
+        {
+          "t": "2026-09-26 20:01:22+00:00",
+          "token": "8gM6S8c3b46GQeWDuUFENqDH5RXfkoA3ZMpjZpfrpump",
+          "verdict": "refused"
+        },
+        {
+          "t": "2026-09-26 20:15:28+00:00",
+          "token": "5uGmZ38tgpJGCyUQpCa7dQBVkieZqZ1y1kGZrrPqjUtb",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 20:15:54+00:00",
+          "token": "HHbkyyojQqsUe94RZopfdRxNRo2K4CCNDapBn1t9scFe",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 20:26:05+00:00",
+          "token": "5oHg41vtUc6yT6aQUZtKM59ZEA2CG3E2sXWEFv8Rpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 20:39:19+00:00",
+          "token": "E2BGApEhCiCBEfahuMfq5NmAUDkxttFQrpX34oNcpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 20:56:14+00:00",
+          "token": "D4AkYzBM6S9EBFWMDGQegU3mN7Y1AaeXaG5bDNLhpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 21:24:58+00:00",
+          "token": "BpwP73Mn5noDeAZnvU81KjQbDg8dWnkcsULnAAPzXJ7H",
+          "verdict": "graded"
+        },
+        {
+          "t": "2026-09-26 21:26:42+00:00",
+          "token": "73EG3xWEvTcZgxg64yzSDvLTJ6CNS8m4VET6pJCMpump",
+          "verdict": "refused"
+        },
+        {
+          "t": "2026-09-26 21:28:13+00:00",
+          "token": "54QBaynrKxcwvw19KTTCG7d2qcHQ5gtqQDFbM5HEpump",
+          "verdict": "refused"
+        },
+        {
+          "t": "2026-09-26 21:47:43+00:00",
+          "token": "NMJ9bDu49bQkT7pbvoZVD4VyBjZ8ouQnzXtT49spump",
+          "verdict": "refused"
+        },
+        {
+          "t": "2026-09-26 22:26:33+00:00",
+          "token": "3YAWex6YSSSR5XHhfVJhBbH8wgPdm7ZgnMRTBELcpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 22:26:59+00:00",
+          "token": "3j5AMiPzztguFMPFbK9nhZzad4EEZVCXuRwoGUiGpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 22:30:40+00:00",
+          "token": "cd6p65iYTjmrKYs4Eci1EUuEu48MY7nwqjVQs4eLoan",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 22:44:45+00:00",
+          "token": "FEay81oNdZeTdu6EykgQPhj5sVzkU3vUJWVGTJXqjewd",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 22:47:08+00:00",
+          "token": "2e7Z7FHonYbtvjp92XTLoFVSV3A4KooU66aUyrHgpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 22:48:14+00:00",
+          "token": "88TH4NGwjVUe65yv9kTr7Ht44Zc9jNKW741b4hsfpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 23:08:10+00:00",
+          "token": "6n4jGxFkhaM6ULhUZvEYwL75CftoPpBXLsrjRqQLpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 23:22:03+00:00",
+          "token": "AHjmbbMMxnsW3noz3XG2udY1tDmJiwGH4XPonqZymoon",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 23:27:29+00:00",
+          "token": "Hde4r6Um3iF7ju1eXgud6US72eMLDdMvuCKvNmsnpump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 23:43:31+00:00",
+          "token": "F65umk8PpuEdC1ZmSGfwv5Et1sRbu431MQAbzjD5pump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 23:44:37+00:00",
+          "token": "Dfymz7LNRWRHixJosmgiGK4o8kwD3sTzAEuhB81vq1nJ",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-26 23:47:39+00:00",
+          "token": "518eu5KtkkztjyX8Mnx9kZ6NniDaVgwNNADejYHKsDJF",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-27 00:25:26+00:00",
+          "token": "72DK3WcChS3NV17DrpfMYAJuvF6q9ncgCQG6wNUZnPxK",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-27 00:28:02+00:00",
+          "token": "9EMgcS36F7Q25zpDDwPZX8DbA9PCyYPaLattAqsSA1gB",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-27 00:30:38+00:00",
+          "token": "2iCMea45yAmjUt4vwZyaotCPV1ZkKsQ74BtZRCHCK717",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-27 00:37:35+00:00",
+          "token": "7MM3hHvrSj9YaGngPjkY1EKCJ5wXTzQBgp77kw5Npump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-27 00:51:15+00:00",
+          "token": "E2HGYzNuYgK7FVVicdqekDtJwXLcdQWea9hjiUgepump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-27 00:59:42+00:00",
+          "token": "EViDSxXNKg3TqrX3AKzL75N488TSBwX38zQEbHJ6pump",
+          "verdict": "lost"
+        },
+        {
+          "t": "2026-09-27 01:21:23+00:00",
+          "token": "EYyiiU4VCsxduW1KMkmRtQzX3LExJ86sCoTuHFHapump",
+          "verdict": "censored"
+        },
+        {
+          "t": "2026-09-27 01:51:44+00:00",
+          "token": "6qyCP58M6rZVaBmyWky7KMiqEDSUca2VxjLA67azpump",
+          "verdict": "censored"
+        },
+        {
+          "t": "2026-09-27 01:54:59+00:00",
+          "token": "Bv6PCXCfGx8S1xajmrLi64MNSR9EygTNBqGD4dxjpump",
+          "verdict": "censored"
+        }
+      ],
+      "graded": 5,
+      "lost": 46,
+      "n_buys": 58,
+      "refused": 4
+    }
+  },
+  "capacity": 10,
+  "horizon_hours": 1.0,
+  "pooled": {
+    "censored": 6,
+    "graded": 11,
+    "lost": 57,
+    "n_buys": 79,
+    "refused": 5
+  }
+}

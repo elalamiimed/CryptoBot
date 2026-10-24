@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "generated_utc": "2026-09-27T17:14:36+00:00",
+  "scan_path": "strategy_reports\\atomic_manipulation_20260928\\atomic_scan.json",
+  "seed": 20260928,
+  "n_perm": 400,
+  "band0_composition": {
+    "high": {
+      "n": 8255,
+      "fanout_present": 2423
+    },
+    "medium": {
+      "n": 22,
+      "fanout_present": 0
+    },
+    "low": {
+      "n": 19,
+      "fanout_present": 0
+    }
+  },
+  "rule_of_three": {
+    "p_high": 0.293519,
+    "n_low": 19,
+    "p_zero_in_low_if_rate_equals_high": 0.001358,
+    "upper_95_low_rate": 0.145869
+  },
+  "band0_high_vs_medium": {
+    "fanout_tok_share": {
+      "n_high": 8255,
+      "n_medium": 22,
+      "high_nonzero": 0.2935,
+      "medium_nonzero": 0.0,
+      "auc_high_vs_medium": 0.6468
+    },
+    "split_tok_share": {
+      "n_high": 8255,
+      "n_medium": 22,
+      "high_nonzero": 0.5386,
+      "medium_nonzero": 0.2273,
+      "auc_high_vs_medium": 0.665
+    },
+    "split_max_wallets": {
+      "n_high": 8255,
+      "n_medium": 22,
+      "high_nonzero": 0.5392,
+      "medium_nonzero": 0.2273,
+      "auc_high_vs_medium": 0.6855
+    },
+    "entity_shrink": {
+      "n_high": 8255,
+      "n_medium": 22,
+      "high_nonzero": 0.5392,
+      "medium_nonzero": 0.2273,
+      "auc_high_vs_medium": 0.638
+    },
+    "repeat_tranches": {
+      "n_high": 8255,
+      "n_medium": 22,
+      "high_nonzero": 0.0073,
+      "medium_nonzero": 0.0,
+      "auc_high_vs_medium": 0.5036
+    }
+  },
+  "permutation_null": {
+    "fanout_tok_share": {
+      "observed_auc": 0.6468,
+      "null_mean": 0.5001,
+      "null_p95": 0.584,
+      "p_null_ge_observed": 0.0,
+      "n_perm": 400
+    },
+    "split_tok_share": {
+      "observed_auc": 0.6523,
+      "null_mean": 0.5003,
+      "null_p95": 0.5949,
+      "p_null_ge_observed": 0.005,
+      "n_perm": 400
+    }
+  }
+}
